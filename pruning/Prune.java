@@ -3,41 +3,56 @@ package pruning;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
+
+import org.jblas.*;
+
 
 class Prune {
 
+
     private TreeMap<Integer, HashMap<Edge, Integer>> timeGraph;
-    private ConcurrentHashMap<Edge, Integer> squashedGraph;
-    private static final int MAX_SEARCH_TIME = 10;
+    private int totalNodes;
+    private static final int MIN_INTERSECTIONS = 2;
 
-    private int size;
-    private double mean;
-    private double stdDev;
+    // private HashMap<Edge, Integer> squashedGraph;
+    // private int size;
+    // private double mean;
+    // private double stdDev;
 
-    private double bestConductance;
+    private double bestNormConductance;
+    private double bestRawConductance;
     private Set<Integer> bestNodes;
     private int bestStartTime;
     private int bestEndTime;
 
-    private int zeroCount; // TODO: find out why we are getting zero internal weight
+    /**** TESTING *****/
+    public int zeroConductanceCount;
+    public int calculateCondCount;
+    public List<Integer> traversals;
+    /******************/
+
+    private SortedMap<Double, Result> results;
+
 
     public void resetBestConductance() {
-        bestConductance = 0;
+        bestNormConductance = 1.0d;
+        zeroConductanceCount = 0;
+        calculateCondCount = 0;
+        traversals = Collections.synchronizedList(new ArrayList<>());
     }
 
-    public Prune(String filename) {
-        readGraph(filename);
+    public Prune(String filename, String basepath) {
+        readGraph(filename, basepath);
         //printGraph();
         //System.out.println("All nodes at time 82: " + timeGraph.get(82).keySet());
         //System.out.println("All neighbours of 21 at time 82: " + getNeighbours(82, 21));
     }
 
-    private void readGraph(String filename) {
+    private void readGraph(String filename, String basepath) {
         timeGraph = new TreeMap<Integer, HashMap<Edge, Integer>>();
-        squashedGraph = new ConcurrentHashMap<Edge, Integer>();
-        String basepath = "output";
+        Set<Integer> allNodes = new HashSet<>();
+        // squashedGraph = new HashMap<Edge, Integer>();
         String line;
         try {
             Scanner timeGraphScanner = new Scanner(new File(basepath + "/graph/" + filename));
@@ -53,11 +68,13 @@ class Prune {
                 }
                 Integer node1 = Integer.parseInt(s[0]);
                 Integer node2 = Integer.parseInt(s[1]);
+                allNodes.add(node1);
+                allNodes.add(node2);
                 Double t = Double.parseDouble(s[2]);
                 int floorInt = new Double(Math.floor(t)).intValue();
                 Edge nodePair = new Edge(node1, node2);
 
-                squashedGraph.compute(nodePair, (k,v) -> v ==null ? 1 : v + 1);
+                // squashedGraph.compute(nodePair, (k,v) -> v ==null ? 1 : v + 1);
 
                 HashMap<Edge, Integer> edgeMap;
                 if (timeGraph.containsKey(floorInt)) {
@@ -72,27 +89,87 @@ class Prune {
 
                 } else {
                     edgeMap = new HashMap<Edge, Integer>();
-                    edgeMap.put(nodePair, new Integer(1));
+                    edgeMap.put(nodePair, 1);
                     timeGraph.put(floorInt, edgeMap);
                 }
             }
+
+            totalNodes = allNodes.size();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        getStats();
+        // getStats();
     }
 
+    public double[][] matrixMultiply(double[][] A, double[][] B) {
+        int mA = A.length;
+        int nA = A[0].length;
+        int mB = B.length;
+        int nB = B[0].length;
+        if (nA != mB) throw new RuntimeException("Illegal matrix dimensions.");
+        double[][] C = new double[mA][nB];
+        for (int i = 0; i < mA; i++)
+            for (int j = 0; j < nB; j++)
+                for (int k = 0; k < nA; k++)
+                    C[i][j] += A[i][k] * B[k][j];
+        return C;
+    }
+
+    public double[][] getNormalizedLaplacian(int start, int end) {
+
+        double[][] laplacian = new double[totalNodes][totalNodes];
+        double[][] degreeMatrix = new double[totalNodes][totalNodes];
+        for(int i=start;i<end;i++){
+            for(Edge e: timeGraph.get(i).keySet()){
+                laplacian[e.getNode1()][e.getNode2()] --;
+                laplacian[e.getNode2()][e.getNode1()] --;
+
+                int weight = timeGraph.get(i).get(e);
+                laplacian[e.getNode1()][e.getNode1()] += weight;
+                laplacian[e.getNode2()][e.getNode2()] += weight;
+
+                degreeMatrix[e.getNode1()][e.getNode1()] += weight;
+                degreeMatrix[e.getNode2()][e.getNode2()] += weight;
+            }
+        }
+
+        // Getting inverse square root of the diagonal
+        for(int n=0;n<totalNodes;n++) {
+                degreeMatrix[n][n] = 1 / Math.sqrt(degreeMatrix[n][n]);
+        }
+
+        double[][] normalizedLaplacian = matrixMultiply(matrixMultiply(degreeMatrix, laplacian),degreeMatrix);
+        return normalizedLaplacian;
+    }
+
+    public double getBounds(int start, int end) {
+        double result = 0;
+
+        System.out.println("starting matrix calcs");
+        DoubleMatrix A = new DoubleMatrix(getNormalizedLaplacian(start, end));
+        System.out.println("got matrix calcs");
+        DoubleMatrix B = DoubleMatrix.eye(A.rows);
+        try {
+            DoubleMatrix La = Eigen.symmetricGeneralizedEigenvalues(A, B, 1, 1);
+
+            double lambda2 = La.get(0, 0);
+            result = lambda2;
+        } catch (Exception e){
+            System.out.println("Exception in eigen");
+        }
+        return result;
+    }
+
+    /**
     private void getStats() {
 
         size = squashedGraph.values().size();
 
-        System.out.println("Key size: "+squashedGraph.keySet().size()+" value size: "+squashedGraph.values().size());
-
         // Finding mean
-        int sum = squashedGraph.values().stream().mapToInt(i -> new Integer(i)).sum();
+        // int sum = squashedGraph.values().stream().mapToInt(i -> new Integer(i)).sum();
         mean = squashedGraph.values().stream().mapToInt(i -> new Integer(i)).average().getAsDouble();
 
-        System.out.println("Mean is: "+mean);
+        // System.out.println("Mean is: "+mean);
 
         // Finding standard deviation
         double temp = 0;
@@ -100,88 +177,113 @@ class Prune {
             temp += (mean - i) * (mean - i);
         }
         stdDev = Math.sqrt(temp / size);
-        System.out.println("stddev is: "+stdDev);
+        // System.out.println("stddev is: "+stdDev);
     }
 
 
-    public Set<Edge> getThresholdedEdges(double k) {
+    public Set<Edge> thresholdEdgesByStd(double k) {
         double thresh = mean + (k * stdDev);
         return squashedGraph.keySet().parallelStream()
                 .filter(e -> squashedGraph.get(e) > thresh).collect(Collectors.toSet());
     }
+     **/
 
-    public void traverseGraph(TreeMap<Integer, List<Set<Edge>>> connectedComponenets) {
+    public Set<Edge> thresholdEdgesByPer(double k, HashMap<Edge, Integer> edgeWeights) {
+        int edgeListSize = (int) (edgeWeights.size() * (k/100));
+        Comparator<Map.Entry<Edge, Integer>> sortEdgesByWeight = (e1, e2) -> e1.getValue().compareTo(e2.getValue());
+        return edgeWeights.entrySet().stream()
+            .sorted(sortEdgesByWeight.reversed())
+            .limit(edgeListSize)
+            .map(e -> e.getKey())
+            .collect(Collectors.toSet());
+    }
+
+    public Result traverseGraph(TreeMap<Integer, List<Set<Edge>>> connectedComponents) {
 
         resetBestConductance();
 
-        for (int t : connectedComponenets.keySet()) {
-            for (Set<Edge> edges : connectedComponenets.get(t)) {
+        int dagCount = 0;
+
+        results = Collections.synchronizedSortedMap(new TreeMap<Double, Result>());
+
+        for (int t : connectedComponents.keySet()) {
+            for (Set<Edge> edges : connectedComponents.get(t)) {
                 // For each set of edges in the connected components, use it as root node for a DAG
-                constructDAG(edges, t, connectedComponenets);
+                constructDAG(edges, t, connectedComponents);
+                dagCount++;
             }
         }
+        System.out.println("DAG COUNT: "+dagCount);
+        System.out.println("CALCULATE COND COUNT: "+calculateCondCount);
+        Result result = new Result(bestNormConductance, bestRawConductance, bestNodes, bestStartTime, bestEndTime);
 
         System.out.println("Printing best values");
-        System.out.println("Conductance: "+bestConductance);
-        System.out.println("Nodes: "+bestNodes);
+        System.out.println("Normalized Conductance: "+bestNormConductance);
+//        System.out.println("Raw ConductanceL "+bestRawConductance);
+//        System.out.println("Nodes: "+bestNodes);
+        System.out.println("No. of nodes: "+bestNodes.size());
         System.out.println("Start: "+bestStartTime+" End: "+bestEndTime);
-        System.out.println("Zero Count: "+zeroCount);
+        System.out.println("No. of zero cond results: "+zeroConductanceCount);
 
-        System.out.println("=============================================================");
+//        printTraversalStats(traversals);
+
+        return result;
+    }
+
+    private void printTraversalStats(List<Integer> traversals) {
+        traversals.stream().forEach(i -> System.out.print(i+", "));
+        System.out.println("\n");
+        HashMap<Integer, Integer> traversalCounter = new HashMap<>();
+        traversals.stream().forEach(i -> traversalCounter.merge(i, 1, Math::addExact));
+        traversalCounter.entrySet().stream()
+            .sorted(Map.Entry.<Integer, Integer>comparingByValue().reversed())
+            .forEach(k -> System.out.print(k+" "));
+
     }
 
     public void constructDAG(Set<Edge> rootEdge, int startTime, TreeMap<Integer, List<Set<Edge>>> connectedComponenets ) {
 
-        Set<Integer> rootNode = new HashSet<>(rootEdge.stream()
-                .map(edge -> edge.toSet())
-                .collect(HashSet::new, Set::addAll, Set::addAll));
-
+        Set<Integer> rootNode = new HashSet<Integer>();
+        for (Edge e: rootEdge) {
+            rootNode.addAll(e.toSet());
+        }
         ArrayList<Set<Integer>> intersections = new ArrayList<>();
         intersections.add(rootNode);
         int currentTime = startTime;
+        int traversalCount = 0;
+        while(currentTime < connectedComponenets.lastKey()) {
+            traversalCount++;
 
-        while(currentTime < (connectedComponenets.keySet().size() - 1)) {
-            currentTime++;
-            intersections = getIntersections(intersections, connectedComponenets.get(currentTime));
-            if (intersections.size() != 0) {
-                final int endTime = currentTime;
-                intersections.parallelStream().forEach(nodes -> calculateConductance(nodes, startTime, endTime));
-            } else {
-                break;
+            if (connectedComponenets.get(++currentTime) == null) break;
+            else {
+                intersections = getIntersections(intersections, connectedComponenets.get(currentTime));
+                if (intersections.size() != 0) {
+                    final int endTime = currentTime;
+                    intersections.parallelStream().forEach(nodes -> updateConductance(nodes, startTime, endTime));
+                } else break;
             }
-
         }
+        traversals.add(traversalCount);
     }
 
-    public void calculateConductance(Set<Integer> nodes, int startTime, int endTime) {
+    public void updateConductance(Set<Integer> nodes, int startTime, int endTime) {
+        calculateCondCount++;
 
-//        System.out.println("Calculating conductance for size "+nodes.size()+" between "+startTime+" and "+endTime);
+        double rawConductance = calculateConductance(nodes, startTime, endTime);
 
-        int totalInternalWeight = 0;
-        int totalExternalWeight = 0;
-        int totalCutWeight = 0;
-
-
-        for (int i=startTime;i<endTime;i++) {
-            for (Edge e : timeGraph.get(i).keySet()) {
-                int weight = timeGraph.get(i).get(e);
-                if (e.listHasEdge(nodes)) totalInternalWeight += weight;
-                else if (!e.listHasPartialEdge(nodes)) totalExternalWeight += weight;
-                else  totalCutWeight += weight;
-            }
-        }
-        totalExternalWeight += totalCutWeight;
-        totalInternalWeight += totalCutWeight;
-
-        double conductance = totalCutWeight / Math.min(totalInternalWeight, totalExternalWeight);
-        if(conductance == 0) {
-            zeroCount++;
+        if (rawConductance < 0.000001d) {
+            zeroConductanceCount++;
         } else {
-            // Normalize by root of (endtime - starttime)
-            conductance = conductance / Math.sqrt(endTime - startTime);
+            // Normalize
+            double normalizedConductance = normalizeByTime2(rawConductance, startTime, endTime);
 
-            if (bestConductance == 0 || conductance < bestConductance) {
-                bestConductance = conductance;
+            // Store Top K
+            Result r = new Result(normalizedConductance, rawConductance, nodes, startTime, endTime);
+            updateResults(normalizedConductance, r);
+
+            if (normalizedConductance < bestNormConductance) {
+                bestNormConductance = normalizedConductance;
+                bestRawConductance = rawConductance;
                 bestNodes = nodes;
                 bestStartTime = startTime;
                 bestEndTime = endTime;
@@ -189,16 +291,74 @@ class Prune {
         }
     }
 
+    private void updateResults(Double conductance, Result r) {
+        results.put(conductance, r);
+
+        if(results.size() > 5) {
+            Double lastKey = results.lastKey();
+            results.remove(lastKey);
+        }
+    }
+
+    public double calculateConductance(Set<Integer> nodes, int startTime, int endTime) {
+
+//        System.out.println("Calculating conductance for size "+nodes.size()+" between "+startTime+" and "+endTime);
+
+        double totalInternalWeight = 0d;
+        double totalExternalWeight = 0d;
+        double totalCutWeight = 0d;
+
+
+        for (int i=startTime;i<endTime;i++) {
+            for (Edge e : timeGraph.get(i).keySet()) {
+                int weight = timeGraph.get(i).get(e);
+                if (e.listHasEdge(nodes)) totalInternalWeight += weight;
+                else if (e.listHasPartialEdge(nodes)) totalCutWeight += weight;
+                else  totalExternalWeight += weight;
+            }
+        }
+        totalExternalWeight = totalExternalWeight + totalCutWeight;
+        totalInternalWeight = totalInternalWeight + totalCutWeight;
+
+
+        double conductance = totalCutWeight / Math.min(totalInternalWeight, totalExternalWeight);
+        return conductance;
+    }
+
+    public double normalizeByTime1(double conductance, int startTime, int endTime) {
+        return conductance / Math.sqrt(endTime - startTime);
+    }
+
+    public double normalizeByTime2(double conductance, int startTime, int endTime) {
+        return conductance / Math.cbrt(endTime - startTime);
+    }
+
+    public double normalizeByLog(double conductance, int startTime, int endTime) {
+        return conductance / Math.log(endTime - startTime);
+    }
+
+    public double normalizeByE(double e, double conductance, int startTime, int endTime) {
+        double d = endTime - startTime;
+        return conductance / Math.exp(d * e);
+    }
+
     public ArrayList<Set<Integer>> getIntersections(List<Set<Integer>> parentNodes, List<Set<Edge>> cComps) {
         ArrayList<Set<Integer>> result = new ArrayList<>();
+
         for (Set<Edge> set : cComps) {
             for (Set<Integer> parent : parentNodes) {
-                Set<Integer> intersection = new HashSet<>(set.stream()
-                        .map(edge -> edge.toSet())
-                        .collect(HashSet::new, Set::addAll, Set::addAll));
+//                Set<Integer> intersection = new HashSet<>(set.stream()
+//                        .map(edge -> edge.toSet())
+//                        .collect(HashSet::new, Set::addAll, Set::addAll));
+
+                Set<Integer> intersection = new HashSet<Integer>();
+                for (Edge e: set) {
+                    intersection.addAll(e.toSet());
+                }
+
                 intersection.retainAll(parent);
 
-                if (intersection.size() > 1) { // Require intersection of size > 1
+                if (intersection.size() >= MIN_INTERSECTIONS) { // Require intersection of size > 1
                     result.add(intersection);
                 }
             }
@@ -207,14 +367,13 @@ class Prune {
     }
 
     public TreeMap<Integer, List<Set<Edge>>> getConnectedComponents(double k) {
-        Set<Edge> thresholdedEdges = getThresholdedEdges(k);
-        System.out.println("For k: "+k+" thresholded edges: "+thresholdedEdges.size());
+
         TreeMap<Integer, List<Set<Edge>>> result = new TreeMap<>();
         for (int time : timeGraph.keySet()) {
-//            System.out.println("======================================================");
-//            System.out.println("For time: " + time);
 
             HashMap<Edge, Integer> edgeMap = timeGraph.get(time);
+
+            Set<Edge> thresholdedEdges = thresholdEdgesByPer(k, edgeMap);
 
             List<Set<Edge>> timeList = new ArrayList<Set<Edge>>();
             Set<Edge> connectedSet;
@@ -232,7 +391,7 @@ class Prune {
                     Edge edge = stack.pop();
                     nodesToSearch.remove(edge);
                     Set<Edge> edgesToSearch = edgeMap.keySet().parallelStream()
-                            .filter(e -> thresholdedEdges.contains(e)).collect(Collectors.toSet());
+                            .filter(thresholdedEdges::contains).collect(Collectors.toSet());
 
                     for (Edge connectedEdge : edge.getAnyConnected(edgesToSearch)) {
                         if (!connectedSet.contains(connectedEdge)) {
@@ -244,64 +403,9 @@ class Prune {
                 }
                 timeList.add(connectedSet);
             }
-//            timeList.stream().forEach(set -> System.out.println("Set: " + set));
             result.put(time, timeList);
         }
         return result;
-    }
-
-
-
-    private void buildGraph(int node, int startTime, TreeMap<Integer, List<Set<Integer>>> input) {
-
-        TreeMap<Integer, Set<Edge>> result = new TreeMap<>();
-        Set<Integer> subSet = input.get(startTime).stream().filter(set -> set.contains(node)).findFirst().get();
-
-        int time = startTime;
-        while (time <= time + MAX_SEARCH_TIME) {
-            Optional<Set<Integer>> setAtTime = input.get(time).stream().filter(set -> set.contains(node)).findFirst();
-            if (setAtTime.isPresent()) {
-                subSet.retainAll(setAtTime.get());
-                time++;
-            } else {
-                break;
-            }
-        }
-        if ((time - startTime) > 3) getConductance(result);
-        else System.out.println("Too few components to be viable");
-    }
-
-    private void getConductance(TreeMap<Integer, Set<Edge>> dag) {
-        int totalInternalWeights = 0;
-        int totalExteralWeights = 0;
-        int totalCutWeights = 0;
-        for (int i : dag.keySet()) {
-            Set<Edge> internalEdges = dag.get(i);
-            Set<Edge> externalEdges = new HashSet<>();
-            externalEdges.addAll(timeGraph.get(i).keySet());
-            externalEdges.removeIf(edge -> edge.containsAny(internalEdges));
-            Set<Edge> cutEdges = new HashSet<>();
-            cutEdges.addAll(timeGraph.get(i).keySet());
-            cutEdges.removeAll(internalEdges);
-            cutEdges.retainAll(externalEdges);
-            totalInternalWeights += timeGraph.get(i).keySet().stream()
-                    .filter(e -> dag.get(i).contains(e))
-                    .mapToInt(e -> timeGraph.get(i).get(e))
-                    .sum();
-
-            totalExteralWeights += timeGraph.get(i).keySet().stream()
-                    .filter(edge -> externalEdges.contains(edge))
-                    .mapToInt(value -> timeGraph.get(i).get(value))
-                    .sum();
-            totalCutWeights += timeGraph.get(i).keySet().stream()
-                    .filter(edge -> cutEdges.contains(edge))
-                    .mapToInt(value -> timeGraph.get(i).get(value))
-                    .sum();
-        }
-
-        double conductance = totalCutWeights / Math.min(totalInternalWeights, totalExteralWeights);
-
-
     }
 
     private Set<Integer> getNeighbours(int time, int node) {
@@ -319,4 +423,18 @@ class Prune {
             System.out.println("Total Values for time: " + i + " is " + timeGraph.get(i).keySet());
         }
     }
+
+
+    public void printTop5() {
+        System.out.println("PRINTING TOP 5");
+        if (results == null) System.out.println("NO RESULTS");
+        results.keySet().stream().limit(5)
+            .forEach(k -> System.out.println(
+                "Raw Cond: "+ results.get(k).rawConductance
+                +"Norm Cond: "+ results.get(k).normalizedConductance
+                +" Size: "+results.get(k).nodes.size()
+                +" Time: "+results.get(k).startTime+" "+results.get(k).endTime
+            ));
+    }
+
 }

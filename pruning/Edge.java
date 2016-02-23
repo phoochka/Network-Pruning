@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 public class Edge {
 
+
     private int node1;
     private int node2;
 
@@ -14,15 +15,20 @@ public class Edge {
         this.node2 = node2;
     }
 
+    public int getNode1() {
+        return node1;
+    }
+
+    public int getNode2() {
+        return node2;
+    }
     public boolean containsNode(int node) {
-        if (node == node1 || node == node2) return true;
-        else return false;
+        return node == node1 || node == node2;
     }
 
     public boolean isConnected(Set<Edge> searchSet) {
         for (Edge e: searchSet) {
             if (e.containsNode(this.node1) || e.containsNode(this.node2)) return true;
-            else continue;
         }
         return false;
     }
@@ -38,7 +44,8 @@ public class Edge {
     }
 
     public boolean listHasPartialEdge(Set<Integer> searchSet) {
-        return searchSet.contains(node1) || searchSet.contains(node2);
+        if (listHasEdge(searchSet)) return false;
+        else return searchSet.contains(node1) || searchSet.contains(node2);
     }
 
     public boolean containsAny(Edge searchEdge) {
