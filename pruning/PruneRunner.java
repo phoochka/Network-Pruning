@@ -1,5 +1,6 @@
 package pruning;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.time.Duration;
@@ -33,7 +34,7 @@ public class PruneRunner {
             for (double k : kList) {
                 writer.println("Size of list, Average size of connected nodes, for k = " + k);
                 for (List<Set<Edge>> l : prune.getConnectedComponents(k).values()) {
-                    writer.println(l.size()+","+l.stream().mapToInt(set -> set.size()).average().getAsDouble());
+                    writer.println(l.size() + "," + l.stream().mapToInt(set -> set.size()).average().getAsDouble());
                 }
             }
             writer.close();
@@ -51,88 +52,140 @@ public class PruneRunner {
         double baseResult = getResult(prune, STARTING_K).normalizedConductance;
         double incResult = Double.MAX_VALUE;
         double k = STARTING_K;
-        while(((baseResult * 0.10)+baseResult) <= incResult) {
-            incResult = getResult(prune, k+K_INCREMENT).normalizedConductance;
+        while (((baseResult * 0.10) + baseResult) <= incResult) {
+            incResult = getResult(prune, k + K_INCREMENT).normalizedConductance;
 
         }
 
         return baseResult;
     }
 
-    private ArrayList<String> addIGapFiles(ArrayList<String> filenames) {
-        String fileStart = "iGap";
-        filenames.add(fileStart+"_series_002_run0");
-        filenames.add(fileStart+"_series_005_run0");
-        filenames.add(fileStart+"_series_020_run0");
-        filenames.add(fileStart+"_series_015_run0");
-        filenames.add(fileStart+"_series_010_run0");
+    public void printMatrix(String filename, double[][] matrix) {
+        try {
+            PrintWriter writer = new PrintWriter(filename);
+            for (int i = 0; i < matrix.length; i++) {
+                for (int j = 0; j < matrix.length; j++) {
+                    writer.write(matrix[i][j] + " ");
+                }
+                writer.write("\n");
+            }
+            writer.close();
+        } catch (FileNotFoundException f) {
+            System.err.println("Write Failed");
+        }
+    }
+
+    public double getMetaInfo(String basepath, String filename, Prune prune) {
+        double burstCond = 0;
+
+        try {
+            Scanner metaScanner = new Scanner(new File(basepath + "/meta/" + filename));
+
+            // skip the first 6 lines to get to burst info
+            int skip = 6;
+            while (skip > 0) {
+                metaScanner.nextLine();
+                skip--;
+            }
+            Double startValue = Double.parseDouble(metaScanner.nextLine());
+            Double endValue = Double.parseDouble(metaScanner.nextLine());
+            int burstStart = startValue.intValue();
+            int burstEnd = endValue.intValue();
+            int burstCount = Integer.parseInt(metaScanner.nextLine());
+            Set<Integer> bursNodes = new HashSet<>();
+            for (int i = 0; i < burstCount; i++) {
+                bursNodes.add(Integer.parseInt(metaScanner.nextLine()));
+            }
 
 
+            burstCond = prune.calculateConductance(bursNodes, burstStart, burstEnd);
+            System.out.println("Burst between " + burstStart + " and " + burstEnd + " with " + burstCount + " nodes.");
+            System.out.println("Raw Conductance of burst: " + burstCond);
+            System.out.println("Normalized Conductance of burst: " +
+                prune.normalizeByTime2(burstCond, burstStart, burstEnd));
+            burstCond = prune.normalizeByTime2(burstCond, burstStart, burstEnd);
+        } catch (FileNotFoundException fe) {
+            fe.printStackTrace();
+        }
+
+        return burstCond;
+    }
+
+    private ArrayList<String> addIGapFiles(ArrayList<String> filenames, int range) {
+        ArrayList<String> iGapFiles = new ArrayList<>();
+        String fileStart = "iGap_series";
+
+        iGapFiles.add(fileStart + "_020_run0");
+        iGapFiles.add(fileStart + "_015_run0");
+        iGapFiles.add(fileStart + "_010_run0");
+        iGapFiles.add(fileStart + "_005_run0");
+        iGapFiles.add(fileStart + "_002_run0");
+
+        for (String name : iGapFiles) {
+            for (int i = 0; i < range; i++) {
+                filenames.add(name + i + ".txt");
+            }
+        }
 
         return filenames;
     }
 
-    private ArrayList<String> addMiscFiles(ArrayList<String> filenames){
-        filenames.add("UBD080UBC040Gv001000Ge20Gg0100Bv0010Bd0005Bg01000400_10");
-        return  filenames;
+    private ArrayList<String> addMiscFiles(ArrayList<String> filenames) {
+        filenames.add("UBD080UBC040Gv001000Ge20Gg0100Bv0010Bd0005Bg01000400_10.txt");
+        return filenames;
     }
 
     public static void main(String[] qwerty) {
 
+        final int RANGE = 9;
+
         PruneRunner runner = new PruneRunner();
-        // String filename = "UBD080UBC040Gv001000Ge20Gg0100Bv0010Bd0005Bg01000400_10.txt";
+
         ArrayList<String> filenames = new ArrayList<>();
 
 //        filenames = runner.addMiscFiles(filenames);
-        filenames = runner.addIGapFiles(filenames);
+//        filenames = runner.addIGapFiles(filenames, RANGE);
+        filenames.add("iGap_series_002_run03.txt");
 
-//        filenames.add(fileStart+"_series_070_010_run0");
-//        filenames.add(fileStart+"_series_070_015_run0");
         String basepath = "output";
+        double average_thresh_conductance = 0d;
+        double average_burst_conductance = 0d;
         for (String filename : filenames) {
-            double average_conductance = 0d;
-            for (int i = 0; i < 1; i++) {
-                String current_filename = filename+i+".txt";
-                System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-                System.out.println("Loading file:"+current_filename);
-                Prune prune = runner.loadFile(current_filename, basepath);
 
-                //outputKFactor(prune, kList);
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+            System.out.println("Loading file:" + filename);
+            Prune prune = runner.loadFile(filename, basepath);
 
-                /** Finding synthetic burst data **/
-                /**
-                 Set<Integer> burstNodes = new HashSet<>(Arrays.asList(
-                 107,110,134,149,216,251,443,477,901,996
-                 ));
-                 int burstStart = 20;
-                 int burstEnd = 25;
-                 double burstConductance = prune.calculateConductance(burstNodes, burstStart, burstEnd);
-                 System.out.println("Burst Conductance: "+burstConductance);
-                 System.out.println("Normalized1 conductance "+prune.normalizeByTime1(burstConductance, burstStart, burstEnd));
-                 System.out.println("Normalized2 conductance "+prune.normalizeByTime2(burstConductance, burstStart, burstEnd));
-                 System.out.println("Norm E 0.0175 conductance "+prune.normalizeByE(0.0175,burstConductance, burstStart, burstEnd));
-                 System.out.println("Norm by Log conductance "+prune.normalizeByLog(burstConductance, burstStart, burstEnd));
-                 **/
+            double burstCond = runner.getMetaInfo(basepath, filename, prune);
+            average_burst_conductance += burstCond;
 
-                /** Finding best conductance for k values **/
-//                double[] kList = {1, 3, 6, 10};
-                double[] kList = {20};
-                for (double k: kList) {
-                    System.out.println("For k: "+k);
-                    for(int n=0;n<98;n+=2){
-                        Instant start = Instant.now();
-                        System.out.println(prune.getBounds(n, n+2)+"for "+n);
-                        Instant end = Instant.now();
-                        System.out.println("Duration: "+ Duration.between(start,end).getSeconds());
-                    }
-                    // TreeMap<Integer, List<Set<Edge>>> connectedComps = runner.getConnectedData(prune, k);
-                    // runner.getResult(prune, connectedComps);
-                    // prune.printTop5();
-                    System.out.println("=============================================================");
+            /** Finding best conductance for k values **/
+            double[] kList = {6};
+//            for (double k : kList) {
+//                System.out.println("For k: " + k);
+//                TreeMap<Integer, List<Set<Edge>>> connectedComps = runner.getConnectedData(prune, k);
+//                average_thresh_conductance += runner.getResult(prune, connectedComps).normalizedConductance;
+//                prune.printTop5();
+//                System.out.println("=============================================================");
+//            }
+
+            int prunedBounds;
+            int n;
+            for (int range = 0; range < 99; range++) {
+                prunedBounds = 0;
+                for (n = 0; n < (100 - range); n++) {
+                    int end = n + range;
+                    double result = prune.getBounds(n, end);
+                    System.out.println(range+" "+n+" "+result);
+                    if (result > burstCond) prunedBounds++;
                 }
+//                System.out.println(range+" "+n+" "+prunedBounds);
             }
-            // Getting Average
+            Instant start = Instant.now();
+            Instant end = Instant.now();
+            System.out.println("Duration: " + Duration.between(start, end).getSeconds());
         }
 
+//        System.out.println(average_burst_conductance/10 + " "+average_thresh_conductance/10);
     }
 }
