@@ -9,9 +9,6 @@ import java.util.*;
 
 public class PruneRunner {
 
-    public PruneRunner() {
-    }
-
     public Prune loadFile(String filename, String basepath) {
         return new Prune(filename, basepath);
     }
@@ -60,23 +57,9 @@ public class PruneRunner {
         return baseResult;
     }
 
-    public void printMatrix(String filename, double[][] matrix) {
-        try {
-            PrintWriter writer = new PrintWriter(filename);
-            for (int i = 0; i < matrix.length; i++) {
-                for (int j = 0; j < matrix.length; j++) {
-                    writer.write(matrix[i][j] + " ");
-                }
-                writer.write("\n");
-            }
-            writer.close();
-        } catch (FileNotFoundException f) {
-            System.err.println("Write Failed");
-        }
-    }
 
-    public double getMetaInfo(String basepath, String filename, Prune prune) {
-        double burstCond = 0;
+    public Result getMetaInfo(String basepath, String filename, Prune prune) {
+        Result result = null;
 
         try {
             Scanner metaScanner = new Scanner(new File(basepath + "/meta/" + filename));
@@ -98,18 +81,36 @@ public class PruneRunner {
             }
 
 
-            burstCond = prune.calculateConductance(bursNodes, burstStart, burstEnd);
+            double rawBurstCond = prune.calculateConductance(bursNodes, burstStart, burstEnd);
+            double normBurstCond = prune.normalizeByTime2(rawBurstCond, burstStart, burstEnd);
             System.out.println("Burst between " + burstStart + " and " + burstEnd + " with " + burstCount + " nodes.");
-            System.out.println("Raw Conductance of burst: " + burstCond);
-            System.out.println("Normalized Conductance of burst: " +
-                prune.normalizeByTime2(burstCond, burstStart, burstEnd));
-            burstCond = prune.normalizeByTime2(burstCond, burstStart, burstEnd);
+            System.out.println("Raw Conductance of burst: " + rawBurstCond);
+            System.out.println("Normalized Conductance of burst: " + normBurstCond);
+
+            result = new Result(rawBurstCond, normBurstCond, bursNodes, burstStart, burstEnd);
         } catch (FileNotFoundException fe) {
             fe.printStackTrace();
         }
 
-        return burstCond;
+        return result;
     }
+
+
+    public void printMatrix(String filename, double[][] matrix) {
+        try {
+            PrintWriter writer = new PrintWriter(filename);
+            for (int i = 0; i < matrix.length; i++) {
+                for (int j = 0; j < matrix.length; j++) {
+                    writer.write(matrix[i][j] + " ");
+                }
+                writer.write("\n");
+            }
+            writer.close();
+        } catch (FileNotFoundException f) {
+            System.err.println("Write Failed");
+        }
+    }
+
 
     private ArrayList<String> addIGapFiles(ArrayList<String> filenames, int range) {
         ArrayList<String> iGapFiles = new ArrayList<>();
@@ -135,6 +136,160 @@ public class PruneRunner {
         return filenames;
     }
 
+
+    public Result doThresholds(String basepath, String filename, Prune prune) {
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("Loading file:" + filename);
+        Result result = null;
+        double cond = -1;
+        /** Finding best conductance for k values **/
+        double[] kList = {1};
+        for (double k : kList) {
+            System.out.println("For k: " + k);
+            TreeMap<Integer, List<Set<Edge>>> connectedComps = getConnectedData(prune, k);
+            result = getResult(prune, connectedComps);
+            prune.printTop5();
+            System.out.println("=============================================================");
+        }
+
+        return result;
+    }
+
+    public void printBounds(Prune prune) {
+
+        int n;
+        int total = 0;
+        for (int range = 0; range < 100; range++) {
+            Instant tStart = Instant.now();
+            for (n = 0; n < (100 - range); n++) {
+//                if (range == 15 && n == 0) n = 14;
+                int end = n + range;
+                total++;
+                System.out.println(n + " " + end + " " + prune.getBounds(n, end));
+            }
+        }
+        System.out.println("Total: " + total);
+    }
+
+    public HashMap processesBounds1(String filename) {
+        HashMap<Integer, TreeMap<Integer, Double>> allBounds = new HashMap<>();
+        try {
+            Scanner boundScanner = new Scanner(new File(filename));
+            while (boundScanner.hasNextLine()) {
+                String values[] = boundScanner.nextLine().split(" ");
+                int timeLength = Integer.parseInt(values[0]);
+                int index = Integer.parseInt(values[1]);
+                double bound = Double.parseDouble(values[2]);
+                if (allBounds.containsKey(timeLength)) {
+                    allBounds.get(timeLength).put(index, bound);
+                } else {
+                    TreeMap<Integer, Double> lengthBounds = new TreeMap<>();
+                    lengthBounds.put(index, bound);
+                    allBounds.put(timeLength, lengthBounds);
+                }
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        return allBounds;
+    }
+
+
+    public HashMap processesBounds2(String filename) {
+        HashMap<Pair, Double> timeBounds = new HashMap<>();
+        try {
+            Scanner boundScanner = new Scanner(new File(filename));
+            while (boundScanner.hasNextLine()) {
+                String values[] = boundScanner.nextLine().split(" ");
+                int timeLength = Integer.parseInt(values[0]);
+                int index = Integer.parseInt(values[1]);
+                double bound = Double.parseDouble(values[2]);
+
+                timeBounds.put(new Pair(index, index + timeLength), bound);
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        return timeBounds;
+    }
+
+
+
+
+    public double pruneWithAllBounds(double cond, HashMap<Pair, Double> timeBounds) {
+        double prunedBounds = 0;
+        double total = 0;
+        for (int range = 0; range < 100; range++) {
+            for (int n = 0; n < (100 - range); n++) {
+                int end = n + range;
+                total++;
+                if (timeBounds.get(new Pair(n, end)) > cond) prunedBounds++;
+            }
+        }
+        System.out.println("Pruned: " + prunedBounds);
+        System.out.println("Total " + total);
+
+        return (prunedBounds / total) * 100;
+
+    }
+
+
+    public List<Integer> findIntervals(int start, int end, int maxSize) {
+        ArrayList<Integer> intervals = new ArrayList<>();
+        return findIntervals(intervals, start, end, maxSize);
+    }
+
+    public List<Integer> findIntervals(ArrayList<Integer> intervals, int start, int end, int maxSize) {
+        int twoPower = maxSize;
+        while (twoPower > 0) {
+            if (start == end) {
+                intervals.add(1);
+                return intervals;
+            } else if ((start == 0 || start % twoPower == 0) && start + (twoPower - 1) <= end) {
+                if (start + (twoPower - 1) == end) {
+                    intervals.add(twoPower);
+                    return intervals;
+                } else {
+                    intervals.add(twoPower);
+                    return findIntervals(intervals, start + twoPower, end, maxSize);
+                }
+            }
+            twoPower = twoPower == 1 ? -1 : twoPower / 2;
+        }
+
+        return intervals;
+    }
+
+
+    public double pruneWithCompositeBounds(Prune prune, double cond, HashMap<Pair, Double> timeBounds) {
+        int maxSize = Integer.highestOneBit(prune.totalTime);
+        TreeMap<Integer, HashMap<Integer, Double>> nodeGraph = prune.getNodeGraph();
+
+        double prunedBounds = 0;
+        double total =  0;
+
+        for (int range = 0; range < 100; range++) {
+            for (int n = 0; n < (100 - range); n++) {
+                int end = n + range;
+                List<Integer> intervals = findIntervals(n, end, maxSize);
+                double compositeBound = 0.0;
+                int temp = 0;
+                for (int interval : intervals) {
+                    int subStart = n + temp;
+                    int subEnd = subStart + (interval - 1);
+                    compositeBound += prune.getIntervalWeight(nodeGraph, subStart, subEnd, n, end) * timeBounds.get(new Pair(subStart, subEnd));
+                    temp += interval;
+                }
+
+                if (compositeBound > cond) prunedBounds++;
+                total++;
+            }
+        }
+        return (prunedBounds/total) * 100;
+
+
+    }
+
     public static void main(String[] qwerty) {
 
         final int RANGE = 9;
@@ -146,46 +301,34 @@ public class PruneRunner {
 //        filenames = runner.addMiscFiles(filenames);
 //        filenames = runner.addIGapFiles(filenames, RANGE);
         filenames.add("iGap_series_002_run03.txt");
+//        filenames.add("multi_burst0.txt");
+//        filenames.add("D4D_January_hourly.txt");
+//        filenames.add("simple_example.txt");
 
         String basepath = "output";
         double average_thresh_conductance = 0d;
         double average_burst_conductance = 0d;
         for (String filename : filenames) {
-
-            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-            System.out.println("Loading file:" + filename);
             Prune prune = runner.loadFile(filename, basepath);
+            double burstCond = runner.getMetaInfo(basepath, filename, prune).rawConductance;
+            double thresholdedCond = runner.doThresholds(basepath, filename, prune).rawConductance;
 
-            double burstCond = runner.getMetaInfo(basepath, filename, prune);
-            average_burst_conductance += burstCond;
+            HashMap<Pair, Double> timeBounds = runner.processesBounds2("iGap002run03_bounds.txt");
+            System.out.println("Pruning with ALL bounds with BURST: "+runner.pruneWithAllBounds(burstCond, timeBounds));
+            System.out.println("Pruning with ALL bounds with THRESH: "+runner.pruneWithAllBounds(thresholdedCond, timeBounds));
 
-            /** Finding best conductance for k values **/
-            double[] kList = {6};
-//            for (double k : kList) {
-//                System.out.println("For k: " + k);
-//                TreeMap<Integer, List<Set<Edge>>> connectedComps = runner.getConnectedData(prune, k);
-//                average_thresh_conductance += runner.getResult(prune, connectedComps).normalizedConductance;
-//                prune.printTop5();
-//                System.out.println("=============================================================");
-//            }
+            Instant tStart = Instant.now();
+            System.out.println("Pruning with COMPOSITE bounds: "+
+                runner.pruneWithCompositeBounds(prune, thresholdedCond, timeBounds));
 
-            int prunedBounds;
-            int n;
-            for (int range = 0; range < 99; range++) {
-                prunedBounds = 0;
-                for (n = 0; n < (100 - range); n++) {
-                    int end = n + range;
-                    double result = prune.getBounds(n, end);
-                    System.out.println(range+" "+n+" "+result);
-                    if (result > burstCond) prunedBounds++;
-                }
-//                System.out.println(range+" "+n+" "+prunedBounds);
-            }
-            Instant start = Instant.now();
-            Instant end = Instant.now();
-            System.out.println("Duration: " + Duration.between(start, end).getSeconds());
+//            System.out.println(runner.findIntervals(13, 89, 64));
+
+             Instant tEnd = Instant.now();
+             System.out.println("Duration: " + Duration.between(tStart, tEnd).getSeconds());
+
+
+
         }
 
-//        System.out.println(average_burst_conductance/10 + " "+average_thresh_conductance/10);
     }
 }

@@ -13,14 +13,10 @@ class Prune {
 
     private TreeMap<Integer, HashMap<Edge, Double>> timeGraph;
     private int totalNodes;
+    public int totalTime;
 
     private static final double epsilon = 0.1d;
     private static final int MIN_INTERSECTIONS = 2;
-
-    // private HashMap<Edge, Integer> squashedGraph;
-    // private int size;
-    // private double mean;
-    // private double stdDev;
 
     private double bestNormConductance;
     private double bestRawConductance;
@@ -29,13 +25,13 @@ class Prune {
     private int bestStartTime;
     private int bestEndTime;
 
-    /****
-     * TESTING
-     *****/
+    /*********************************************************
+     * ***************************TESTING**********************
+     *********************************************************/
     public int zeroConductanceCount;
     public int calculateCondCount;
     public List<Integer> traversals;
-    /******************/
+    /***********************************************************/
 
     private SortedMap<Double, Result> results;
 
@@ -100,6 +96,7 @@ class Prune {
             }
 
             totalNodes = allNodes.size();
+            totalTime = timeGraph.lastKey();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -107,76 +104,64 @@ class Prune {
         // getStats();
     }
 
-    public double[][] matrixMultiply(double[][] A, double[][] B) {
-        int mA = A.length;
-        int nA = A[0].length;
-        int mB = B.length;
-        int nB = B[0].length;
-        if (nA != mB) throw new RuntimeException("Illegal matrix dimensions.");
-        double[][] C = new double[mA][nB];
-        for (int i = 0; i < mA; i++)
-            for (int j = 0; j < nB; j++)
-                for (int k = 0; k < nA; k++)
-                    C[i][j] += A[i][k] * B[k][j];
-        return C;
+    public TreeMap<Integer, HashMap<Integer, Double>> getNodeGraph() {
+        TreeMap<Integer, HashMap<Integer, Double>> nodeGraph = new TreeMap<>();
+
+        for (int time : timeGraph.keySet()) {
+            if (!nodeGraph.containsKey(time)) nodeGraph.put(time, new HashMap<Integer, Double>());
+            for (Map.Entry<Edge, Double> entry : timeGraph.get(time).entrySet()) {
+                nodeGraph.get(time).compute(entry.getKey().getNode1(), (k, v) -> v == null ? entry.getValue() : v + entry.getValue());
+                nodeGraph.get(time).compute(entry.getKey().getNode2(), (k, v) -> v == null ? entry.getValue() : v + entry.getValue());
+            }
+        }
+
+        return nodeGraph;
     }
 
-    public double[][] testMatrix() {
-        double[][] degreeMatrix = {{3, 0, 0}, {0, 4, 0}, {0, 0, 5}};
-        double[][] laplacian = {{3, -1, -2}, {-1, 4, -3}, {-2, -3, 5}};
+    public double getIntervalWeight(TreeMap<Integer, HashMap<Integer, Double>> nodeGraph, int subStart, int subEnd, int wholeStart, int wholeEnd) {
 
-        // Getting inverse square root of the diagonal
-        for (int n = 0; n < degreeMatrix.length; n++) {
-            System.out.println("Changing value of " + degreeMatrix[n][n]);
-            degreeMatrix[n][n] = 1 / (Math.sqrt(degreeMatrix[n][n]));
+        double weight = Double.MAX_VALUE;
+        for (int node : getNodesInTime(subStart, subEnd)) {
+            double ratio = getDegreeForNode(nodeGraph, subStart, subEnd, node) / getDegreeForNode(nodeGraph, wholeStart, wholeEnd, node);
+            weight = ratio < weight ? ratio : weight;
         }
 
-        for (int i = 0; i < degreeMatrix.length; i++) {
-            for (int j = 0; j < degreeMatrix.length; j++) {
-                System.out.print(degreeMatrix[i][j] + " ");
-            }
-            System.out.println();
-        }
-
-        double[][] result = matrixMultiply(matrixMultiply(degreeMatrix, laplacian), degreeMatrix);
-
-        for (int i = 0; i < result.length; i++) {
-            for (int j = 0; j < result.length; j++) {
-                System.out.print(result[i][j] + " ");
-            }
-            System.out.println();
-        }
-        return result;
+        return weight;
+    }
+    public double getDegreeForNode(TreeMap<Integer, HashMap<Integer, Double>> nodeGraph, int start, int end, int node) {
+        return nodeGraph.subMap(start, true, end, true).values().stream()
+            .filter(keys -> keys.containsKey(node))
+            .mapToDouble(map -> map.get(node)).sum();
     }
 
-    public double[][] getNormalizedLaplacianStupidly(int start, int end) {
+    public double getDegreeForNode(int start, int end, int node) {
+        double sum = 0;
+        for (int i = start; i <= end; i++) {
+            sum += timeGraph.get(i).entrySet().stream()
+                .filter(e -> e.getKey().containsNode(node))
+                .mapToDouble(e -> e.getValue())
+                .sum();
+        }
+        return sum;
+    }
 
-        double[][] laplacian = new double[totalNodes][totalNodes];
-        double[][] degreeMatrix = new double[totalNodes][totalNodes];
-        for (int i = start; i < end; i++) {
-            for (Edge e : timeGraph.get(i).keySet()) {
 
-                double weight = timeGraph.get(i).get(e);
-
-                laplacian[e.getNode1()][e.getNode2()] -= weight;
-                laplacian[e.getNode2()][e.getNode1()] -= weight;
-
-
-                laplacian[e.getNode1()][e.getNode1()] += weight;
-                laplacian[e.getNode2()][e.getNode2()] += weight;
-
-                degreeMatrix[e.getNode1()][e.getNode1()] += weight;
-                degreeMatrix[e.getNode2()][e.getNode2()] += weight;
-            }
+    public Set<Integer> getNodesInTime(int start, int end) {
+        Set<Integer> nodes = new HashSet<>();
+        for (int i = start; i <= end; i++) {
+            timeGraph.get(i).keySet().forEach(k -> nodes.addAll(k.toSet()));
         }
 
-        // Getting inverse square root of the diagonal
-        for (int n = 0; n < totalNodes; n++) {
-            degreeMatrix[n][n] = 1 / Math.sqrt(degreeMatrix[n][n]);
-        }
+        return nodes;
+    }
 
-        double[][] normalizedLaplacian = matrixMultiply(matrixMultiply(degreeMatrix, laplacian), degreeMatrix);
-        return normalizedLaplacian;
+
+    public double getTotalWeights(int start, int end) {
+        double sum = 0;
+        for (int i = start; i <= end; i++) {
+            sum += timeGraph.get(i).values().stream().mapToDouble(Double::doubleValue).sum();
+        }
+        return sum;
     }
 
     public double[][] getNormalizedLaplacian(int start, int end) {
@@ -195,7 +180,7 @@ class Prune {
 
         /** ADD A DEFAULT WEIGHT OF 0.1 **/
         for (int i = 0; i < totalNodes; i++) {
-                laplacian[i][i] += 0.1;
+            laplacian[i][i] += 0.1;
         }
 
         double[][] normalizedLaplacian = new double[totalNodes][totalNodes];
@@ -229,38 +214,10 @@ class Prune {
             System.err.println("Convergence Error");
             result = -1;
         } catch (Exception e) {
-            System.err.println("Error "+e);
+            System.err.println("Error " + e);
         }
         return result;
     }
-
-    /**
-     * private void getStats() {
-     * <p>
-     * size = squashedGraph.values().size();
-     * <p>
-     * // Finding mean
-     * // int sum = squashedGraph.values().stream().mapToInt(i -> new Integer(i)).sum();
-     * mean = squashedGraph.values().stream().mapToInt(i -> new Integer(i)).average().getAsDouble();
-     * <p>
-     * // System.out.println("Mean is: "+mean);
-     * <p>
-     * // Finding standard deviation
-     * double temp = 0;
-     * for (int i : squashedGraph.values()) {
-     * temp += (mean - i) * (mean - i);
-     * }
-     * stdDev = Math.sqrt(temp / size);
-     * // System.out.println("stddev is: "+stdDev);
-     * }
-     * <p>
-     * <p>
-     * public Set<Edge> thresholdEdgesByStd(double k) {
-     * double thresh = mean + (k * stdDev);
-     * return squashedGraph.keySet().parallelStream()
-     * .filter(e -> squashedGraph.get(e) > thresh).collect(Collectors.toSet());
-     * }
-     **/
 
     public Set<Edge> thresholdEdgesByPer(double k, HashMap<Edge, Double> edgeWeights) {
         int edgeListSize = (int) (edgeWeights.size() * (k / 100));
@@ -293,8 +250,8 @@ class Prune {
 
         System.out.println("Printing best values");
         System.out.println("Normalized Conductance: " + bestNormConductance);
-        System.out.println("Raw ConductanceL "+bestRawConductance);
-        System.out.println("N2 Factor: "+bestN2factor);
+        System.out.println("Raw ConductanceL " + bestRawConductance);
+        System.out.println("N2 Factor: " + bestN2factor);
 //        System.out.println("Nodes: "+bestNodes);
         System.out.println("No. of nodes: " + bestNodes.size());
         System.out.println("Start: " + bestStartTime + " End: " + bestEndTime);
@@ -533,7 +490,7 @@ class Prune {
         return result;
     }
 
-    private void printGraph() {
+    public void printGraph() {
         for (Integer i : timeGraph.keySet()) {
             System.out.println("Total Values for time: " + i + " is " + timeGraph.get(i).keySet());
         }

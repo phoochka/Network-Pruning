@@ -4,15 +4,14 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class Edge {
+public class Edge extends Pair {
 
 
-    private int node1;
-    private int node2;
+    private int node1 = (int) getA();
+    private int node2 = (int) getB();
 
     public Edge(int node1, int node2){
-        this.node1 = node1;
-        this.node2 = node2;
+        super(node1, node2);
     }
 
     public int getNode1() {
