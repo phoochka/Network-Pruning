@@ -321,7 +321,7 @@ public class PruneRunner {
             System.out.println("Pruning with COMPOSITE bounds: "+
                 runner.pruneWithCompositeBounds(prune, thresholdedCond, timeBounds));
 
-//            System.out.println(runner.findIntervals(13, 89, 64));
+           System.out.println(runner.findIntervals(13, 89, 64));
 
              Instant tEnd = Instant.now();
              System.out.println("Duration: " + Duration.between(tStart, tEnd).getSeconds());

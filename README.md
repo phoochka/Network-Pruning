@@ -1,2 +1,3 @@
-# TemporalGraphThresholding
-Pruning temporal graph for best conductance by using thresholding.
+# Network Pruning
+
+Pruning temporal graphs for finding interesting communities.
