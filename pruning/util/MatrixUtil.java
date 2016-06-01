@@ -1,8 +1,14 @@
 package pruning.util;
 
 import pruning.Edge;
+import pruning.Pair;
+import pruning.Prune;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.HashMap;
+import java.util.Scanner;
 import java.util.TreeMap;
 
 /**
@@ -97,4 +103,72 @@ public class MatrixUtil {
         }
         return diagonalWeights.values().stream().mapToDouble(Double::doubleValue).sum();
     }
+
+    public HashMap processesBounds(String filename) {
+        HashMap<Pair, Double> timeBounds = new HashMap<>();
+        try {
+            Scanner boundScanner = new Scanner(new File("bounds/"+filename));
+            while (boundScanner.hasNextLine()) {
+                String values[] = boundScanner.nextLine().split(" ");
+                int timeLength = Integer.parseInt(values[0]);
+                int index = Integer.parseInt(values[1]);
+                double bound = Double.parseDouble(values[2]);
+
+                timeBounds.put(new Pair(index, index + timeLength), bound);
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        return timeBounds;
+    }
+
+    public double pruneWithAllBounds(double cond, HashMap<Pair, Double> timeBounds) {
+        double prunedBounds = 0;
+        double total = 0;
+        for (int range = 0; range < 24; range++) {
+            for (int n = 0; n < (24 - range); n++) {
+                int end = n + range;
+                total++;
+//                System.out.println(n+" "+end);
+                if (timeBounds.get(new Pair(n, end)) > cond) prunedBounds++;
+            }
+        }
+        System.out.println("Pruned: " + prunedBounds);
+        System.out.println("Total " + total);
+
+        return (prunedBounds / total) * 100;
+
+    }
+
+    public void wrtieBoundsFile(String filename, Prune prune) {
+        try{
+            PrintWriter writer = new PrintWriter("bounds/"+filename);
+            System.out.println("Writing bounds for file "+filename);
+
+            int n;
+            int total = 0;
+            System.out.println("ST: "+prune.startTime+" ET: "+prune.endTime);
+            for (int range = 0; range < prune.totalTime; range++) {
+
+                for (n = prune.startTime; n < (prune.endTime - range); n++) {
+
+                    int end = n + range;
+                    System.out.print(range+" "+n+" ");
+                    total++;
+                    double bound = prune.getBounds(n, end);
+                    System.out.print(bound);
+                    System.out.println();
+                    writer.write(range + " " + n + " " + bound);
+                    writer.write("\n");
+                }
+            }
+            System.out.println("Total: " + total);
+
+            writer.close();
+        } catch(FileNotFoundException f){
+            System.err.println("Write failed");
+        }
+
+    }
+
 }

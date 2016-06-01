@@ -1,0 +1,5892 @@
+Albania	Austria	22
+Albania	Azerbaijan	785
+Albania	Belarus	27
+Albania	Bulgaria	101
+Albania	China	2
+Albania	Croatia	3462
+Albania	Cyprus	53
+Albania	Czech Republic	8
+Albania	France	23
+Albania	Germany	178
+Albania	Greece	49879
+Albania	Italy	4874
+Albania	Japan	2
+Albania	Malaysia	2153
+Albania	Malta	240
+Albania	Netherlands	1
+Albania	Panama	75
+Albania	Romania	7953
+Albania	Russian Federation	9188
+Albania	Serbia and Montenegro	2557
+Albania	Slovakia	447
+Albania	Slovenia	50
+Albania	Switzerland	6790
+Albania	The former Yugoslav Republic of Macedonia	120
+Albania	Turkey	140
+Albania	Turkmenistan	1327
+Albania	Ukraine	3986
+Albania	United Kingdom	37790
+Albania	United States of America	12
+Albania	Uzbekistan	422
+Algeria	Argentina	4
+Algeria	Australia	16551
+Algeria	Austria	33
+Algeria	Belgium	826
+Algeria	Canada	1255
+Algeria	China	2681
+Algeria	Denmark	3
+Algeria	Finland	15
+Algeria	France	48671
+Algeria	Germany	892
+Algeria	Greece	773
+Algeria	Hungary	12
+Algeria	India	1
+Algeria	Iran (Islamic Republic of)	95
+Algeria	Italy	16363
+Algeria	Japan	71
+Algeria	Jordan	12
+Algeria	Netherlands	649
+Algeria	Saudi Arabia	328
+Algeria	Spain	21065
+Algeria	Swaziland	18
+Algeria	Sweden	63
+Algeria	Switzerland	32
+Algeria	Syrian Arab Republic	858
+Algeria	Tunisia	99
+Algeria	Turkey	1348
+Algeria	United Arab Emirates	777
+Algeria	United Kingdom	4649
+Algeria	United States of America	17840
+Andorra	France	23825
+Andorra	Germany	1
+Andorra	Guatemala	6
+Andorra	Netherlands	2
+Andorra	Norway	3
+Andorra	Spain	22084
+Andorra	Sweden	1
+Angola	Belgium	777
+Angola	Brazil	97
+Angola	Bulgaria	15
+Angola	Cameroon	14561
+Angola	China	169
+Angola	Czech Republic	3
+Angola	CutedIvoire	4325
+Angola	France	6076
+Angola	Gabon	2084
+Angola	Germany	16
+Angola	Italy	36
+Angola	Japan	3
+Angola	Lebanon	1
+Angola	Namibia	2128
+Angola	Netherlands	22
+Angola	Niger	2
+Angola	Norway	2
+Angola	Portugal	4781
+Angola	Russian Federation	19
+Angola	South Africa	42304
+Angola	Spain	31857
+Angola	Sweden	2
+Angola	Switzerland	2
+Angola	Turkey	3
+Angola	United Kingdom	62
+Angola	United States of America	1146
+Argentina	Algeria	2179
+Argentina	Australia	24043
+Argentina	Austria	2
+Argentina	Belgium	697
+Argentina	Bolivia	5804
+Argentina	Brazil	135814
+Argentina	Canada	892
+Argentina	Chile	27720
+Argentina	China	167
+Argentina	Chinese Taipei	13
+Argentina	Colombia	8954
+Argentina	Croatia	2
+Argentina	Denmark	9
+Argentina	Egypt	2050
+Argentina	Finland	50
+Argentina	France	4359
+Argentina	Georgia	3727
+Argentina	Germany	7937
+Argentina	Greece	651
+Argentina	India	10864
+Argentina	Iran (Islamic Republic of)	1399
+Argentina	Italy	12475
+Argentina	Japan	114
+Argentina	Kuwait	1659
+Argentina	Latvia	6650
+Argentina	Libyan Arab Jamahiriya	5508
+Argentina	Luxembourg	1
+Argentina	Malaysia	45
+Argentina	Mexico	192
+Argentina	Netherlands	389
+Argentina	Nigeria	114270
+Argentina	Norway	1
+Argentina	Panama	961
+Argentina	Paraguay	183719
+Argentina	Peru	4
+Argentina	Portugal	19
+Argentina	Republic of Korea	517
+Argentina	Romania	8746
+Argentina	Russian Federation	42369
+Argentina	Saudi Arabia	10315
+Argentina	South Africa	62063
+Argentina	Spain	3847
+Argentina	Sweden	294
+Argentina	Switzerland	210
+Argentina	Ukraine	4433
+Argentina	United Arab Emirates	25385
+Argentina	United Kingdom	1441
+Argentina	United States of America	29947
+Argentina	Uruguay	22731
+Argentina	Venezuela	1816
+Armenia	Australia	42
+Armenia	Bahamas	604
+Armenia	Belgium	321
+Armenia	Bulgaria	189
+Armenia	Cyprus	294
+Armenia	Czech Republic	23
+Armenia	France	5
+Armenia	Georgia	3675
+Armenia	Germany	367
+Armenia	Greece	11
+Armenia	Iran (Islamic Republic of)	20392
+Armenia	Italy	4
+Armenia	Netherlands	15
+Armenia	Panama	5114
+Armenia	Russian Federation	81680
+Armenia	Switzerland	116
+Armenia	Syrian Arab Republic	21
+Armenia	Turkey	957
+Armenia	Turkmenistan	126
+Armenia	Ukraine	344
+Armenia	United Arab Emirates	342
+Armenia	United Kingdom	64175
+Armenia	United States of America	7243
+Armenia	Uzbekistan	97
+Australia	Algeria	1025
+Australia	Argentina	11124
+Australia	Austria	62
+Australia	Belgium	1026
+Australia	Brazil	2
+Australia	Brunei Darussalam	209602
+Australia	Bulgaria	3
+Australia	Canada	1159
+Australia	Chile	1
+Australia	China	48077
+Australia	Chinese Taipei	2577
+Australia	Denmark	175
+Australia	Egypt	32
+Australia	Estonia	1
+Australia	Fiji	2
+Australia	Finland	17
+Australia	France	3284
+Australia	Germany	2931
+Australia	Greece	25
+Australia	Hong Kong (SARC)	230
+Australia	India	18946
+Australia	Indonesia	940777
+Australia	Ireland	794
+Australia	Italy	580
+Australia	Japan	35488
+Australia	Kuwait	686
+Australia	Latvia	2
+Australia	Lithuania	109
+Australia	Malaysia	382175
+Australia	Mauritius	20
+Australia	Netherland Antilles	512
+Australia	Netherlands	1329
+Australia	New Caledonia	1605
+Australia	New Zealand	213075
+Australia	Norway	657
+Australia	Papua New Guinea	380661
+Australia	Philippines	7460
+Australia	Portugal	15
+Australia	Qatar	136010
+Australia	Republic of Korea	33878
+Australia	Republic of Moldova	2
+Australia	Saudi Arabia	546191
+Australia	Singapore	435016
+Australia	South Africa	3266
+Australia	Spain	907
+Australia	Sri Lanka	30
+Australia	Sweden	284
+Australia	Switzerland	73
+Australia	Thailand	90376
+Australia	United Arab Emirates	445931
+Australia	United Kingdom	2605
+Australia	United States of America	141206
+Australia	Venezuela	345
+Australia	Viet Nam	924727
+Austria	Algeria	109733
+Austria	Australia	727
+Austria	Azerbaijan	43031
+Austria	Belarus	378
+Austria	Belgium	28991
+Austria	Bosnia and Herzegovina	5
+Austria	Bulgaria	625
+Austria	Canada	27
+Austria	China	1049
+Austria	Colombia	86
+Austria	Croatia	6474
+Austria	Czech Republic	183788
+Austria	Denmark	1119
+Austria	Estonia	378
+Austria	Finland	498
+Austria	France	16312
+Austria	Germany	1137073
+Austria	Greece	2
+Austria	Hungary	245645
+Austria	Indonesia	24
+Austria	Iraq	170564
+Austria	Ireland	2
+Austria	Italy	136056
+Austria	Japan	87
+Austria	Kazakhstan	171301
+Austria	Latvia	329
+Austria	Libyan Arab Jamahiriya	246902
+Austria	Lithuania	420
+Austria	Luxembourg	13
+Austria	Malaysia	270
+Austria	Netherlands	48537
+Austria	Nigeria	275414
+Austria	Norway	70
+Austria	Poland	208978
+Austria	Romania	4731
+Austria	Russian Federation	185050
+Austria	Saudi Arabia	110813
+Austria	Serbia and Montenegro	47
+Austria	Slovakia	162639
+Austria	Slovenia	7890
+Austria	South Africa	489
+Austria	Spain	837
+Austria	Sweden	3101
+Austria	Switzerland	191720
+Austria	Syrian Arab Republic	184487
+Austria	Turkey	4
+Austria	Turkmenistan	16956
+Austria	Ukraine	13645
+Austria	United Arab Emirates	1
+Austria	United Kingdom	169013
+Austria	United States of America	1955
+Azerbaijan	Anguilla	413
+Azerbaijan	Austria	1
+Azerbaijan	Belarus	2
+Azerbaijan	Belgium	2626
+Azerbaijan	Canada	4
+Azerbaijan	China	30
+Azerbaijan	Chinese Taipei	8
+Azerbaijan	Denmark	37
+Azerbaijan	France	7
+Azerbaijan	Georgia	43
+Azerbaijan	Germany	389
+Azerbaijan	Greece	25
+Azerbaijan	India	3
+Azerbaijan	Iran (Islamic Republic of)	8338
+Azerbaijan	Italy	1
+Azerbaijan	Japan	731
+Azerbaijan	Kazakhstan	38641
+Azerbaijan	Netherlands	5
+Azerbaijan	Oman	94
+Azerbaijan	Republic of Korea	1
+Azerbaijan	Russian Federation	8206
+Azerbaijan	Singapore	1
+Azerbaijan	Slovakia	1
+Azerbaijan	Sweden	10
+Azerbaijan	Switzerland	2
+Azerbaijan	Turkey	14771
+Azerbaijan	Turkmenistan	133737
+Azerbaijan	Ukraine	70
+Azerbaijan	United Arab Emirates	524
+Azerbaijan	United Kingdom	6458
+Azerbaijan	United States of America	1161
+Bahamas	Austria	1
+Bahamas	Barbados	213
+Bahamas	Brazil	6450
+Bahamas	Canada	4489
+Bahamas	China	137
+Bahamas	Ecuador	2341
+Bahamas	Haiti	1
+Bahamas	Ireland	6
+Bahamas	Japan	4
+Bahamas	Netherland Antilles	49331
+Bahamas	Russian Federation	4517
+Bahamas	Trinidad and Tobago	1628
+Bahamas	Turks and Caicos Islands	23
+Bahamas	United Kingdom	234
+Bahamas	United States of America	108152
+Bahamas	Venezuela	104953
+Barbados	Belgium	54
+Barbados	Canada	41
+Barbados	Czech Republic	1
+Barbados	France	188
+Barbados	Germany	17
+Barbados	Hong Kong (SARC)	19
+Barbados	Jamaica	170
+Barbados	Japan	7
+Barbados	Netherland Antilles	125
+Barbados	Netherlands	3
+Barbados	Panama	29
+Barbados	Portugal	3
+Barbados	Spain	63
+Barbados	Suriname	7952
+Barbados	Sweden	1
+Barbados	The former Yugoslav Republic of Macedonia	23
+Barbados	Trinidad and Tobago	110748
+Barbados	United Kingdom	142
+Barbados	United States of America	4217
+Barbados	Venezuela	1718
+Belarus	Austria	101
+Belarus	Belgium	361
+Belarus	Canada	10
+Belarus	China	1
+Belarus	Croatia	112
+Belarus	Czech Republic	1
+Belarus	Denmark	332
+Belarus	Estonia	52
+Belarus	Finland	1564
+Belarus	France	371
+Belarus	Germany	3629
+Belarus	Ireland	1
+Belarus	Italy	81
+Belarus	Latvia	179
+Belarus	Lithuania	35919
+Belarus	Mauritania	6
+Belarus	Netherlands	363
+Belarus	Poland	970
+Belarus	Republic of Korea	2
+Belarus	Russian Federation	2176125
+Belarus	Slovakia	430
+Belarus	Spain	75
+Belarus	Sweden	613
+Belarus	Switzerland	2
+Belarus	Ukraine	2563
+Belarus	United Kingdom	92
+Belarus	United States of America	81
+Belgium	Algeria	433376
+Belgium	Australia	137757
+Belgium	Austria	839
+Belgium	Azerbaijan	1943
+Belgium	Bahrain	11886
+Belgium	Barbados	1
+Belgium	Belarus	16
+Belgium	Brazil	3323
+Belgium	Bulgaria	976
+Belgium	Canada	22769
+Belgium	Chile	281
+Belgium	China	76088
+Belgium	Chinese Taipei	1
+Belgium	Colombia	8731
+Belgium	Croatia	15
+Belgium	Cuba	2827
+Belgium	Czech Republic	41
+Belgium	Denmark	5651
+Belgium	Egypt	37191
+Belgium	Estonia	44341
+Belgium	Ethiopia	6201
+Belgium	Finland	62563
+Belgium	France	662687
+Belgium	Georgia	1231
+Belgium	Germany	524225
+Belgium	Ghana	3025
+Belgium	Gibraltar	4110
+Belgium	Greece	7661
+Belgium	Hong Kong (SARC)	9
+Belgium	Hungary	1527
+Belgium	India	18819
+Belgium	Indonesia	1
+Belgium	Iran (Islamic Republic of)	72
+Belgium	Ireland	4743
+Belgium	Israel	14
+Belgium	Italy	48499
+Belgium	Japan	509
+Belgium	Kuwait	21789
+Belgium	Latvia	29451
+Belgium	Libyan Arab Jamahiriya	14141
+Belgium	Lithuania	8224
+Belgium	Luxembourg	27851
+Belgium	Malta	15
+Belgium	Morocco	20501
+Belgium	Netherland Antilles	2796
+Belgium	Netherlands	8770587
+Belgium	New Zealand	546
+Belgium	Niger	9629
+Belgium	Norway	1613757
+Belgium	Panama	1778
+Belgium	Poland	45956
+Belgium	Portugal	5186
+Belgium	Qatar	4565
+Belgium	Republic of Korea	27
+Belgium	Romania	22597
+Belgium	Russian Federation	804618
+Belgium	Saudi Arabia	689
+Belgium	Singapore	2
+Belgium	Slovakia	6
+Belgium	South Africa	98949
+Belgium	Spain	137208
+Belgium	Sweden	116013
+Belgium	Switzerland	93444
+Belgium	Syrian Arab Republic	2176
+Belgium	Thailand	1
+Belgium	Turkey	218
+Belgium	Turkmenistan	1554
+Belgium	Ukraine	14303
+Belgium	United Arab Emirates	80828
+Belgium	United Kingdom	984317
+Belgium	United States of America	201589
+Belgium	Venezuela	134562
+Belgium	Viet Nam	12183
+Belize	Bahamas	145
+Belize	Canada	1
+Belize	Cuba	56656
+Belize	El Salvador	1065
+Belize	Germany	14
+Belize	Guatemala	3314
+Belize	Jamaica	1
+Belize	Japan	35
+Belize	Mexico	3924
+Belize	Mongolia	61
+Belize	Trinidad and Tobago	3
+Belize	United Kingdom	1
+Belize	United States of America	3445
+Belize	Venezuela	4961
+Benin	Angola	327
+Benin	Bahrain	2660
+Benin	Belgium	198
+Benin	Congo	803
+Benin	CutedIvoire	17010
+Benin	Democratic Republic of the Congo	53
+Benin	Denmark	362
+Benin	Egypt	221
+Benin	France	1028
+Benin	Germany	45
+Benin	Ghana	25979
+Benin	Israel	1234
+Benin	Italy	1892
+Benin	Libyan Arab Jamahiriya	15
+Benin	Mali	1
+Benin	Netherlands	2091
+Benin	Nigeria	27786
+Benin	Senegal	2784
+Benin	South Africa	4954
+Benin	Spain	51
+Benin	Tunisia	2
+Benin	Tuvalu	10
+Benin	Ukraine	227
+Benin	United Arab Emirates	6
+Benin	United Kingdom	62
+Benin	United Republic of Tanzania	287
+Benin	United States of America	624
+Bermuda	Canada	48
+Bermuda	China	16
+Bermuda	CutedIvoire	28
+Bermuda	Estonia	147
+Bermuda	Germany	4
+Bermuda	Greece	506
+Bermuda	Hong Kong (SARC)	9
+Bermuda	Italy	1
+Bermuda	Kazakhstan	1221212
+Bermuda	Mexico	31
+Bermuda	Netherlands	7
+Bermuda	Russian Federation	123282
+Bermuda	Switzerland	148
+Bermuda	Trinidad and Tobago	19062
+Bermuda	Tunisia	16
+Bermuda	Turkey	10
+Bermuda	United Kingdom	4
+Bermuda	United States of America	8080
+Bolivia	Argentina	79633
+Bolivia	Belgium	60
+Bolivia	Brazil	4907
+Bolivia	Canada	46
+Bolivia	Chile	15105
+Bolivia	China	335
+Bolivia	Colombia	2694
+Bolivia	Cuba	13
+Bolivia	Ecuador	109
+Bolivia	France	4
+Bolivia	Germany	51
+Bolivia	Italy	301
+Bolivia	Japan	5
+Bolivia	Mexico	792
+Bolivia	Netherlands	26
+Bolivia	Panama	2708
+Bolivia	Paraguay	176
+Bolivia	Peru	6749
+Bolivia	Republic of Korea	318
+Bolivia	Russian Federation	184
+Bolivia	Spain	54
+Bolivia	United Kingdom	26
+Bolivia	United States of America	4670
+Bolivia	Uruguay	27
+Bolivia	Venezuela	3194
+Botswana	Canada	1
+Botswana	Hong Kong (SARC)	4
+Botswana	India	30
+Botswana	Lesotho	3
+Botswana	Namibia	3156
+Botswana	South Africa	118129
+Botswana	United Kingdom	6
+Botswana	United States of America	5
+Botswana	Zambia	586
+Botswana	Zimbabwe	236
+Brazil	Algeria	1094209
+Brazil	Angola	174708
+Brazil	Argentina	1096381
+Brazil	Aruba	25919
+Brazil	Australia	175383
+Brazil	Austria	14
+Brazil	Barbados	5188
+Brazil	Belgium	2800
+Brazil	Bolivia	244579
+Brazil	Canada	61371
+Brazil	Cayman Islands	3248
+Brazil	Chile	12648
+Brazil	China	126158
+Brazil	Chinese Taipei	3
+Brazil	Colombia	75131
+Brazil	Congo	73023
+Brazil	Czech Republic	714
+Brazil	Democratic People's Republic of Korea	2
+Brazil	Denmark	6
+Brazil	Egypt	26878
+Brazil	Equatorial Guinea	10143
+Brazil	Finland	893
+Brazil	France	16058
+Brazil	Gabon	62308
+Brazil	Germany	35609
+Brazil	Guinea	3026
+Brazil	Hong Kong (SARC)	8223
+Brazil	India	257283
+Brazil	Indonesia	11934
+Brazil	Iraq	25576
+Brazil	Israel	801
+Brazil	Italy	37205
+Brazil	Japan	31591
+Brazil	Kuwait	54861
+Brazil	Latvia	234632
+Brazil	Mexico	6309
+Brazil	Mozambique	698
+Brazil	Netherland Antilles	19319
+Brazil	Netherlands	1607
+Brazil	Niger	1424
+Brazil	Nigeria	1370841
+Brazil	Norway	39399
+Brazil	Panama	92
+Brazil	Portugal	1834
+Brazil	Republic of Korea	117739
+Brazil	Russian Federation	13367
+Brazil	Saudi Arabia	812216
+Brazil	South Africa	31711
+Brazil	Spain	48428
+Brazil	Suriname	104
+Brazil	Sweden	4078
+Brazil	Switzerland	74268
+Brazil	Syrian Arab Republic	8508
+Brazil	Thailand	30
+Brazil	Trinidad and Tobago	7378
+Brazil	Tunisia	7500
+Brazil	Ukraine	106
+Brazil	United Arab Emirates	102447
+Brazil	United Kingdom	26713
+Brazil	United States of America	404211
+Brazil	Uruguay	11761
+Brazil	Venezuela	589501
+Brazil	Viet Nam	11
+Brazil	Yemen	35908
+British Indian Ocean Territories	Republic of Korea	6517
+British Indian Ocean Territories	Singapore	7374
+British Indian Ocean Territories	Viet Nam	7
+British Virgin Islands	Canada	1
+British Virgin Islands	Estonia	2145
+British Virgin Islands	Georgia	20
+British Virgin Islands	Indonesia	372
+British Virgin Islands	Kazakhstan	441147
+British Virgin Islands	Russian Federation	2862777
+British Virgin Islands	Thailand	63
+British Virgin Islands	Trinidad and Tobago	4700
+British Virgin Islands	Turkey	6
+British Virgin Islands	Ukraine	127488
+British Virgin Islands	United States of America	10942
+British Virgin Islands	Venezuela	6743
+British Virgin Islands	Viet Nam	6
+Bulgaria	Algeria	8
+Bulgaria	Australia	1904
+Bulgaria	Austria	1476
+Bulgaria	Belarus	608
+Bulgaria	Belgium	1342
+Bulgaria	Brazil	3011
+Bulgaria	Canada	4536
+Bulgaria	China	5962
+Bulgaria	Cyprus	19
+Bulgaria	Czech Republic	333
+Bulgaria	Denmark	3
+Bulgaria	Egypt	1550
+Bulgaria	Ethiopia	7
+Bulgaria	Finland	192
+Bulgaria	France	1666
+Bulgaria	Germany	4408
+Bulgaria	Greece	18494
+Bulgaria	Hungary	1404
+Bulgaria	Iran (Islamic Republic of)	7
+Bulgaria	Ireland	3
+Bulgaria	Israel	62
+Bulgaria	Italy	6786
+Bulgaria	Japan	1
+Bulgaria	Lithuania	53
+Bulgaria	Luxembourg	11
+Bulgaria	Netherlands	1144
+Bulgaria	Poland	14588
+Bulgaria	Republic of Korea	3
+Bulgaria	Romania	55820
+Bulgaria	Russian Federation	107786
+Bulgaria	Saudi Arabia	1
+Bulgaria	Serbia and Montenegro	128
+Bulgaria	Singapore	4
+Bulgaria	Slovakia	566
+Bulgaria	Slovenia	96
+Bulgaria	Spain	3969
+Bulgaria	Sweden	66
+Bulgaria	Switzerland	138
+Bulgaria	Syrian Arab Republic	62
+Bulgaria	The former Yugoslav Republic of Macedonia	36
+Bulgaria	Turkey	664
+Bulgaria	Ukraine	84565
+Bulgaria	United Kingdom	248
+Bulgaria	United States of America	23655
+Bulgaria	Venezuela	314
+Bulgaria	Viet Nam	17339
+Burkina Faso	Angola	235
+Burkina Faso	Australia	2
+Burkina Faso	Bahrain	9939
+Burkina Faso	Belgium	38
+Burkina Faso	Benin	64
+Burkina Faso	Cameroon	2
+Burkina Faso	China	74
+Burkina Faso	Congo	1851
+Burkina Faso	CutedIvoire	30852
+Burkina Faso	Denmark	3
+Burkina Faso	Egypt	235
+Burkina Faso	France	1340
+Burkina Faso	Germany	19
+Burkina Faso	Ghana	1543
+Burkina Faso	Israel	7368
+Burkina Faso	Italy	1493
+Burkina Faso	Kuwait	404
+Burkina Faso	Libyan Arab Jamahiriya	2390
+Burkina Faso	Morocco	30
+Burkina Faso	Netherlands	2733
+Burkina Faso	New Zealand	7
+Burkina Faso	Niger	5
+Burkina Faso	Nigeria	5292
+Burkina Faso	Russian Federation	5181
+Burkina Faso	Saudi Arabia	8097
+Burkina Faso	Senegal	867
+Burkina Faso	Singapore	1
+Burkina Faso	South Africa	4866
+Burkina Faso	Spain	9447
+Burkina Faso	Togo	602
+Burkina Faso	Turkey	1
+Burkina Faso	United Arab Emirates	3228
+Burkina Faso	United Kingdom	5380
+Burkina Faso	United States of America	37
+Burkina Faso	Uruguay	10
+Burkina Faso	Venezuela	15
+Cambodia	Australia	30
+Cambodia	Bulgaria	2169
+Cambodia	China	30
+Cambodia	Chinese Taipei	63
+Cambodia	France	6
+Cambodia	Hong Kong (SARC)	3
+Cambodia	Indonesia	3
+Cambodia	Japan	26
+Cambodia	Malaysia	80
+Cambodia	Philippines	38
+Cambodia	Portugal	7
+Cambodia	Republic of Korea	10
+Cambodia	Singapore	40273
+Cambodia	Thailand	78946
+Cambodia	Viet Nam	86522
+Cameroon	Austria	45
+Cameroon	Bahrain	1395
+Cameroon	Belgium	627
+Cameroon	Benin	360
+Cameroon	China	5
+Cameroon	Congo	861
+Cameroon	Czech Republic	1106
+Cameroon	CutedIvoire	4067
+Cameroon	Egypt	799
+Cameroon	Equatorial Guinea	39540
+Cameroon	France	11609
+Cameroon	Gabon	1367
+Cameroon	Germany	399
+Cameroon	Greece	57
+Cameroon	Hong Kong (SARC)	8
+Cameroon	Hungary	13
+Cameroon	Italy	554
+Cameroon	Japan	4
+Cameroon	Liberia	365
+Cameroon	Lithuania	141
+Cameroon	Malaysia	4
+Cameroon	Netherlands	989
+Cameroon	Nigeria	255722
+Cameroon	Norway	151
+Cameroon	Republic of Korea	3
+Cameroon	Senegal	2198
+Cameroon	South Africa	530
+Cameroon	Spain	2829
+Cameroon	Sweden	4
+Cameroon	Switzerland	1
+Cameroon	Togo	1467
+Cameroon	Turkey	98
+Cameroon	United Arab Emirates	36
+Cameroon	United Kingdom	627
+Cameroon	United States of America	10227
+Canada	Algeria	738294
+Canada	Angola	25726
+Canada	Australia	29751
+Canada	Austria	55
+Canada	Belgium	15305
+Canada	Brazil	4962
+Canada	Bulgaria	4838
+Canada	Cameroon	8011
+Canada	China	32983
+Canada	Chinese Taipei	124
+Canada	Colombia	107830
+Canada	Cyprus	7732
+Canada	Denmark	102743
+Canada	Dominica	1
+Canada	Ecuador	1847
+Canada	Equatorial Guinea	70845
+Canada	Estonia	5520
+Canada	Finland	56650
+Canada	France	48787
+Canada	Germany	7112
+Canada	Greece	2
+Canada	Guyana	6
+Canada	Hong Kong (SARC)	53
+Canada	Hungary	3
+Canada	India	17
+Canada	Iraq	564585
+Canada	Ireland	376
+Canada	Israel	15672
+Canada	Italy	44111
+Canada	Jamaica	2
+Canada	Japan	9547
+Canada	Kuwait	11922
+Canada	Latvia	36
+Canada	Lithuania	6432
+Canada	Malaysia	11167
+Canada	Mexico	278257
+Canada	Netherland Antilles	14888
+Canada	Netherlands	71924
+Canada	Nigeria	132931
+Canada	Norway	2058637
+Canada	Peru	2627
+Canada	Poland	447
+Canada	Republic of Korea	51463
+Canada	Russian Federation	31075
+Canada	Saudi Arabia	451643
+Canada	Singapore	1
+Canada	South Africa	854
+Canada	Spain	39859
+Canada	Sri Lanka	4
+Canada	Sweden	14650
+Canada	Switzerland	1398
+Canada	Syrian Arab Republic	37230
+Canada	Thailand	6208
+Canada	Trinidad and Tobago	27261
+Canada	Turkey	9874
+Canada	Ukraine	1347
+Canada	United Arab Emirates	22640
+Canada	United Kingdom	2957422
+Canada	United States Minor Outlying Islands	1752
+Canada	United States of America	3444556
+Canada	Venezuela	817943
+Cape Verde	Algeria	36
+Cape Verde	Angola	435
+Cape Verde	Belgium	11
+Cape Verde	Colombia	2
+Cape Verde	CutedIvoire	36
+Cape Verde	France	405
+Cape Verde	Germany	3
+Cape Verde	Greece	5
+Cape Verde	Italy	18
+Cape Verde	Libyan Arab Jamahiriya	1
+Cape Verde	Netherlands	1074
+Cape Verde	Norway	1
+Cape Verde	Portugal	10326
+Cape Verde	Russian Federation	321
+Cape Verde	Saint Vincent and the Grenadines	44
+Cape Verde	Senegal	112
+Cape Verde	Spain	1090
+Cape Verde	United Kingdom	2
+Cape Verde	United States of America	216
+Cayman Islands	Bahamas	4
+Cayman Islands	Barbados	1
+Cayman Islands	Brazil	11863
+Cayman Islands	Bulgaria	29
+Cayman Islands	China	68
+Cayman Islands	Colombia	3255
+Cayman Islands	Costa Rica	177
+Cayman Islands	Estonia	185
+Cayman Islands	Germany	9
+Cayman Islands	Greece	1160
+Cayman Islands	Italy	5
+Cayman Islands	Jamaica	2
+Cayman Islands	Mexico	308
+Cayman Islands	Switzerland	1
+Cayman Islands	Trinidad and Tobago	2
+Cayman Islands	Turkey	7
+Cayman Islands	United States of America	9618
+Central African Republic	Belgium	26
+Central African Republic	Cameroon	272
+Central African Republic	France	409
+Central African Republic	Gabon	59
+Central African Republic	Germany	1
+Central African Republic	Netherlands	12
+Central African Republic	United States of America	3
+Chad	Austria	3
+Chad	Belgium	80
+Chad	Cameroon	5852
+Chad	CutedIvoire	52
+Chad	France	548
+Chad	Gabon	17
+Chad	Germany	10
+Chad	Italy	125
+Chad	Niger	736
+Chad	Nigeria	30
+Chad	Switzerland	2
+Chad	United Arab Emirates	36
+Chad	United States of America	962
+Chile	Algeria	14394
+Chile	Argentina	1928373
+Chile	Armenia	6
+Chile	Australia	30220
+Chile	Austria	4
+Chile	Belgium	4363
+Chile	Bolivia	3540
+Chile	Brazil	82661
+Chile	Canada	38699
+Chile	China	9657
+Chile	Chinese Taipei	165
+Chile	Colombia	6071
+Chile	Congo	22276
+Chile	Democratic People's Republic of Korea	24108
+Chile	Denmark	5
+Chile	Ecuador	38407
+Chile	Equatorial Guinea	5658
+Chile	Estonia	12
+Chile	Finland	69
+Chile	France	1105
+Chile	Germany	2797
+Chile	Hungary	35
+Chile	Indonesia	23197
+Chile	Israel	5
+Chile	Italy	198
+Chile	Japan	172
+Chile	Latvia	7647
+Chile	Malaysia	47060
+Chile	Mexico	349
+Chile	Netherlands	411
+Chile	New Zealand	7069
+Chile	Nigeria	122639
+Chile	Norway	7709
+Chile	Paraguay	69
+Chile	Peru	86338
+Chile	Portugal	1
+Chile	Republic of Korea	33202
+Chile	Russian Federation	7757
+Chile	Saudi Arabia	4573
+Chile	South Africa	328
+Chile	Spain	1306
+Chile	Sweden	45
+Chile	Switzerland	45
+Chile	Trinidad and Tobago	11
+Chile	United Kingdom	704
+Chile	United States of America	81417
+Chile	Venezuela	85131
+China	Algeria	66057
+China	Angola	721464
+China	Argentina	29809
+China	Australia	279139
+China	Austria	21
+China	Bahrain	17162
+China	Belgium	24683
+China	Brazil	9
+China	Brunei Darussalam	146511
+China	Cameroon	150590
+China	Canada	1151
+China	Chinese Taipei	185810
+China	Congo	120371
+China	Democratic People's Republic of Korea	4318
+China	Denmark	146
+China	Egypt	4628
+China	Equatorial Guinea	429588
+China	Ethiopia	7
+China	Finland	3
+China	France	9503
+China	Gabon	26488
+China	Germany	46512
+China	Greece	33
+China	Hong Kong (SARC)	152747
+China	Hungary	27
+China	Iceland	7
+China	India	37225
+China	Indonesia	653461
+China	Iran (Islamic Republic of)	2162742
+China	Iraq	73006
+China	Ireland	1
+China	Israel	28
+China	Italy	1298
+China	Japan	277831
+China	Kazakhstan	98790
+China	Kuwait	327956
+China	Latvia	6
+China	Libyan Arab Jamahiriya	52025
+China	Malaysia	444761
+China	Mexico	3
+China	Mongolia	1603
+China	Netherlands	2273
+China	New Zealand	26512
+China	Nigeria	168596
+China	Norway	194899
+China	Oman	1599736
+China	Papua New Guinea	18813
+China	Philippines	53912
+China	Poland	77
+China	Qatar	299089
+China	Republic of Korea	1928627
+China	Romania	7
+China	Russian Federation	808026
+China	Saudi Arabia	1910992
+China	Singapore	780388
+China	Slovakia	1
+China	South Africa	14952
+China	Spain	2087
+China	Sudan	937312
+China	Sweden	2441
+China	Switzerland	114
+China	Thailand	334102
+China	Trinidad and Tobago	67
+China	Turkey	10
+China	Ukraine	625
+China	United Arab Emirates	359330
+China	United Kingdom	129028
+China	United States of America	101730
+China	Uzbekistan	2020
+China	Venezuela	99207
+China	Viet Nam	737828
+China	Yemen	449697
+Chinese Taipei	Algeria	22076
+Chinese Taipei	Angola	457911
+Chinese Taipei	Australia	1109185
+Chinese Taipei	Austria	41
+Chinese Taipei	Bahrain	33653
+Chinese Taipei	Belgium	4876
+Chinese Taipei	Cameroon	145912
+Chinese Taipei	Canada	47389
+Chinese Taipei	China	503335
+Chinese Taipei	Congo	771696
+Chinese Taipei	Egypt	14842
+Chinese Taipei	Equatorial Guinea	19474
+Chinese Taipei	Estonia	3
+Chinese Taipei	Finland	157
+Chinese Taipei	France	24884
+Chinese Taipei	Germany	10912
+Chinese Taipei	Ghana	6151
+Chinese Taipei	Greece	11
+Chinese Taipei	Hong Kong (SARC)	1748
+Chinese Taipei	Hungary	14
+Chinese Taipei	India	104295
+Chinese Taipei	Indonesia	1388385
+Chinese Taipei	Iran (Islamic Republic of)	803869
+Chinese Taipei	Iraq	221013
+Chinese Taipei	Ireland	42
+Chinese Taipei	Italy	3574
+Chinese Taipei	Japan	86569
+Chinese Taipei	Kuwait	1115254
+Chinese Taipei	Latvia	8
+Chinese Taipei	Lithuania	246
+Chinese Taipei	Malaysia	554469
+Chinese Taipei	Mexico	3
+Chinese Taipei	Netherlands	27118
+Chinese Taipei	Nigeria	296301
+Chinese Taipei	Norway	17
+Chinese Taipei	Oman	110519
+Chinese Taipei	Philippines	20345
+Chinese Taipei	Qatar	17840
+Chinese Taipei	Republic of Korea	200441
+Chinese Taipei	Russian Federation	51054
+Chinese Taipei	Saudi Arabia	2354982
+Chinese Taipei	Singapore	295356
+Chinese Taipei	South Africa	66977
+Chinese Taipei	Spain	1706
+Chinese Taipei	Sudan	14631
+Chinese Taipei	Sweden	289
+Chinese Taipei	Switzerland	199
+Chinese Taipei	Syrian Arab Republic	6771
+Chinese Taipei	Thailand	19673
+Chinese Taipei	United Arab Emirates	705013
+Chinese Taipei	United Kingdom	2474
+Chinese Taipei	United States of America	73280
+Chinese Taipei	Viet Nam	18071
+Chinese Taipei	Yemen	72910
+Christmas Islands	Australia	607
+Christmas Islands	Malaysia	14
+Christmas Islands	Singapore	1124
+Christmas Islands	Viet Nam	66
+Cocos (Keeling) Islands	Australia	80
+Colombia	Argentina	30106
+Colombia	Aruba	10994
+Colombia	Australia	36
+Colombia	Austria	4
+Colombia	Belgium	88
+Colombia	Brazil	550
+Colombia	Canada	1054
+Colombia	Chile	24
+Colombia	China	5226
+Colombia	Chinese Taipei	4
+Colombia	Ecuador	75
+Colombia	El Salvador	363
+Colombia	Estonia	5
+Colombia	Finland	48
+Colombia	France	2040
+Colombia	Germany	673
+Colombia	Greece	1
+Colombia	Hong Kong (SARC)	62
+Colombia	India	5
+Colombia	Indonesia	7306
+Colombia	Iran (Islamic Republic of)	14
+Colombia	Israel	3
+Colombia	Italy	9
+Colombia	Japan	716
+Colombia	Lithuania	8
+Colombia	Malaysia	46
+Colombia	Mexico	601
+Colombia	Netherland Antilles	205
+Colombia	Netherlands	996
+Colombia	Nigeria	8227
+Colombia	Norway	19770
+Colombia	Peru	4766
+Colombia	Republic of Korea	1
+Colombia	Romania	12
+Colombia	Russian Federation	2
+Colombia	Spain	441
+Colombia	Sweden	186
+Colombia	Switzerland	42
+Colombia	Trinidad and Tobago	9183
+Colombia	United Kingdom	196
+Colombia	United States of America	35322
+Colombia	Venezuela	51693
+Congo	Australia	2
+Congo	Belgium	1757
+Congo	Cameroon	73
+Congo	CutedIvoire	26
+Congo	France	2282
+Congo	Gabon	1154
+Congo	Germany	355
+Congo	Iran (Islamic Republic of)	21
+Congo	Italy	4539
+Congo	Lebanon	57
+Congo	Malaysia	26
+Congo	Netherlands	369
+Congo	Norway	4
+Congo	Portugal	124
+Congo	Republic of Korea	6
+Congo	Senegal	3
+Congo	Singapore	2
+Congo	Slovakia	1
+Congo	South Africa	3194
+Congo	Spain	4
+Congo	Uganda	12
+Congo	United Arab Emirates	622
+Congo	United Kingdom	204
+Congo	United States of America	78
+Congo	Zimbabwe	9
+Cook Islands	Australia	3959
+Cook Islands	Fiji	401
+Cook Islands	New Zealand	268
+Cook Islands	United States of America	22
+Costa Rica	Argentina	52
+Costa Rica	Australia	7
+Costa Rica	Belgium	45
+Costa Rica	Belize	17
+Costa Rica	Brazil	10936
+Costa Rica	Canada	614
+Costa Rica	China	1833
+Costa Rica	Colombia	28324
+Costa Rica	Denmark	4
+Costa Rica	Ecuador	15
+Costa Rica	El Salvador	100
+Costa Rica	France	34431
+Costa Rica	Germany	723
+Costa Rica	Guatemala	11
+Costa Rica	Honduras	13
+Costa Rica	Hong Kong (SARC)	197
+Costa Rica	Hungary	29
+Costa Rica	Israel	1
+Costa Rica	Italy	11
+Costa Rica	Japan	80
+Costa Rica	Mexico	7341
+Costa Rica	Netherland Antilles	3661
+Costa Rica	Netherlands	61649
+Costa Rica	Nicaragua	4799
+Costa Rica	Panama	7210
+Costa Rica	Peru	1
+Costa Rica	Portugal	14
+Costa Rica	Republic of Korea	97
+Costa Rica	Saudi Arabia	6538
+Costa Rica	South Africa	184
+Costa Rica	Spain	561
+Costa Rica	Sweden	163
+Costa Rica	Switzerland	17
+Costa Rica	Trinidad and Tobago	9285
+Costa Rica	United Kingdom	408
+Costa Rica	United States of America	62964
+Costa Rica	Venezuela	227880
+Croatia	Algeria	12022
+Croatia	Australia	1
+Croatia	Austria	14220
+Croatia	Azerbaijan	1
+Croatia	Belgium	1940
+Croatia	Bosnia and Herzegovina	5557
+Croatia	Bulgaria	7113
+Croatia	Canada	5
+Croatia	China	5887
+Croatia	Cyprus	38
+Croatia	Czech Republic	2796
+Croatia	Denmark	14
+Croatia	Estonia	16
+Croatia	Finland	3
+Croatia	France	1860
+Croatia	Germany	19025
+Croatia	Greece	127
+Croatia	Honduras	2
+Croatia	Hungary	17246
+Croatia	Indonesia	6482
+Croatia	Iraq	73069
+Croatia	Ireland	1
+Croatia	Israel	2717
+Croatia	Italy	68112
+Croatia	Japan	8
+Croatia	Latvia	62
+Croatia	Libyan Arab Jamahiriya	64709
+Croatia	Lithuania	155
+Croatia	Netherlands	4034
+Croatia	Norway	2
+Croatia	Poland	1125
+Croatia	Republic of Korea	1
+Croatia	Romania	120
+Croatia	Russian Federation	606445
+Croatia	Senegal	1
+Croatia	Serbia and Montenegro	1779
+Croatia	Singapore	3
+Croatia	Slovakia	492
+Croatia	Slovenia	3871
+Croatia	South Africa	14723
+Croatia	Spain	492
+Croatia	Sweden	319
+Croatia	Switzerland	19954
+Croatia	Syrian Arab Republic	163782
+Croatia	Turkey	96
+Croatia	Ukraine	236
+Croatia	United Arab Emirates	2
+Croatia	United Kingdom	51885
+Croatia	United States of America	1426
+Croatia	Venezuela	1757
+Cuba	Argentina	21
+Cuba	Bahamas	8560
+Cuba	Belgium	367
+Cuba	Canada	723
+Cuba	Chile	194
+Cuba	China	1497
+Cuba	Colombia	2854
+Cuba	Dominican Republic	1497
+Cuba	France	5975
+Cuba	Germany	810
+Cuba	Israel	4
+Cuba	Italy	7734
+Cuba	Mexico	1102
+Cuba	Netherland Antilles	12554
+Cuba	Netherlands	1057
+Cuba	Panama	2
+Cuba	Republic of Korea	39
+Cuba	Russian Federation	47
+Cuba	Spain	6169
+Cuba	Sweden	1
+Cuba	Trinidad and Tobago	989
+Cuba	Ukraine	106
+Cuba	United Kingdom	739
+Cuba	Venezuela	977443
+Cuba	Viet Nam	1256
+Cyprus	Australia	450
+Cyprus	Austria	12
+Cyprus	Belgium	700
+Cyprus	Bulgaria	6885
+Cyprus	Canada	8
+Cyprus	China	9
+Cyprus	Chinese Taipei	4
+Cyprus	Croatia	2367
+Cyprus	Denmark	15
+Cyprus	Egypt	1584
+Cyprus	Finland	9
+Cyprus	France	3386
+Cyprus	Germany	1048
+Cyprus	Greece	16917
+Cyprus	Hong Kong (SARC)	1
+Cyprus	Hungary	16
+Cyprus	India	6
+Cyprus	Ireland	297
+Cyprus	Israel	117657
+Cyprus	Italy	9442
+Cyprus	Japan	9
+Cyprus	Kuwait	1926
+Cyprus	Latvia	22
+Cyprus	Lebanon	2
+Cyprus	Libyan Arab Jamahiriya	1244
+Cyprus	Lithuania	47
+Cyprus	Malta	17884
+Cyprus	Netherlands	1024
+Cyprus	Norway	4262
+Cyprus	Russian Federation	87344
+Cyprus	Saudi Arabia	7965
+Cyprus	Slovakia	2
+Cyprus	Spain	10073
+Cyprus	Sri Lanka	12
+Cyprus	Sweden	12
+Cyprus	Switzerland	1
+Cyprus	Syrian Arab Republic	145636
+Cyprus	Turkmenistan	1127
+Cyprus	Ukraine	9252
+Cyprus	United Arab Emirates	14
+Cyprus	United Kingdom	17359
+Cyprus	United States of America	2777
+Cyprus	Venezuela	2734
+Czech Republic	Algeria	49331
+Czech Republic	Austria	154291
+Czech Republic	Azerbaijan	108483
+Czech Republic	Belarus	215
+Czech Republic	Belgium	6228
+Czech Republic	Bulgaria	4
+Czech Republic	Canada	127
+Czech Republic	China	282
+Czech Republic	Chinese Taipei	308
+Czech Republic	Croatia	5032
+Czech Republic	Denmark	28
+Czech Republic	Estonia	137
+Czech Republic	Finland	1154
+Czech Republic	France	8120
+Czech Republic	Germany	220991
+Czech Republic	Greece	37
+Czech Republic	Hungary	29836
+Czech Republic	Ireland	2
+Czech Republic	Italy	1785
+Czech Republic	Japan	41
+Czech Republic	Kazakhstan	92313
+Czech Republic	Latvia	19
+Czech Republic	Libyan Arab Jamahiriya	97537
+Czech Republic	Lithuania	712
+Czech Republic	Luxembourg	12
+Czech Republic	Mexico	2
+Czech Republic	Netherlands	4224
+Czech Republic	New Zealand	1
+Czech Republic	Norway	301807
+Czech Republic	Poland	191072
+Czech Republic	Romania	361
+Czech Republic	Russian Federation	1610692
+Czech Republic	Serbia and Montenegro	135
+Czech Republic	Slovakia	367588
+Czech Republic	Slovenia	586
+Czech Republic	South Africa	534
+Czech Republic	Spain	489
+Czech Republic	Sweden	523
+Czech Republic	Switzerland	16553
+Czech Republic	Syrian Arab Republic	10017
+Czech Republic	Ukraine	24540
+Czech Republic	United Kingdom	1337
+Czech Republic	United States of America	965
+CutedIvoire	Algeria	552
+CutedIvoire	Bahrain	15077
+CutedIvoire	Belgium	2220
+CutedIvoire	Cameroon	3
+CutedIvoire	Canada	4
+CutedIvoire	China	151
+CutedIvoire	Chinese Taipei	10
+CutedIvoire	Congo	21812
+CutedIvoire	Czech Republic	76
+CutedIvoire	Egypt	132
+CutedIvoire	France	19189
+CutedIvoire	Germany	2933
+CutedIvoire	Greece	51
+CutedIvoire	Guinea	607
+CutedIvoire	Hungary	98
+CutedIvoire	India	7
+CutedIvoire	Italy	15824
+CutedIvoire	Japan	1
+CutedIvoire	Mali	3
+CutedIvoire	Mexico	53055
+CutedIvoire	Morocco	62
+CutedIvoire	Netherlands	15667
+CutedIvoire	Nigeria	477344
+CutedIvoire	Norway	824
+CutedIvoire	Russian Federation	69
+CutedIvoire	Saudi Arabia	7602
+CutedIvoire	Sierra Leone	162
+CutedIvoire	South Africa	331
+CutedIvoire	Spain	461
+CutedIvoire	Sweden	15
+CutedIvoire	Switzerland	6
+CutedIvoire	Syrian Arab Republic	59
+CutedIvoire	Turkey	26
+CutedIvoire	United Arab Emirates	79
+CutedIvoire	United Kingdom	6355
+CutedIvoire	United States of America	7361
+CutedIvoire	Venezuela	21969
+Democratic People's Republic of Korea	Austria	3
+Democratic People's Republic of Korea	Brazil	18595
+Democratic People's Republic of Korea	Bulgaria	24
+Democratic People's Republic of Korea	China	161793
+Democratic People's Republic of Korea	Croatia	5
+Democratic People's Republic of Korea	CutedIvoire	52
+Democratic People's Republic of Korea	Denmark	12
+Democratic People's Republic of Korea	France	4
+Democratic People's Republic of Korea	Germany	25
+Democratic People's Republic of Korea	Greece	1
+Democratic People's Republic of Korea	Hong Kong (SARC)	288
+Democratic People's Republic of Korea	India	10
+Democratic People's Republic of Korea	Italy	4
+Democratic People's Republic of Korea	Japan	489
+Democratic People's Republic of Korea	Lithuania	1
+Democratic People's Republic of Korea	Netherlands	17
+Democratic People's Republic of Korea	Nigeria	25758
+Democratic People's Republic of Korea	Peru	4502
+Democratic People's Republic of Korea	Russian Federation	15580
+Democratic People's Republic of Korea	Singapore	41699
+Democratic People's Republic of Korea	South Africa	489
+Democratic People's Republic of Korea	Switzerland	11
+Democratic People's Republic of Korea	Thailand	18
+Democratic People's Republic of Korea	Turkey	8
+Democratic People's Republic of Korea	United Kingdom	88
+Democratic Republic of the Congo	Belgium	1733
+Democratic Republic of the Congo	Botswana	162
+Democratic Republic of the Congo	Cameroon	20642
+Democratic Republic of the Congo	Central African Republic	16
+Democratic Republic of the Congo	CutedIvoire	13592
+Democratic Republic of the Congo	France	803
+Democratic Republic of the Congo	Gabon	7659
+Democratic Republic of the Congo	Germany	5
+Democratic Republic of the Congo	Italy	4029
+Democratic Republic of the Congo	Kenya	136
+Democratic Republic of the Congo	Luxembourg	1
+Democratic Republic of the Congo	Mozambique	2
+Democratic Republic of the Congo	Netherlands	81
+Democratic Republic of the Congo	Portugal	6
+Democratic Republic of the Congo	Rwanda	4
+Democratic Republic of the Congo	Singapore	287
+Democratic Republic of the Congo	South Africa	15190
+Democratic Republic of the Congo	Uganda	97
+Democratic Republic of the Congo	United Arab Emirates	152
+Democratic Republic of the Congo	United Kingdom	10
+Democratic Republic of the Congo	United Republic of Tanzania	5
+Democratic Republic of the Congo	United States of America	10
+Democratic Republic of the Congo	Zambia	1012
+Democratic Republic of the Congo	Zimbabwe	957
+Denmark	Argentina	1
+Denmark	Australia	3
+Denmark	Austria	215
+Denmark	Bahrain	19217
+Denmark	Belgium	11756
+Denmark	Brazil	7106
+Denmark	Canada	5553
+Denmark	China	44
+Denmark	Chinese Taipei	46
+Denmark	Czech Republic	44
+Denmark	Estonia	36973
+Denmark	Faroe Islands	123
+Denmark	Finland	49225
+Denmark	France	7317
+Denmark	Germany	113639
+Denmark	Hungary	665
+Denmark	India	2
+Denmark	Indonesia	3
+Denmark	Ireland	1
+Denmark	Italy	1221
+Denmark	Japan	14
+Denmark	Kazakhstan	1
+Denmark	Kuwait	47351
+Denmark	Latvia	44217
+Denmark	Lithuania	15858
+Denmark	Malaysia	24829
+Denmark	Netherlands	30480
+Denmark	Norway	658526
+Denmark	Poland	45473
+Denmark	Portugal	7
+Denmark	Republic of Korea	2
+Denmark	Russian Federation	134656
+Denmark	Singapore	2
+Denmark	Slovakia	427
+Denmark	South Africa	9919
+Denmark	Spain	145
+Denmark	Sweden	387230
+Denmark	Switzerland	658
+Denmark	Turkey	3
+Denmark	Turkmenistan	1745
+Denmark	United Arab Emirates	36310
+Denmark	United Kingdom	106042
+Denmark	United States of America	12835
+Denmark	Venezuela	60713
+Denmark	Zambia	1
+Djibouti	Australia	30
+Djibouti	China	82
+Djibouti	Chinese Taipei	1
+Djibouti	Ethiopia	15
+Djibouti	France	1067
+Djibouti	Germany	142
+Djibouti	Greece	4
+Djibouti	Iran (Islamic Republic of)	833
+Djibouti	Netherlands	38
+Djibouti	Poland	184
+Djibouti	Republic of Korea	102
+Djibouti	Singapore	2072
+Djibouti	South Africa	115
+Djibouti	Sudan	57
+Djibouti	Switzerland	2
+Djibouti	United Arab Emirates	127
+Djibouti	United States of America	26
+Dominica	Antigua and Barbuda	19
+Dominica	Bahamas	16
+Dominica	Barbados	112
+Dominica	Canada	1
+Dominica	Dominican Republic	54
+Dominica	France	2
+Dominica	Guatemala	5
+Dominica	Jamaica	57
+Dominica	Japan	5
+Dominica	Trinidad and Tobago	11839
+Dominica	United Kingdom	3
+Dominica	United States of America	669
+Dominica	Venezuela	84
+Dominican Republic	Colombia	2760
+Dominican Republic	Ecuador	5392
+Dominican Republic	Haiti	272
+Dominican Republic	Italy	25
+Dominican Republic	Mexico	218789
+Dominican Republic	Netherland Antilles	47793
+Dominican Republic	Trinidad and Tobago	34184
+Dominican Republic	United States of America	260023
+Dominican Republic	Venezuela	643379
+Ecuador	Algeria	19394
+Ecuador	Argentina	5850
+Ecuador	Aruba	6494
+Ecuador	Austria	4
+Ecuador	Bahamas	9817
+Ecuador	Belgium	142
+Ecuador	Brazil	12
+Ecuador	Canada	347
+Ecuador	Chile	33681
+Ecuador	China	2855
+Ecuador	Chinese Taipei	31
+Ecuador	Colombia	2499
+Ecuador	Congo	9125
+Ecuador	Costa Rica	16
+Ecuador	Cyprus	355
+Ecuador	Czech Republic	7
+Ecuador	Denmark	1
+Ecuador	El Salvador	14859
+Ecuador	France	4118
+Ecuador	Germany	899
+Ecuador	Greece	8676
+Ecuador	Hong Kong (SARC)	32
+Ecuador	Hungary	18
+Ecuador	Italy	12
+Ecuador	Japan	16
+Ecuador	Jordan	2
+Ecuador	Lithuania	12
+Ecuador	Mexico	3917
+Ecuador	Netherland Antilles	9673
+Ecuador	Netherlands	1670
+Ecuador	Norway	4223
+Ecuador	Panama	17520
+Ecuador	Peru	6269
+Ecuador	Saudi Arabia	17149
+Ecuador	Slovenia	1
+Ecuador	Spain	7492
+Ecuador	Sri Lanka	24
+Ecuador	Sweden	1
+Ecuador	Switzerland	7
+Ecuador	United Arab Emirates	2
+Ecuador	United Kingdom	66
+Ecuador	United States of America	16246
+Ecuador	Venezuela	97251
+El Salvador	Argentina	97
+El Salvador	Aruba	59975
+El Salvador	Austria	7
+El Salvador	Bahamas	9409
+El Salvador	Belgium	143
+El Salvador	Belize	9
+El Salvador	Cameroon	10
+El Salvador	Canada	17
+El Salvador	Chile	51
+El Salvador	China	2167
+El Salvador	Colombia	67
+El Salvador	Costa Rica	52
+El Salvador	Ecuador	123727
+El Salvador	Finland	3
+El Salvador	France	31
+El Salvador	Germany	213
+El Salvador	Guatemala	23451
+El Salvador	Honduras	229
+El Salvador	Hong Kong (SARC)	15
+El Salvador	Italy	12
+El Salvador	Japan	28
+El Salvador	Jordan	17
+El Salvador	Mexico	49881
+El Salvador	Netherland Antilles	42505
+El Salvador	Nicaragua	529
+El Salvador	Panama	54
+El Salvador	Peru	4634
+El Salvador	Republic of Korea	3091
+El Salvador	Singapore	1438
+El Salvador	Spain	33
+El Salvador	Sweden	1
+El Salvador	Switzerland	7
+El Salvador	Trinidad and Tobago	10950
+El Salvador	United Kingdom	19
+El Salvador	United States of America	97452
+El Salvador	Venezuela	67777
+Equatorial Guinea	Belgium	74
+Equatorial Guinea	Brazil	2
+Equatorial Guinea	Bulgaria	173
+Equatorial Guinea	Cameroon	1055
+Equatorial Guinea	CutedIvoire	11801
+Equatorial Guinea	France	1805
+Equatorial Guinea	Greece	39
+Equatorial Guinea	Italy	13397
+Equatorial Guinea	Romania	45
+Equatorial Guinea	South Africa	71
+Equatorial Guinea	Spain	580
+Equatorial Guinea	Trinidad and Tobago	163
+Equatorial Guinea	Turkey	4
+Equatorial Guinea	United Kingdom	825
+Equatorial Guinea	United States of America	1318
+Estonia	Argentina	5
+Estonia	Austria	262
+Estonia	Belarus	41829
+Estonia	Belgium	1419
+Estonia	Brazil	14
+Estonia	Canada	6
+Estonia	China	66
+Estonia	Colombia	2
+Estonia	Denmark	68
+Estonia	Finland	11066
+Estonia	France	448
+Estonia	Germany	3218
+Estonia	Hungary	8
+Estonia	Italy	11
+Estonia	Japan	7
+Estonia	Kazakhstan	1676
+Estonia	Kuwait	17
+Estonia	Latvia	5934
+Estonia	Lithuania	46807
+Estonia	Netherlands	1944
+Estonia	Norway	5017
+Estonia	Poland	220
+Estonia	Russian Federation	219810
+Estonia	South Africa	1929
+Estonia	Spain	47
+Estonia	Sweden	7431
+Estonia	Switzerland	31
+Estonia	Thailand	27
+Estonia	Ukraine	2433
+Estonia	United Arab Emirates	76
+Estonia	United Kingdom	338
+Estonia	United States of America	964
+Ethiopia	Australia	25
+Ethiopia	Belgium	670
+Ethiopia	China	189
+Ethiopia	Denmark	14
+Ethiopia	Djibouti	3427
+Ethiopia	Ecuador	2
+Ethiopia	Egypt	9620
+Ethiopia	France	294
+Ethiopia	Germany	1171
+Ethiopia	Guinea	1
+Ethiopia	Hungary	23
+Ethiopia	India	37
+Ethiopia	Iran (Islamic Republic of)	5286
+Ethiopia	Italy	46
+Ethiopia	Kenya	163
+Ethiopia	Mali	101
+Ethiopia	Netherlands	738
+Ethiopia	Republic of Korea	89
+Ethiopia	Saudi Arabia	170954
+Ethiopia	Singapore	1114
+Ethiopia	South Africa	535
+Ethiopia	Sweden	6
+Ethiopia	Switzerland	8
+Ethiopia	Turkey	473
+Ethiopia	United Arab Emirates	2208
+Ethiopia	United Kingdom	705
+Ethiopia	United States of America	26
+Ethiopia	Yemen	122933
+Falkland Islands (Malvinas)	Croatia	6
+Falkland Islands (Malvinas)	Italy	4793
+Falkland Islands (Malvinas)	Spain	12759
+Falkland Islands (Malvinas)	Switzerland	1
+Falkland Islands (Malvinas)	United Kingdom	259
+Faroe Islands	Australia	10
+Faroe Islands	Austria	1
+Faroe Islands	Belgium	29
+Faroe Islands	Canada	7
+Faroe Islands	Denmark	1234
+Faroe Islands	Finland	1
+Faroe Islands	France	589
+Faroe Islands	Germany	1220
+Faroe Islands	Iceland	7
+Faroe Islands	Italy	3
+Faroe Islands	Netherlands	523
+Faroe Islands	Norway	50133
+Faroe Islands	Russian Federation	85
+Faroe Islands	Spain	13
+Faroe Islands	Sweden	5885
+Faroe Islands	United Kingdom	12
+Faroe Islands	United States of America	22
+Finland	Australia	9864
+Finland	Austria	30
+Finland	Bahrain	9636
+Finland	Belgium	4211
+Finland	Canada	28834
+Finland	China	6213
+Finland	Chinese Taipei	1
+Finland	Croatia	2
+Finland	Czech Republic	243
+Finland	Denmark	402025
+Finland	Egypt	316
+Finland	Estonia	2304
+Finland	France	16009
+Finland	Germany	11934
+Finland	Hungary	44
+Finland	Indonesia	4938
+Finland	Ireland	4
+Finland	Italy	227
+Finland	Japan	9
+Finland	Kazakhstan	150021
+Finland	Kuwait	13994
+Finland	Latvia	3494
+Finland	Lithuania	5412
+Finland	Malaysia	17
+Finland	Mexico	35
+Finland	Netherlands	46908
+Finland	Norway	439479
+Finland	Poland	108666
+Finland	Russian Federation	1955668
+Finland	Saudi Arabia	20
+Finland	South Africa	129
+Finland	Spain	826
+Finland	Sweden	168296
+Finland	Switzerland	172
+Finland	Ukraine	717
+Finland	United Arab Emirates	4304
+Finland	United Kingdom	227358
+Finland	United States of America	56613
+Finland	Venezuela	177
+France	Albania	41
+France	Algeria	2580284
+France	Angola	656674
+France	Argentina	14689
+France	Armenia	136
+France	Aruba	29670
+France	Australia	157360
+France	Austria	4072
+France	Azerbaijan	118972
+France	Bahrain	82102
+France	Barbados	15
+France	Belarus	7855
+France	Belgium	788940
+France	Brazil	83921
+France	Bulgaria	24609
+France	Burkina Faso	1050
+France	Cameroon	19569
+France	Canada	69460
+France	Central African Republic	6
+France	Chile	7
+France	China	118588
+France	Chinese Taipei	56
+France	Colombia	71248
+France	Congo	52744
+France	Costa Rica	708
+France	Croatia	51
+France	Czech Republic	2999
+France	CutedIvoire	1
+France	Democratic People's Republic of Korea	14
+France	Denmark	162369
+France	Dominican Republic	225
+France	Ecuador	36
+France	Egypt	68458
+France	Equatorial Guinea	28992
+France	Estonia	42525
+France	Finland	11570
+France	Gabon	194499
+France	Georgia	18361
+France	Germany	449486
+France	Greece	74546
+France	Hungary	42
+France	Iceland	20
+France	India	9953
+France	Indonesia	5398
+France	Iran (Islamic Republic of)	643385
+France	Iraq	885509
+France	Ireland	3876
+France	Israel	7434
+France	Italy	621227
+France	Jamaica	638
+France	Japan	14563
+France	Kazakhstan	238554
+France	Kenya	706
+France	Kuwait	322109
+France	Latvia	114057
+France	Liberia	6197
+France	Libyan Arab Jamahiriya	644068
+France	Lithuania	127227
+France	Luxembourg	956
+France	Madagascar	11
+France	Malaysia	12249
+France	Mali	3
+France	Malta	4462
+France	Mayotte	7
+France	Mexico	23738
+France	Morocco	25173
+France	Myanmar	2
+France	Netherland Antilles	16389
+France	Netherlands	1166754
+France	New Zealand	55
+France	Niger	23404
+France	Nigeria	1040085
+France	Norway	5390734
+France	Pakistan	92
+France	Panama	713
+France	Peru	47
+France	Poland	38189
+France	Portugal	22171
+France	Qatar	15078
+France	Republic of Korea	835
+France	Romania	11617
+France	Russian Federation	3604346
+France	Saudi Arabia	2079038
+France	Sierra Leone	50
+France	Singapore	7550
+France	Slovakia	245
+France	South Africa	150704
+France	Spain	191831
+France	Sri Lanka	124
+France	Sudan	26675
+France	Sweden	102074
+France	Switzerland	44696
+France	Syrian Arab Republic	533962
+France	Thailand	101
+France	Trinidad and Tobago	140266
+France	Tunisia	65407
+France	Turkey	17782
+France	Turkmenistan	6077
+France	Ukraine	26786
+France	United Arab Emirates	306400
+France	United Kingdom	2736005
+France	United States of America	277333
+France	Uzbekistan	9624
+France	Venezuela	181435
+France	Viet Nam	7326
+France	Yemen	26985
+French Polynesia	Australia	81020
+French Polynesia	Belgium	17
+French Polynesia	Canada	7
+French Polynesia	Denmark	2
+French Polynesia	Finland	20
+French Polynesia	France	1568
+French Polynesia	Germany	35
+French Polynesia	Italy	3
+French Polynesia	Netherlands	37
+French Polynesia	New Zealand	6444
+French Polynesia	Republic of Korea	263
+French Polynesia	Singapore	969
+French Polynesia	Spain	2
+French Polynesia	Thailand	302
+French Polynesia	United Kingdom	37
+French Polynesia	United States of America	633
+French South Antarctic Territories	Australia	266
+French South Antarctic Territories	France	4
+French South Antarctic Territories	Germany	219
+French South Antarctic Territories	Mauritius	28
+Gabon	Bahrain	6322
+Gabon	Belgium	716
+Gabon	Burkina Faso	16
+Gabon	Cameroon	3521
+Gabon	Canada	5
+Gabon	China	10
+Gabon	Congo	3298
+Gabon	CutedIvoire	6585
+Gabon	Egypt	193
+Gabon	France	8082
+Gabon	Germany	261
+Gabon	Greece	1782
+Gabon	Hong Kong (SARC)	2
+Gabon	India	4653
+Gabon	Italy	367
+Gabon	Netherlands	476
+Gabon	Nigeria	2554
+Gabon	Norway	219
+Gabon	Saudi Arabia	8235
+Gabon	Senegal	2
+Gabon	South Africa	820
+Gabon	Spain	5846
+Gabon	Switzerland	290
+Gabon	Turkey	1
+Gabon	United Arab Emirates	583
+Gabon	United Kingdom	4640
+Gabon	United States of America	1922
+Gambia	Belgium	31
+Gambia	Cameroon	21
+Gambia	CutedIvoire	7131
+Gambia	France	127
+Gambia	Germany	114
+Gambia	Hong Kong (SARC)	84
+Gambia	India	5
+Gambia	Netherlands	10
+Gambia	Nigeria	1
+Gambia	Saudi Arabia	2
+Gambia	Senegal	1555
+Gambia	South Africa	11
+Gambia	United Arab Emirates	41
+Gambia	United Kingdom	4
+Gambia	United States of America	373
+Georgia	Armenia	5802
+Georgia	Austria	2
+Georgia	Azerbaijan	65174
+Georgia	Bahamas	230
+Georgia	Belgium	2
+Georgia	British Virgin Islands	1
+Georgia	Bulgaria	858
+Georgia	China	31
+Georgia	Czech Republic	211
+Georgia	Denmark	2
+Georgia	Egypt	364
+Georgia	Finland	47
+Georgia	Germany	58
+Georgia	Greece	1780
+Georgia	Iran (Islamic Republic of)	588
+Georgia	Kazakhstan	2219
+Georgia	Netherlands	26
+Georgia	Niue	8
+Georgia	Romania	16011
+Georgia	Russian Federation	54170
+Georgia	Sweden	1
+Georgia	Switzerland	535
+Georgia	Turkey	337
+Georgia	Turkmenistan	3657
+Georgia	Ukraine	2959
+Georgia	United Arab Emirates	52
+Georgia	United Kingdom	77
+Georgia	United States of America	32
+Georgia	Uzbekistan	244
+Germany	Algeria	835965
+Germany	Angola	53331
+Germany	Argentina	10703
+Germany	Australia	210638
+Germany	Austria	258796
+Germany	Azerbaijan	227422
+Germany	Belarus	2434
+Germany	Belgium	1508169
+Germany	Brazil	21287
+Germany	Bulgaria	405
+Germany	Canada	61239
+Germany	China	140341
+Germany	Chinese Taipei	8
+Germany	Colombia	132678
+Germany	Congo	140421
+Germany	Croatia	689
+Germany	Cyprus	3
+Germany	Czech Republic	198336
+Germany	Denmark	307814
+Germany	Ecuador	1
+Germany	Egypt	50054
+Germany	Estonia	15878
+Germany	Finland	162181
+Germany	France	567741
+Germany	Greece	7114
+Germany	Hong Kong (SARC)	11
+Germany	Hungary	86487
+Germany	Iceland	1
+Germany	India	28
+Germany	Indonesia	16641
+Germany	Iran (Islamic Republic of)	44785
+Germany	Ireland	249
+Germany	Israel	2912
+Germany	Italy	48587
+Germany	Japan	23337
+Germany	Kazakhstan	863273
+Germany	Kuwait	20105
+Germany	Latvia	22169
+Germany	Libyan Arab Jamahiriya	1900486
+Germany	Lithuania	45057
+Germany	Luxembourg	2145
+Germany	Malaysia	30764
+Germany	Mauritania	916
+Germany	Mexico	4828
+Germany	Morocco	6603
+Germany	Netherlands	5142682
+Germany	New Zealand	1324
+Germany	Nigeria	601155
+Germany	Norway	4073130
+Germany	Poland	544216
+Germany	Portugal	86
+Germany	Republic of Korea	395
+Germany	Romania	4621
+Germany	Russian Federation	5870845
+Germany	Rwanda	6
+Germany	Saudi Arabia	668985
+Germany	Slovakia	37807
+Germany	Slovenia	2438
+Germany	South Africa	227477
+Germany	Spain	64641
+Germany	Sri Lanka	2
+Germany	Sweden	338458
+Germany	Switzerland	153187
+Germany	Syrian Arab Republic	1213379
+Germany	Trinidad and Tobago	1215
+Germany	Tunisia	21177
+Germany	Turkey	1116
+Germany	Ukraine	62181
+Germany	United Arab Emirates	17
+Germany	United Kingdom	3847647
+Germany	United States of America	132471
+Germany	Venezuela	235650
+Germany	Viet Nam	16176
+Germany	Zimbabwe	124
+Gibraltar	Azerbaijan	3037
+Gibraltar	Belarus	1795
+Gibraltar	Belgium	19481
+Gibraltar	Bulgaria	3722
+Gibraltar	Colombia	1947
+Gibraltar	Costa Rica	64
+Gibraltar	Croatia	5700
+Gibraltar	CutedIvoire	5563
+Gibraltar	Denmark	6839
+Gibraltar	Estonia	42
+Gibraltar	France	24342
+Gibraltar	Georgia	11
+Gibraltar	Greece	65560
+Gibraltar	Italy	46573
+Gibraltar	Netherlands	2643
+Gibraltar	Norway	9399
+Gibraltar	Portugal	5
+Gibraltar	Romania	43556
+Gibraltar	Russian Federation	248703
+Gibraltar	Spain	223435
+Gibraltar	Switzerland	1
+Gibraltar	Trinidad and Tobago	142
+Gibraltar	Turkey	12933
+Gibraltar	Ukraine	3594
+Gibraltar	United Kingdom	12291
+Gibraltar	United States of America	5354
+Greece	Albania	338
+Greece	Algeria	82483
+Greece	Aruba	431
+Greece	Australia	11955
+Greece	Austria	3807
+Greece	Azerbaijan	12116
+Greece	Belarus	68
+Greece	Belgium	3082
+Greece	Bosnia and Herzegovina	8903
+Greece	Bulgaria	19548
+Greece	Canada	113
+Greece	China	10863
+Greece	Colombia	4033
+Greece	Croatia	594
+Greece	Cyprus	27
+Greece	Czech Republic	965
+Greece	Denmark	583
+Greece	Egypt	19696
+Greece	Estonia	105
+Greece	Finland	198
+Greece	France	5068
+Greece	Georgia	6233
+Greece	Germany	16069
+Greece	Hungary	911
+Greece	India	25915
+Greece	Indonesia	2415
+Greece	Iran (Islamic Republic of)	943324
+Greece	Iraq	229692
+Greece	Israel	27595
+Greece	Italy	16626
+Greece	Japan	23
+Greece	Kazakhstan	40997
+Greece	Latvia	11920
+Greece	Libyan Arab Jamahiriya	264907
+Greece	Lithuania	827
+Greece	Malta	177
+Greece	Mexico	11
+Greece	Netherlands	10457
+Greece	Poland	2
+Greece	Portugal	241
+Greece	Republic of Korea	5
+Greece	Romania	29786
+Greece	Russian Federation	1301941
+Greece	Saudi Arabia	1029466
+Greece	Serbia and Montenegro	9044
+Greece	Singapore	357
+Greece	Slovakia	5203
+Greece	South Africa	1677
+Greece	Spain	4325
+Greece	Sudan	7826
+Greece	Sweden	103
+Greece	Switzerland	151
+Greece	Syrian Arab Republic	4148
+Greece	The former Yugoslav Republic of Macedonia	13
+Greece	Turkey	23229
+Greece	Turkmenistan	1451
+Greece	Ukraine	76206
+Greece	United Arab Emirates	240
+Greece	United Kingdom	15004
+Greece	United States of America	26603
+Greece	Venezuela	2484
+Greenland	Canada	20
+Greenland	Denmark	3303
+Greenland	Norway	46268
+Grenada	Bahamas	5
+Grenada	Barbados	59
+Grenada	Canada	4
+Grenada	Germany	4
+Grenada	Honduras	1
+Grenada	Jamaica	8
+Grenada	Japan	4
+Grenada	Netherland Antilles	29
+Grenada	Netherlands	10
+Grenada	Trinidad and Tobago	17004
+Grenada	United Kingdom	41
+Grenada	United States of America	1526
+Grenada	Venezuela	173
+Guatemala	Aruba	1473
+Guatemala	Austria	9
+Guatemala	Bahamas	2951
+Guatemala	Barbados	32812
+Guatemala	Belgium	49
+Guatemala	Belize	861
+Guatemala	Bermuda	188
+Guatemala	Brazil	4
+Guatemala	Canada	585
+Guatemala	Chile	11014
+Guatemala	China	4226
+Guatemala	Chinese Taipei	5
+Guatemala	Colombia	22258
+Guatemala	Costa Rica	15
+Guatemala	Denmark	2
+Guatemala	Ecuador	29227
+Guatemala	El Salvador	7503
+Guatemala	Finland	7
+Guatemala	France	164
+Guatemala	Germany	1712
+Guatemala	Greenland	12
+Guatemala	Honduras	1095
+Guatemala	Hong Kong (SARC)	8
+Guatemala	Hungary	16
+Guatemala	Iran (Islamic Republic of)	69
+Guatemala	Israel	2
+Guatemala	Italy	5
+Guatemala	Japan	71
+Guatemala	Malta	3868
+Guatemala	Mexico	40782
+Guatemala	Netherland Antilles	38950
+Guatemala	Netherlands	29
+Guatemala	Nicaragua	2442
+Guatemala	Panama	4016
+Guatemala	Peru	3170
+Guatemala	Republic of Korea	10501
+Guatemala	Spain	11
+Guatemala	Sweden	17
+Guatemala	Switzerland	14
+Guatemala	Trinidad and Tobago	11889
+Guatemala	United Kingdom	45
+Guatemala	United States of America	298056
+Guatemala	Venezuela	233690
+Guinea	Belgium	3793
+Guinea	Chinese Taipei	1
+Guinea	CutedIvoire	68671
+Guinea	Denmark	442
+Guinea	Egypt	26
+Guinea	France	4793
+Guinea	Gabon	3579
+Guinea	Germany	52
+Guinea	Iran (Islamic Republic of)	36
+Guinea	Italy	1501
+Guinea	Lebanon	2
+Guinea	Netherlands	14444
+Guinea	Russian Federation	342
+Guinea	Senegal	368
+Guinea	South Africa	37
+Guinea	Spain	445
+Guinea	Switzerland	3619
+Guinea	Togo	2
+Guinea	United Arab Emirates	46
+Guinea	United Kingdom	4710
+Guinea	United States of America	5073
+Guyana	Antigua and Barbuda	193
+Guyana	Armenia	1406
+Guyana	Aruba	523
+Guyana	Belgium	101
+Guyana	Brazil	14
+Guyana	China	1
+Guyana	France	1
+Guyana	Germany	10
+Guyana	Jamaica	77
+Guyana	Netherland Antilles	67062
+Guyana	Netherlands	132
+Guyana	Senegal	1514
+Guyana	Singapore	1
+Guyana	Suriname	1019
+Guyana	Trinidad and Tobago	29277
+Guyana	Ukraine	17
+Guyana	United Kingdom	229
+Guyana	United States of America	10304
+Guyana	Venezuela	18485
+Haiti	Belgium	26
+Haiti	Canada	54
+Haiti	China	22
+Haiti	Dominican Republic	1677
+Haiti	France	42
+Haiti	Germany	180
+Haiti	Hungary	185
+Haiti	India	18
+Haiti	Mexico	6
+Haiti	Netherlands	21
+Haiti	Republic of Korea	9
+Haiti	Trinidad and Tobago	2173
+Haiti	United States of America	8327
+Haiti	Venezuela	12
+Honduras	Argentina	52
+Honduras	Aruba	63
+Honduras	Bahamas	112
+Honduras	Barbados	106228
+Honduras	Belgium	64
+Honduras	Canada	2
+Honduras	China	982
+Honduras	Colombia	356
+Honduras	Costa Rica	47
+Honduras	Democratic People's Republic of Korea	25
+Honduras	Ecuador	544
+Honduras	El Salvador	2167
+Honduras	France	3
+Honduras	Germany	191
+Honduras	Guatemala	2822
+Honduras	Jamaica	67583
+Honduras	Japan	77
+Honduras	Liberia	12791
+Honduras	Mexico	1635
+Honduras	Netherland Antilles	87874
+Honduras	Netherlands	61
+Honduras	Nicaragua	4054
+Honduras	Panama	87005
+Honduras	Republic of Korea	500
+Honduras	Spain	1304
+Honduras	Sweden	1
+Honduras	Trinidad and Tobago	3258
+Honduras	United Kingdom	5111
+Honduras	United States of America	142357
+Honduras	Venezuela	189966
+Honduras	Yemen	16
+Hong Kong (SARC)	Australia	55359
+Hong Kong (SARC)	Belgium	732
+Hong Kong (SARC)	Brazil	31
+Hong Kong (SARC)	Canada	553
+Hong Kong (SARC)	China	1225639
+Hong Kong (SARC)	Chinese Taipei	80548
+Hong Kong (SARC)	Cuba	43
+Hong Kong (SARC)	Denmark	5
+Hong Kong (SARC)	Egypt	4
+Hong Kong (SARC)	Finland	52
+Hong Kong (SARC)	France	11460
+Hong Kong (SARC)	Georgia	28
+Hong Kong (SARC)	Germany	4128
+Hong Kong (SARC)	India	3
+Hong Kong (SARC)	Indonesia	104604
+Hong Kong (SARC)	Italy	659
+Hong Kong (SARC)	Japan	147507
+Hong Kong (SARC)	Macao (SAR)	123
+Hong Kong (SARC)	Malaysia	75769
+Hong Kong (SARC)	Netherlands	3428
+Hong Kong (SARC)	New Zealand	65
+Hong Kong (SARC)	Norway	6
+Hong Kong (SARC)	Philippines	25518
+Hong Kong (SARC)	Republic of Korea	713975
+Hong Kong (SARC)	Russian Federation	72907
+Hong Kong (SARC)	Saudi Arabia	51
+Hong Kong (SARC)	Singapore	1380348
+Hong Kong (SARC)	South Africa	709
+Hong Kong (SARC)	Spain	302
+Hong Kong (SARC)	Sweden	130
+Hong Kong (SARC)	Switzerland	142
+Hong Kong (SARC)	Thailand	107653
+Hong Kong (SARC)	United Arab Emirates	229
+Hong Kong (SARC)	United Kingdom	1727
+Hong Kong (SARC)	United States of America	23780
+Hong Kong (SARC)	Viet Nam	22
+Hungary	Austria	222466
+Hungary	Belarus	63790
+Hungary	Belgium	3623
+Hungary	Bosnia and Herzegovina	5
+Hungary	Canada	86
+Hungary	Chinese Taipei	2
+Hungary	Croatia	27121
+Hungary	Cyprus	97
+Hungary	Czech Republic	37199
+Hungary	Denmark	15
+Hungary	Estonia	24
+Hungary	Finland	76
+Hungary	France	67285
+Hungary	Georgia	2
+Hungary	Germany	26429
+Hungary	Greece	241
+Hungary	Israel	3
+Hungary	Italy	941
+Hungary	Japan	116
+Hungary	Kazakhstan	12433
+Hungary	Latvia	243
+Hungary	Lithuania	802
+Hungary	Netherlands	2596
+Hungary	Norway	20
+Hungary	Poland	86912
+Hungary	Romania	2652
+Hungary	Russian Federation	1081741
+Hungary	Serbia and Montenegro	3569
+Hungary	Sierra Leone	127
+Hungary	Slovakia	95176
+Hungary	Spain	794
+Hungary	Sweden	680
+Hungary	Switzerland	23430
+Hungary	Turkey	159
+Hungary	Ukraine	46404
+Hungary	United Arab Emirates	88
+Hungary	United Kingdom	330
+Hungary	United States of America	478
+Iceland	Australia	5
+Iceland	Austria	8
+Iceland	Belgium	6365
+Iceland	Canada	20
+Iceland	Czech Republic	11
+Iceland	Denmark	4400
+Iceland	Estonia	26035
+Iceland	Finland	878
+Iceland	France	40
+Iceland	Germany	33584
+Iceland	Hungary	28
+Iceland	Italy	24
+Iceland	Japan	2
+Iceland	Lithuania	1253
+Iceland	Mexico	2
+Iceland	Netherlands	19855
+Iceland	Norway	54686
+Iceland	Poland	3400
+Iceland	Russian Federation	24974
+Iceland	Sweden	4492
+Iceland	Switzerland	17
+Iceland	United Kingdom	6664
+Iceland	United States of America	120
+India	Australia	571367
+India	Bahrain	69157
+India	Belgium	1
+India	Bhutan	274
+India	Bulgaria	318
+India	Canada	1368
+India	Chile	15
+India	China	265393
+India	Chinese Taipei	1525
+India	Colombia	1175
+India	Czech Republic	1864
+India	Denmark	3771
+India	Egypt	59322
+India	Finland	1
+India	France	419
+India	Germany	1000
+India	Iceland	672
+India	Indonesia	117397
+India	Iran (Islamic Republic of)	28960
+India	Ireland	7
+India	Italy	92
+India	Japan	32917
+India	Kuwait	27664
+India	Libyan Arab Jamahiriya	6324
+India	Malaysia	3012
+India	Netherlands	400
+India	New Zealand	9403
+India	Norway	2601
+India	Pakistan	3512
+India	Philippines	485
+India	Qatar	6767
+India	Romania	265
+India	Russian Federation	12144
+India	Saudi Arabia	173561
+India	Singapore	5588
+India	South Africa	131482
+India	Spain	2603
+India	Sri Lanka	5465
+India	Sudan	403
+India	Sweden	1
+India	Switzerland	17388
+India	Thailand	465
+India	Ukraine	945
+India	United Arab Emirates	157717
+India	United Kingdom	225
+India	United States of America	24147
+India	Viet Nam	9
+India	Yemen	40599
+Indonesia	Afghanistan	1238
+Indonesia	Algeria	426706
+Indonesia	Australia	47395
+Indonesia	Austria	1
+Indonesia	Belgium	655
+Indonesia	Brazil	21
+Indonesia	Brunei Darussalam	35891
+Indonesia	Canada	505
+Indonesia	China	322084
+Indonesia	Chinese Taipei	23834
+Indonesia	Denmark	1
+Indonesia	France	4852
+Indonesia	Gabon	12
+Indonesia	Germany	1636
+Indonesia	Greece	2
+Indonesia	Hong Kong (SARC)	670
+Indonesia	Hungary	473
+Indonesia	India	8284
+Indonesia	Iran (Islamic Republic of)	97260
+Indonesia	Italy	8641
+Indonesia	Japan	40965
+Indonesia	Kuwait	656903
+Indonesia	Macao (SAR)	14
+Indonesia	Malaysia	344939
+Indonesia	Mexico	5
+Indonesia	Netherland Antilles	10
+Indonesia	Netherlands	6371
+Indonesia	New Zealand	3
+Indonesia	Nicaragua	26075
+Indonesia	Nigeria	444480
+Indonesia	Pakistan	115398
+Indonesia	Philippines	2
+Indonesia	Republic of Korea	381386
+Indonesia	Saudi Arabia	1102953
+Indonesia	Singapore	1055197
+Indonesia	South Africa	129
+Indonesia	Spain	232
+Indonesia	Sudan	34240
+Indonesia	Sweden	3264
+Indonesia	Switzerland	188
+Indonesia	Thailand	68953
+Indonesia	Turkey	88
+Indonesia	United Arab Emirates	108330
+Indonesia	United Kingdom	678
+Indonesia	United States of America	39306
+Indonesia	Viet Nam	114716
+Iran (Islamic Republic of)	Aruba	22
+Iran (Islamic Republic of)	Australia	27235
+Iran (Islamic Republic of)	Austria	1247
+Iran (Islamic Republic of)	Bahrain	14778
+Iran (Islamic Republic of)	Belgium	1553
+Iran (Islamic Republic of)	Canada	9
+Iran (Islamic Republic of)	China	56702
+Iran (Islamic Republic of)	Chinese Taipei	105
+Iran (Islamic Republic of)	Denmark	18
+Iran (Islamic Republic of)	Finland	7
+Iran (Islamic Republic of)	France	1407
+Iran (Islamic Republic of)	Germany	3163
+Iran (Islamic Republic of)	Hungary	666
+Iran (Islamic Republic of)	India	223226
+Iran (Islamic Republic of)	Iraq	37
+Iran (Islamic Republic of)	Italy	1326
+Iran (Islamic Republic of)	Japan	21
+Iran (Islamic Republic of)	Kazakhstan	555
+Iran (Islamic Republic of)	Malaysia	1849
+Iran (Islamic Republic of)	Netherlands	43148
+Iran (Islamic Republic of)	Republic of Korea	1237
+Iran (Islamic Republic of)	Russian Federation	25
+Iran (Islamic Republic of)	Saudi Arabia	15398
+Iran (Islamic Republic of)	Singapore	106980
+Iran (Islamic Republic of)	South Africa	42
+Iran (Islamic Republic of)	Spain	3367
+Iran (Islamic Republic of)	Sweden	1118
+Iran (Islamic Republic of)	Switzerland	3644
+Iran (Islamic Republic of)	Turkey	79
+Iran (Islamic Republic of)	Ukraine	2
+Iran (Islamic Republic of)	United Arab Emirates	24206
+Iran (Islamic Republic of)	United Kingdom	28384
+Iran (Islamic Republic of)	United States of America	151
+Iran (Islamic Republic of)	Uzbekistan	167
+Iraq	Austria	3
+Iraq	Belgium	18
+Iraq	China	113
+Iraq	Denmark	17
+Iraq	France	22
+Iraq	Iran (Islamic Republic of)	723
+Iraq	Italy	28
+Iraq	Japan	25
+Iraq	Jordan	190
+Iraq	Lebanon	22
+Iraq	Netherlands	50
+Iraq	Republic of Korea	101
+Iraq	Russian Federation	14
+Iraq	Slovakia	20
+Iraq	United Arab Emirates	506
+Ireland	Australia	13558
+Ireland	Belgium	1671
+Ireland	Canada	67
+Ireland	China	291
+Ireland	Colombia	892
+Ireland	CutedIvoire	7
+Ireland	Denmark	9687
+Ireland	Egypt	29
+Ireland	Estonia	766
+Ireland	France	40203
+Ireland	Gabon	1
+Ireland	Germany	4501
+Ireland	Greece	4
+Ireland	Hong Kong (SARC)	9
+Ireland	Indonesia	9038
+Ireland	Israel	13
+Ireland	Italy	424
+Ireland	Japan	43
+Ireland	Lithuania	7593
+Ireland	Mexico	6
+Ireland	Netherlands	44590
+Ireland	Norway	618948
+Ireland	Poland	25061
+Ireland	Portugal	4
+Ireland	Russian Federation	4141
+Ireland	Rwanda	308
+Ireland	South Africa	7533
+Ireland	Spain	1374
+Ireland	Sweden	2506
+Ireland	Switzerland	31
+Ireland	Turkey	1
+Ireland	United Arab Emirates	17141
+Ireland	United Kingdom	1121085
+Ireland	United States of America	35189
+Ireland	Venezuela	6969
+Israel	Australia	82464
+Israel	Austria	30
+Israel	Belgium	4115
+Israel	Brazil	2
+Israel	Bulgaria	3
+Israel	Canada	173
+Israel	China	1435
+Israel	Chinese Taipei	1
+Israel	Colombia	75504
+Israel	Cyprus	18
+Israel	Czech Republic	4
+Israel	Denmark	23
+Israel	Egypt	1861
+Israel	Estonia	178
+Israel	Finland	1025
+Israel	France	3849
+Israel	Germany	4953
+Israel	Greece	1100
+Israel	Hong Kong (SARC)	79
+Israel	Hungary	11
+Israel	Iceland	2
+Israel	Indonesia	43879
+Israel	Ireland	480
+Israel	Italy	25202
+Israel	Japan	40
+Israel	Jordan	319
+Israel	Latvia	192
+Israel	Lebanon	4
+Israel	Lithuania	678
+Israel	Netherlands	2071
+Israel	Norway	2
+Israel	Republic of Korea	129
+Israel	Romania	5676
+Israel	Russian Federation	12785
+Israel	Singapore	6218
+Israel	South Africa	233508
+Israel	Spain	1415
+Israel	Sweden	879
+Israel	Switzerland	16481
+Israel	Thailand	10
+Israel	Turkey	1540
+Israel	Ukraine	40
+Israel	United Kingdom	5570
+Israel	United States of America	35154
+Italy	Albania	3244
+Italy	Algeria	943073
+Italy	Angola	47445
+Italy	Australia	154737
+Italy	Austria	58554
+Italy	Azerbaijan	600797
+Italy	Bahrain	4516
+Italy	Belarus	34
+Italy	Belgium	111575
+Italy	Belize	2
+Italy	Bosnia and Herzegovina	44
+Italy	Brazil	31853
+Italy	Bulgaria	47776
+Italy	Cameroon	357075
+Italy	Canada	67079
+Italy	China	47029
+Italy	Chinese Taipei	1
+Italy	Colombia	74620
+Italy	Congo	32162
+Italy	Croatia	28930
+Italy	Czech Republic	7335
+Italy	Democratic Republic of the Congo	523
+Italy	Denmark	3278
+Italy	Egypt	552508
+Italy	Estonia	11847
+Italy	Finland	529
+Italy	France	816078
+Italy	Germany	155555
+Italy	Greece	5686
+Italy	Hong Kong (SARC)	20
+Italy	Hungary	7371
+Italy	India	3848
+Italy	Indonesia	89089
+Italy	Iran (Islamic Republic of)	1839802
+Italy	Iraq	605311
+Italy	Ireland	1175
+Italy	Israel	73185
+Italy	Japan	6780
+Italy	Kazakhstan	363293
+Italy	Kuwait	101770
+Italy	Lao People's Democratic Republic	191
+Italy	Latvia	3996
+Italy	Libyan Arab Jamahiriya	4697125
+Italy	Lithuania	7990
+Italy	Luxembourg	69
+Italy	Malta	40475
+Italy	Mexico	23507
+Italy	Morocco	80295
+Italy	Mozambique	1222
+Italy	Netherlands	150419
+Italy	Nigeria	303839
+Italy	Norway	480158
+Italy	Poland	12599
+Italy	Portugal	10899
+Italy	Republic of Korea	25
+Italy	Romania	17826
+Italy	Russian Federation	2986368
+Italy	Saudi Arabia	1608067
+Italy	Serbia and Montenegro	73
+Italy	Singapore	23
+Italy	Slovakia	1655
+Italy	Slovenia	77978
+Italy	South Africa	210010
+Italy	Spain	56900
+Italy	Sri Lanka	54
+Italy	Sudan	11801
+Italy	Sweden	3402
+Italy	Switzerland	904425
+Italy	Syrian Arab Republic	963239
+Italy	Thailand	5
+Italy	Tunisia	210645
+Italy	Turkey	161395
+Italy	Turkmenistan	54964
+Italy	Ukraine	303028
+Italy	United Kingdom	484752
+Italy	United States of America	429634
+Italy	Venezuela	215038
+Jamaica	Barbados	22
+Jamaica	Belgium	30
+Jamaica	Brazil	3
+Jamaica	Canada	101
+Jamaica	China	26
+Jamaica	Chinese Taipei	5
+Jamaica	Colombia	1539
+Jamaica	Denmark	2
+Jamaica	Ecuador	7509
+Jamaica	France	34
+Jamaica	Germany	331
+Jamaica	Italy	1
+Jamaica	Japan	9
+Jamaica	Mexico	93173
+Jamaica	Netherland Antilles	6349
+Jamaica	Netherlands	38
+Jamaica	Republic of Korea	3
+Jamaica	Spain	15
+Jamaica	Sweden	2
+Jamaica	Trinidad and Tobago	238489
+Jamaica	United Kingdom	2075
+Jamaica	United States of America	181979
+Jamaica	Venezuela	84058
+Japan	Algeria	61920
+Japan	Angola	20017
+Japan	Australia	6353215
+Japan	Austria	30
+Japan	Azerbaijan	3392
+Japan	Bahrain	145805
+Japan	Belgium	5598
+Japan	Brazil	63
+Japan	Brunei Darussalam	1695671
+Japan	Canada	585136
+Japan	China	2032830
+Japan	Chinese Taipei	59036
+Japan	Colombia	1334
+Japan	Czech Republic	370
+Japan	Democratic People's Republic of Korea	13742
+Japan	Denmark	858
+Japan	Ecuador	48016
+Japan	Egypt	37076
+Japan	Estonia	3
+Japan	Fiji	9
+Japan	Finland	1193
+Japan	France	9068
+Japan	Germany	13001
+Japan	Hong Kong (SARC)	121
+Japan	India	161603
+Japan	Indonesia	7106459
+Japan	Iran (Islamic Republic of)	4958238
+Japan	Iraq	136942
+Japan	Ireland	1550
+Japan	Israel	49
+Japan	Italy	2784
+Japan	Kuwait	4426961
+Japan	Latvia	482
+Japan	Lithuania	349
+Japan	Madagascar	55
+Japan	Malaysia	3362382
+Japan	Maldives	3
+Japan	Mexico	195311
+Japan	Micronesia (Federated States of)	10
+Japan	Nauru	12
+Japan	Nepal	2
+Japan	Netherland Antilles	12199
+Japan	Netherlands	33126
+Japan	New Zealand	94394
+Japan	Nigeria	243911
+Japan	Norway	374
+Japan	Oman	2350123
+Japan	Pakistan	30840
+Japan	Peru	51
+Japan	Philippines	86646
+Japan	Qatar	5999250
+Japan	Republic of Korea	2999092
+Japan	Russian Federation	375597
+Japan	Saudi Arabia	12000873
+Japan	Singapore	297725
+Japan	South Africa	49301
+Japan	Spain	692
+Japan	Sri Lanka	119
+Japan	Sudan	286424
+Japan	Sweden	448
+Japan	Switzerland	798
+Japan	Thailand	81185
+Japan	Trinidad and Tobago	429
+Japan	United Arab Emirates	12642566
+Japan	United Kingdom	17808
+Japan	United States Minor Outlying Islands	2698
+Japan	United States of America	783937
+Japan	Venezuela	42393
+Japan	Viet Nam	480474
+Japan	Yemen	53513
+Jordan	Australia	5
+Jordan	Belgium	44
+Jordan	Canada	2
+Jordan	China	95
+Jordan	Denmark	47
+Jordan	Egypt	265
+Jordan	Finland	39
+Jordan	France	659
+Jordan	Germany	1245
+Jordan	Greece	22336
+Jordan	Iran (Islamic Republic of)	100
+Jordan	Iraq	661927
+Jordan	Israel	7
+Jordan	Italy	35
+Jordan	Kuwait	1202
+Jordan	Latvia	85
+Jordan	Lebanon	13
+Jordan	Lithuania	5
+Jordan	Netherlands	203
+Jordan	Oman	696
+Jordan	Palestine	447
+Jordan	Qatar	71
+Jordan	Republic of Korea	57
+Jordan	Russian Federation	4
+Jordan	Saudi Arabia	2329
+Jordan	Singapore	57
+Jordan	Spain	47
+Jordan	Sri Lanka	37
+Jordan	Switzerland	6
+Jordan	Syrian Arab Republic	123
+Jordan	Turkey	142
+Jordan	United Arab Emirates	5161
+Jordan	United Kingdom	281
+Jordan	United States of America	598
+Jordan	Yemen	3
+Kazakhstan	Austria	1
+Kazakhstan	Azerbaijan	1366
+Kazakhstan	Belarus	28
+Kazakhstan	Belgium	934
+Kazakhstan	Canada	57
+Kazakhstan	China	20232
+Kazakhstan	Czech Republic	2
+Kazakhstan	Denmark	2
+Kazakhstan	Finland	2552
+Kazakhstan	France	2642
+Kazakhstan	Germany	3722
+Kazakhstan	Greece	440
+Kazakhstan	Guinea	85
+Kazakhstan	Hungary	1
+Kazakhstan	India	50
+Kazakhstan	Iran (Islamic Republic of)	24
+Kazakhstan	Italy	145
+Kazakhstan	Japan	10
+Kazakhstan	Kyrgyzstan	12699
+Kazakhstan	Latvia	187
+Kazakhstan	Lithuania	81
+Kazakhstan	Netherlands	443
+Kazakhstan	Norway	3
+Kazakhstan	Oman	1128
+Kazakhstan	Poland	147
+Kazakhstan	Russian Federation	611243
+Kazakhstan	Rwanda	70
+Kazakhstan	Sierra Leone	4
+Kazakhstan	Singapore	1138
+Kazakhstan	Slovakia	7
+Kazakhstan	Sweden	68
+Kazakhstan	Switzerland	39
+Kazakhstan	Tajikistan	996
+Kazakhstan	The former Yugoslav Republic of Macedonia	7
+Kazakhstan	Turkey	503
+Kazakhstan	Turkmenistan	74819
+Kazakhstan	Ukraine	431
+Kazakhstan	United Arab Emirates	485
+Kazakhstan	United Kingdom	311
+Kazakhstan	United States of America	1198
+Kazakhstan	Uzbekistan	55683
+Kenya	Argentina	81
+Kenya	Australia	1972
+Kenya	Bahamas	672
+Kenya	Bahrain	62148
+Kenya	Belgium	2416
+Kenya	Canada	70
+Kenya	China	299
+Kenya	Chinese Taipei	32
+Kenya	Democratic People's Republic of Korea	116
+Kenya	Democratic Republic of the Congo	15
+Kenya	Egypt	292
+Kenya	France	3488
+Kenya	Germany	7899
+Kenya	India	2039
+Kenya	Iran (Islamic Republic of)	2423
+Kenya	Ireland	36
+Kenya	Israel	39
+Kenya	Italy	3315
+Kenya	Japan	7
+Kenya	Kuwait	3786
+Kenya	Malaysia	1035
+Kenya	Mauritius	11
+Kenya	Netherlands	3352
+Kenya	Republic of Korea	1160
+Kenya	Russian Federation	31
+Kenya	Saudi Arabia	188530
+Kenya	Seychelles	18
+Kenya	Singapore	17126
+Kenya	South Africa	11561
+Kenya	Spain	766
+Kenya	Sri Lanka	123
+Kenya	Sudan	1343
+Kenya	Switzerland	4677
+Kenya	Thailand	56
+Kenya	Uganda	19
+Kenya	Ukraine	6
+Kenya	United Arab Emirates	468100
+Kenya	United Kingdom	29966
+Kenya	United Republic of Tanzania	120
+Kenya	United States of America	431
+Kenya	Yemen	16833
+Kuwait	Belgium	400
+Kuwait	Canada	212
+Kuwait	Denmark	70
+Kuwait	Finland	89
+Kuwait	France	690
+Kuwait	Germany	3630
+Kuwait	Greece	409
+Kuwait	India	107
+Kuwait	Iran (Islamic Republic of)	194
+Kuwait	Italy	1950
+Kuwait	Japan	676
+Kuwait	Jordan	145
+Kuwait	Netherlands	514
+Kuwait	Oman	1623
+Kuwait	Republic of Korea	110
+Kuwait	Saudi Arabia	10975
+Kuwait	Singapore	309
+Kuwait	Spain	172
+Kuwait	Sweden	169
+Kuwait	Switzerland	112
+Kuwait	United Arab Emirates	11772
+Kuwait	United Kingdom	858
+Kuwait	United States of America	3148
+Kyrgyzstan	Azerbaijan	129
+Kyrgyzstan	Belarus	4
+Kyrgyzstan	Belgium	195
+Kyrgyzstan	Canada	184
+Kyrgyzstan	China	2
+Kyrgyzstan	Finland	54
+Kyrgyzstan	Germany	408
+Kyrgyzstan	Greece	166
+Kyrgyzstan	Iran (Islamic Republic of)	931
+Kyrgyzstan	Italy	9
+Kyrgyzstan	Kazakhstan	39332
+Kyrgyzstan	Lithuania	27
+Kyrgyzstan	Poland	13
+Kyrgyzstan	Republic of Korea	4
+Kyrgyzstan	Russian Federation	8775
+Kyrgyzstan	Tajikistan	285
+Kyrgyzstan	Turkey	104
+Kyrgyzstan	Turkmenistan	8716
+Kyrgyzstan	Ukraine	8
+Kyrgyzstan	United Arab Emirates	16
+Kyrgyzstan	United Kingdom	325
+Kyrgyzstan	United States of America	107
+Kyrgyzstan	Uzbekistan	61222
+Lao People's Democratic Republic	Belgium	17
+Lao People's Democratic Republic	China	8
+Lao People's Democratic Republic	CutedIvoire	22
+Lao People's Democratic Republic	India	2
+Lao People's Democratic Republic	Italy	768
+Lao People's Democratic Republic	Thailand	70308
+Lao People's Democratic Republic	United Kingdom	1
+Lao People's Democratic Republic	United States of America	14
+Lao People's Democratic Republic	Viet Nam	11040
+Latvia	Austria	2
+Latvia	Belarus	81153
+Latvia	Belgium	978
+Latvia	Canada	24
+Latvia	China	375
+Latvia	Czech Republic	42
+Latvia	Denmark	310
+Latvia	Estonia	20687
+Latvia	Finland	3553
+Latvia	France	445
+Latvia	Germany	2499
+Latvia	Hungary	293
+Latvia	Iceland	3
+Latvia	Ireland	44
+Latvia	Italy	29
+Latvia	Japan	2
+Latvia	Kazakhstan	528
+Latvia	Lithuania	60995
+Latvia	Netherlands	368
+Latvia	Norway	8066
+Latvia	Poland	207
+Latvia	Russian Federation	160308
+Latvia	Spain	574
+Latvia	Sweden	1578
+Latvia	Switzerland	37
+Latvia	Ukraine	1303
+Latvia	United Kingdom	698
+Latvia	United States of America	90
+Latvia	Uzbekistan	9
+Lebanon	Algeria	4838
+Lebanon	Aruba	1083
+Lebanon	Austria	42
+Lebanon	Azerbaijan	9384
+Lebanon	Bahrain	51493
+Lebanon	Belgium	2192
+Lebanon	Canada	48
+Lebanon	China	544
+Lebanon	Chinese Taipei	2
+Lebanon	Croatia	804
+Lebanon	Democratic People's Republic of Korea	74
+Lebanon	Denmark	75
+Lebanon	Egypt	12951
+Lebanon	France	85953
+Lebanon	Germany	5228
+Lebanon	Greece	102216
+Lebanon	Hungary	19
+Lebanon	India	1
+Lebanon	Iran (Islamic Republic of)	85
+Lebanon	Ireland	38
+Lebanon	Italy	113748
+Lebanon	Japan	22
+Lebanon	Jordan	569
+Lebanon	Kuwait	128
+Lebanon	Latvia	25
+Lebanon	Libyan Arab Jamahiriya	12653
+Lebanon	Lithuania	155
+Lebanon	Malta	7027
+Lebanon	Netherlands	4871
+Lebanon	Oman	425
+Lebanon	Poland	76
+Lebanon	Portugal	85
+Lebanon	Qatar	3152
+Lebanon	Romania	58
+Lebanon	Russian Federation	380686
+Lebanon	Saudi Arabia	159660
+Lebanon	Singapore	324
+Lebanon	South Africa	8
+Lebanon	Spain	13814
+Lebanon	Sri Lanka	4
+Lebanon	Sweden	6537
+Lebanon	Switzerland	63
+Lebanon	Syrian Arab Republic	211300
+Lebanon	Thailand	61
+Lebanon	Turkey	52177
+Lebanon	Ukraine	19956
+Lebanon	United Arab Emirates	8489
+Lebanon	United Kingdom	10676
+Lebanon	United States of America	9469
+Lesotho	Chinese Taipei	9
+Lesotho	Swaziland	1
+Lesotho	Thailand	7
+Liberia	Algeria	5
+Liberia	Barbados	41
+Liberia	Belgium	3750
+Liberia	Brazil	7
+Liberia	Bulgaria	53
+Liberia	Cameroon	2012
+Liberia	China	6396
+Liberia	Croatia	417
+Liberia	CutedIvoire	19558
+Liberia	Estonia	4117
+Liberia	France	2
+Liberia	Gabon	96
+Liberia	Germany	506
+Liberia	Greece	12355
+Liberia	Iran (Islamic Republic of)	5
+Liberia	Italy	3
+Liberia	Latvia	4
+Liberia	Lebanon	7
+Liberia	Mexico	1759
+Liberia	Netherlands	485
+Liberia	Peru	7
+Liberia	Philippines	150
+Liberia	Romania	26
+Liberia	Russian Federation	9724
+Liberia	Senegal	2011
+Liberia	Singapore	229
+Liberia	South Africa	88
+Liberia	Spain	137
+Liberia	Trinidad and Tobago	12104
+Liberia	Tunisia	16
+Liberia	Turkey	104
+Liberia	Ukraine	6
+Liberia	United Arab Emirates	118
+Liberia	United Kingdom	24
+Liberia	United States of America	165
+Liberia	Viet Nam	11
+Libyan Arab Jamahiriya	Austria	7
+Libyan Arab Jamahiriya	Belgium	148
+Libyan Arab Jamahiriya	Bulgaria	14
+Libyan Arab Jamahiriya	Canada	209
+Libyan Arab Jamahiriya	Czech Republic	1
+Libyan Arab Jamahiriya	France	9824
+Libyan Arab Jamahiriya	Germany	725
+Libyan Arab Jamahiriya	Greece	17744
+Libyan Arab Jamahiriya	India	8
+Libyan Arab Jamahiriya	Iran (Islamic Republic of)	5
+Libyan Arab Jamahiriya	Ireland	10
+Libyan Arab Jamahiriya	Italy	306044
+Libyan Arab Jamahiriya	Japan	3
+Libyan Arab Jamahiriya	Madagascar	11
+Libyan Arab Jamahiriya	Malta	6
+Libyan Arab Jamahiriya	Netherlands	445
+Libyan Arab Jamahiriya	Niger	583
+Libyan Arab Jamahiriya	Republic of Korea	205
+Libyan Arab Jamahiriya	Slovakia	5
+Libyan Arab Jamahiriya	Spain	347
+Libyan Arab Jamahiriya	Sweden	9
+Libyan Arab Jamahiriya	Switzerland	6
+Libyan Arab Jamahiriya	Tunisia	795
+Libyan Arab Jamahiriya	Turkey	88
+Libyan Arab Jamahiriya	United Arab Emirates	1814
+Libyan Arab Jamahiriya	United Kingdom	1691
+Lithuania	Austria	90
+Lithuania	Belarus	29136
+Lithuania	Belgium	2543
+Lithuania	Canada	26
+Lithuania	Czech Republic	88
+Lithuania	Denmark	85
+Lithuania	Estonia	4363
+Lithuania	Finland	2686
+Lithuania	France	938
+Lithuania	Germany	2487
+Lithuania	Greece	16
+Lithuania	Hungary	81
+Lithuania	Italy	170
+Lithuania	Kazakhstan	196
+Lithuania	Latvia	4643
+Lithuania	Mexico	70
+Lithuania	Netherlands	875
+Lithuania	Norway	11
+Lithuania	Poland	1916
+Lithuania	Russian Federation	1230080
+Lithuania	Spain	177
+Lithuania	Sweden	959
+Lithuania	Switzerland	3
+Lithuania	Ukraine	335
+Lithuania	United Kingdom	538
+Lithuania	United States of America	33
+Lithuania	Uzbekistan	7841
+Lithuania	Venezuela	1227
+Lithuania	Viet Nam	1144
+Luxembourg	Australia	11
+Luxembourg	Austria	1
+Luxembourg	Belgium	480175
+Luxembourg	France	10211
+Luxembourg	Germany	108567
+Luxembourg	Italy	331
+Luxembourg	Netherlands	15870
+Luxembourg	Spain	12
+Luxembourg	Switzerland	28
+Luxembourg	United Kingdom	17
+Luxembourg	United States of America	23
+Luxembourg	Venezuela	126
+Macao (SAR)	Canada	5
+Macao (SAR)	China	98395
+Macao (SAR)	Chinese Taipei	53
+Macao (SAR)	France	1
+Macao (SAR)	Germany	45
+Macao (SAR)	Hong Kong (SARC)	15
+Macao (SAR)	Indonesia	805
+Macao (SAR)	Italy	71
+Macao (SAR)	Japan	58
+Macao (SAR)	Malaysia	69
+Macao (SAR)	Netherlands	3
+Macao (SAR)	Philippines	2360
+Macao (SAR)	Republic of Korea	769
+Macao (SAR)	Saudi Arabia	9631
+Macao (SAR)	Singapore	47148
+Macao (SAR)	Switzerland	95
+Macao (SAR)	United Kingdom	20627
+Macao (SAR)	United States of America	8651
+Madagascar	Australia	2
+Madagascar	Austria	1
+Madagascar	Bahrain	54796
+Madagascar	Belgium	227
+Madagascar	Benin	125
+Madagascar	Chad	1
+Madagascar	China	1209
+Madagascar	Democratic People's Republic of Korea	2
+Madagascar	Denmark	3
+Madagascar	Egypt	171
+Madagascar	France	1960
+Madagascar	Germany	214
+Madagascar	Hong Kong (SARC)	4
+Madagascar	Hungary	45
+Madagascar	Iran (Islamic Republic of)	1570
+Madagascar	Israel	2
+Madagascar	Italy	73
+Madagascar	Japan	131
+Madagascar	Kenya	7086
+Madagascar	Liberia	27
+Madagascar	Malaysia	78
+Madagascar	Mauritius	11
+Madagascar	Netherlands	853
+Madagascar	Norway	18
+Madagascar	Portugal	142
+Madagascar	Qatar	28323
+Madagascar	Russian Federation	438
+Madagascar	Saudi Arabia	3873
+Madagascar	Seychelles	20
+Madagascar	Singapore	1367
+Madagascar	South Africa	10255
+Madagascar	Spain	127
+Madagascar	Sudan	77
+Madagascar	Switzerland	104
+Madagascar	Thailand	1
+Madagascar	United Arab Emirates	59255
+Madagascar	United Kingdom	8
+Madagascar	United Republic of Tanzania	565
+Madagascar	United States of America	253
+Madagascar	Yemen	668
+Malawi	Anguilla	1
+Malawi	Botswana	31
+Malawi	Chile	11
+Malawi	China	117
+Malawi	France	12
+Malawi	Germany	1
+Malawi	Japan	13
+Malawi	Kenya	38
+Malawi	Kyrgyzstan	1
+Malawi	Mauritius	65
+Malawi	Mozambique	3082
+Malawi	Saudi Arabia	2137
+Malawi	South Africa	59922
+Malawi	United Arab Emirates	3104
+Malawi	United Kingdom	22867
+Malawi	United Republic of Tanzania	57
+Malawi	United States of America	11
+Malawi	Zambia	59
+Malawi	Zimbabwe	2799
+Malaysia	Afghanistan	6
+Malaysia	Argentina	15
+Malaysia	Australia	63321
+Malaysia	Austria	1
+Malaysia	Belgium	1852
+Malaysia	Brazil	5685
+Malaysia	Brunei Darussalam	149
+Malaysia	Canada	260
+Malaysia	China	27873
+Malaysia	Chinese Taipei	6608
+Malaysia	Colombia	27
+Malaysia	CutedIvoire	2
+Malaysia	Democratic People's Republic of Korea	4
+Malaysia	Denmark	50
+Malaysia	Egypt	40
+Malaysia	Finland	39
+Malaysia	France	1876
+Malaysia	Germany	3662
+Malaysia	Greece	2
+Malaysia	Hong Kong (SARC)	3731
+Malaysia	India	1582
+Malaysia	Indonesia	164592
+Malaysia	Iran (Islamic Republic of)	126062
+Malaysia	Ireland	4
+Malaysia	Italy	3029
+Malaysia	Japan	10479
+Malaysia	Kuwait	30043
+Malaysia	Myanmar	117
+Malaysia	Netherlands	2232
+Malaysia	New Zealand	14
+Malaysia	Niger	2
+Malaysia	Oman	358481
+Malaysia	Pakistan	1
+Malaysia	Philippines	6354
+Malaysia	Qatar	35899
+Malaysia	Republic of Korea	18842
+Malaysia	Russian Federation	16851
+Malaysia	Saudi Arabia	534122
+Malaysia	Singapore	1869623
+Malaysia	South Africa	3673
+Malaysia	Spain	464
+Malaysia	Sudan	16
+Malaysia	Sweden	1329
+Malaysia	Switzerland	108
+Malaysia	Thailand	35072
+Malaysia	Turkey	37
+Malaysia	United Arab Emirates	71026
+Malaysia	United Kingdom	2217
+Malaysia	United States of America	32840
+Malaysia	Venezuela	9945
+Malaysia	Viet Nam	124595
+Malaysia	Yemen	294119
+Maldives	Australia	5
+Maldives	Bahrain	418
+Maldives	Canada	2
+Maldives	Denmark	7
+Maldives	France	1103
+Maldives	Germany	11
+Maldives	Hong Kong (SARC)	15
+Maldives	India	1382
+Maldives	Indonesia	3
+Maldives	Italy	6
+Maldives	Japan	2
+Maldives	Malaysia	17280
+Maldives	Singapore	16831
+Maldives	South Africa	16
+Maldives	Sri Lanka	264
+Maldives	Sweden	5
+Maldives	Switzerland	598
+Maldives	Thailand	9
+Maldives	United Arab Emirates	7564
+Maldives	United Kingdom	7
+Maldives	United States of America	244
+Mali	Australia	10
+Mali	Belgium	364
+Mali	Benin	9066
+Mali	Burkina Faso	47
+Mali	China	71
+Mali	CutedIvoire	120191
+Mali	Egypt	54
+Mali	France	1436
+Mali	Germany	67
+Mali	Ghana	275
+Mali	Guinea	201
+Mali	Hungary	12
+Mali	Iran (Islamic Republic of)	16
+Mali	Italy	2
+Mali	Japan	1
+Mali	Kuwait	4
+Mali	Netherlands	101
+Mali	Nigeria	34
+Mali	Saudi Arabia	136
+Mali	Senegal	27306
+Mali	South Africa	64
+Mali	Spain	93
+Mali	Togo	28346
+Mali	Tunisia	93
+Mali	United Arab Emirates	58
+Mali	United Kingdom	45
+Mali	United States of America	14
+Malta	Australia	30
+Malta	Austria	22
+Malta	Belgium	405
+Malta	Canada	7
+Malta	China	1
+Malta	Chinese Taipei	1
+Malta	Cyprus	181
+Malta	Denmark	21
+Malta	Finland	11
+Malta	France	4207
+Malta	Georgia	7277
+Malta	Germany	505
+Malta	Greece	2254
+Malta	Hong Kong (SARC)	1
+Malta	Hungary	25
+Malta	Indonesia	3
+Malta	Ireland	15
+Malta	Israel	14605
+Malta	Italy	130972
+Malta	Latvia	5
+Malta	Libyan Arab Jamahiriya	43885
+Malta	Lithuania	6
+Malta	Malaysia	2
+Malta	Netherlands	230
+Malta	Republic of Korea	2
+Malta	Russian Federation	19720
+Malta	Saudi Arabia	8
+Malta	Spain	106
+Malta	Sri Lanka	20
+Malta	Switzerland	15
+Malta	Syrian Arab Republic	2580
+Malta	United Arab Emirates	17
+Malta	United Kingdom	1718
+Malta	United States of America	242
+Marshall Islands	Australia	3
+Marshall Islands	Azerbaijan	424
+Marshall Islands	Bulgaria	7
+Marshall Islands	China	37
+Marshall Islands	Chinese Taipei	23
+Marshall Islands	Estonia	1671
+Marshall Islands	Greece	1940
+Marshall Islands	Mexico	118
+Marshall Islands	Philippines	9
+Marshall Islands	Romania	33
+Marshall Islands	Singapore	9643
+Marshall Islands	Trinidad and Tobago	296
+Marshall Islands	United States of America	178
+Mauritania	Algeria	12901
+Mauritania	Argentina	146
+Mauritania	Belgium	147
+Mauritania	Canada	2
+Mauritania	China	4
+Mauritania	Chinese Taipei	4
+Mauritania	CutedIvoire	475
+Mauritania	Denmark	452
+Mauritania	Finland	7
+Mauritania	France	9665
+Mauritania	Germany	351
+Mauritania	Japan	11
+Mauritania	Morocco	3
+Mauritania	Netherlands	17
+Mauritania	Senegal	473
+Mauritania	Spain	191
+Mauritania	United Arab Emirates	33
+Mauritania	United Kingdom	12
+Mauritania	United States of America	60
+Mauritius	Australia	6
+Mauritius	Bahrain	33022
+Mauritius	Belgium	18
+Mauritius	China	304
+Mauritius	Chinese Taipei	2
+Mauritius	Egypt	25
+Mauritius	France	548
+Mauritius	Germany	86
+Mauritius	Greece	1
+Mauritius	Hong Kong (SARC)	20
+Mauritius	India	2462
+Mauritius	Indonesia	5
+Mauritius	Iran (Islamic Republic of)	6414
+Mauritius	Italy	62
+Mauritius	Japan	55
+Mauritius	Kenya	48
+Mauritius	Lebanon	1
+Mauritius	Madagascar	14747
+Mauritius	Malaysia	2874
+Mauritius	Netherlands	32
+Mauritius	Norway	2
+Mauritius	Saudi Arabia	36588
+Mauritius	Singapore	10905
+Mauritius	South Africa	85293
+Mauritius	Spain	28
+Mauritius	Switzerland	2
+Mauritius	Thailand	86
+Mauritius	Turkey	26
+Mauritius	United Arab Emirates	30249
+Mauritius	United Kingdom	67
+Mauritius	United States of America	181
+Mayotte	Belgium	33
+Mayotte	Comoros	10
+Mayotte	France	755
+Mayotte	Germany	1
+Mayotte	Italy	1
+Mayotte	Madagascar	17
+Mayotte	Mauritius	378
+Mayotte	Singapore	1
+Mayotte	South Africa	495
+Mayotte	United Arab Emirates	2
+Mexico	Algeria	162839
+Mexico	Angola	3394
+Mexico	Argentina	2263
+Mexico	Aruba	31263
+Mexico	Australia	73873
+Mexico	Austria	70
+Mexico	Bahamas	8414
+Mexico	Belgium	10054
+Mexico	Bermuda	1
+Mexico	Brazil	5357
+Mexico	Canada	29623
+Mexico	Chile	6308
+Mexico	China	95976
+Mexico	Chinese Taipei	10471
+Mexico	Colombia	62290
+Mexico	Costa Rica	17
+Mexico	Democratic People's Republic of Korea	53
+Mexico	Denmark	67
+Mexico	Dominican Republic	8
+Mexico	Ecuador	71777
+Mexico	Estonia	10
+Mexico	Ethiopia	2
+Mexico	Finland	25
+Mexico	France	21428
+Mexico	Gabon	1
+Mexico	Germany	19142
+Mexico	Ghana	4
+Mexico	Guatemala	4
+Mexico	Hong Kong (SARC)	616
+Mexico	Hungary	6
+Mexico	India	20
+Mexico	Israel	8841
+Mexico	Italy	127
+Mexico	Japan	12821
+Mexico	Kazakhstan	1
+Mexico	Kenya	4
+Mexico	Kuwait	17953
+Mexico	Malaysia	493
+Mexico	Netherlands	37346
+Mexico	New Zealand	14
+Mexico	Nigeria	19052
+Mexico	Norway	79019
+Mexico	Panama	33212
+Mexico	Peru	23522
+Mexico	Philippines	4
+Mexico	Poland	5
+Mexico	Portugal	27579
+Mexico	Qatar	18679
+Mexico	Republic of Korea	21283
+Mexico	Russian Federation	15017
+Mexico	Saudi Arabia	176882
+Mexico	Singapore	24959
+Mexico	South Africa	2269
+Mexico	Spain	697
+Mexico	Swaziland	1
+Mexico	Sweden	93
+Mexico	Switzerland	75
+Mexico	Syrian Arab Republic	26
+Mexico	Thailand	10
+Mexico	Ukraine	53
+Mexico	United Kingdom	416
+Mexico	United States of America	4052449
+Mexico	Venezuela	118606
+Mexico	Viet Nam	1227
+Micronesia (Federated States of)	Australia	1451
+Micronesia (Federated States of)	China	9
+Micronesia (Federated States of)	Chinese Taipei	98
+Micronesia (Federated States of)	Philippines	21
+Micronesia (Federated States of)	Republic of Korea	5
+Micronesia (Federated States of)	Singapore	9265
+Micronesia (Federated States of)	United States of America	341
+Mongolia	Australia	89
+Mongolia	Belgium	6
+Mongolia	Canada	56
+Mongolia	China	7165
+Mongolia	Finland	2
+Mongolia	Germany	299
+Mongolia	Hong Kong (SARC)	1
+Mongolia	Japan	753
+Mongolia	Kazakhstan	314
+Mongolia	New Zealand	2
+Mongolia	Poland	1
+Mongolia	Republic of Korea	1923
+Mongolia	Russian Federation	128246
+Mongolia	Singapore	112
+Mongolia	Sweden	1
+Mongolia	Switzerland	8
+Mongolia	Ukraine	59
+Mongolia	United Arab Emirates	7
+Mongolia	United Kingdom	5
+Mongolia	United States of America	88
+Mongolia	Uzbekistan	16
+Montserrat	Saint Kitts and Nevis	489
+Montserrat	Trinidad and Tobago	88
+Montserrat	United States of America	926
+Mozambique	Belgium	7
+Mozambique	Belize	5
+Mozambique	China	26
+Mozambique	Chinese Taipei	1
+Mozambique	Finland	3
+Mozambique	France	229
+Mozambique	India	180
+Mozambique	Iran (Islamic Republic of)	84
+Mozambique	Ireland	22
+Mozambique	Japan	1
+Mozambique	Malawi	1
+Mozambique	Namibia	27
+Mozambique	Norway	8
+Mozambique	Portugal	262
+Mozambique	Republic of Korea	2
+Mozambique	Saudi Arabia	200
+Mozambique	Singapore	1
+Mozambique	South Africa	37835
+Mozambique	Spain	2
+Mozambique	Swaziland	1
+Mozambique	Ukraine	498
+Mozambique	United Arab Emirates	946
+Mozambique	United Kingdom	1
+Mozambique	United States of America	8
+Mozambique	Zimbabwe	133
+Myanmar	Australia	7082
+Myanmar	Belgium	32
+Myanmar	China	33096
+Myanmar	Chinese Taipei	8
+Myanmar	Estonia	11
+Myanmar	France	19
+Myanmar	Germany	19
+Myanmar	Greece	47
+Myanmar	India	4
+Myanmar	Iran (Islamic Republic of)	942
+Myanmar	Italy	72
+Myanmar	Japan	124
+Myanmar	Malaysia	96315
+Myanmar	Mexico	25
+Myanmar	Netherlands	10
+Myanmar	Republic of Korea	83449
+Myanmar	Singapore	98987
+Myanmar	Switzerland	1
+Myanmar	Thailand	21365
+Myanmar	United Arab Emirates	42
+Myanmar	United Kingdom	59
+Namibia	Angola	20
+Namibia	Argentina	384
+Namibia	Belgium	10
+Namibia	Botswana	1
+Namibia	Faroe Islands	34
+Namibia	Germany	131
+Namibia	Guinea	35
+Namibia	Netherlands	13
+Namibia	Seychelles	18
+Namibia	South Africa	160070
+Namibia	Spain	119
+Nauru	Australia	176
+Nauru	Singapore	161
+Nauru	United States of America	5
+Netherlands	Algeria	1350159
+Netherlands	Angola	99122
+Netherlands	Argentina	4955
+Netherlands	Australia	139331
+Netherlands	Austria	5395
+Netherlands	Belarus	23
+Netherlands	Belgium	1054535
+Netherlands	Bosnia and Herzegovina	1028
+Netherlands	Brazil	5330
+Netherlands	Bulgaria	12387
+Netherlands	Canada	117410
+Netherlands	Chile	32
+Netherlands	China	84060
+Netherlands	Chinese Taipei	1
+Netherlands	Colombia	251190
+Netherlands	Cuba	18776
+Netherlands	Czech Republic	1790
+Netherlands	Denmark	271642
+Netherlands	Egypt	32926
+Netherlands	Equatorial Guinea	8632
+Netherlands	Estonia	57221
+Netherlands	Finland	8735
+Netherlands	France	296893
+Netherlands	Germany	890730
+Netherlands	Greece	6888
+Netherlands	Hungary	3175
+Netherlands	Iceland	723
+Netherlands	India	34149
+Netherlands	Indonesia	142086
+Netherlands	Iran (Islamic Republic of)	191383
+Netherlands	Iraq	795694
+Netherlands	Ireland	7121
+Netherlands	Israel	262
+Netherlands	Italy	70169
+Netherlands	Japan	9000
+Netherlands	Kazakhstan	7
+Netherlands	Kuwait	1040018
+Netherlands	Latvia	45923
+Netherlands	Libyan Arab Jamahiriya	24868
+Netherlands	Lithuania	37195
+Netherlands	Luxembourg	19
+Netherlands	Malaysia	3599
+Netherlands	Mexico	16
+Netherlands	Netherland Antilles	19953
+Netherlands	New Zealand	384
+Netherlands	Niger	13
+Netherlands	Nigeria	272893
+Netherlands	Norway	2133274
+Netherlands	Poland	52047
+Netherlands	Portugal	21592
+Netherlands	Republic of Korea	9272
+Netherlands	Romania	28926
+Netherlands	Russian Federation	2118725
+Netherlands	Saudi Arabia	1890626
+Netherlands	Singapore	5796
+Netherlands	Slovakia	1516
+Netherlands	South Africa	384975
+Netherlands	Spain	108542
+Netherlands	Sri Lanka	5
+Netherlands	Sweden	95757
+Netherlands	Switzerland	5506
+Netherlands	Syrian Arab Republic	55939
+Netherlands	The former Yugoslav Republic of Macedonia	262
+Netherlands	Trinidad and Tobago	1
+Netherlands	Tunisia	4597
+Netherlands	Turkey	1900
+Netherlands	Ukraine	1002
+Netherlands	United Arab Emirates	9576
+Netherlands	United Kingdom	3445795
+Netherlands	United States of America	237005
+Netherlands	Venezuela	112201
+Netherlands	Viet Nam	4771
+Netherlands	Yemen	1279
+New Caledonia	Australia	76508
+New Caledonia	Belgium	51
+New Caledonia	Canada	2
+New Caledonia	China	4
+New Caledonia	Finland	1
+New Caledonia	France	1897
+New Caledonia	Germany	8
+New Caledonia	Italy	16
+New Caledonia	New Zealand	1461
+New Caledonia	Singapore	51084
+New Caledonia	Spain	2
+New Caledonia	Switzerland	4
+New Caledonia	United Kingdom	21
+New Caledonia	United States of America	65
+New Caledonia	Vanuatu	8
+New Caledonia	Viet Nam	1749
+New Zealand	Australia	415079
+New Zealand	Austria	5
+New Zealand	Belgium	242
+New Zealand	Brunei Darussalam	21848
+New Zealand	Canada	383
+New Zealand	China	1732
+New Zealand	Chinese Taipei	3302
+New Zealand	Denmark	19
+New Zealand	Finland	3
+New Zealand	France	548
+New Zealand	French Polynesia	4
+New Zealand	Germany	762
+New Zealand	Hong Kong (SARC)	23
+New Zealand	India	332
+New Zealand	Indonesia	34482
+New Zealand	Iran (Islamic Republic of)	11936
+New Zealand	Israel	3
+New Zealand	Italy	64
+New Zealand	Japan	11784
+New Zealand	Kuwait	89013
+New Zealand	Macao (SAR)	6
+New Zealand	Malaysia	152561
+New Zealand	Netherlands	310
+New Zealand	Oman	128598
+New Zealand	Papua New Guinea	32126
+New Zealand	Qatar	47839
+New Zealand	Republic of Korea	14738
+New Zealand	Saudi Arabia	127548
+New Zealand	Singapore	53218
+New Zealand	South Africa	1219
+New Zealand	Spain	149
+New Zealand	Sweden	80
+New Zealand	Switzerland	14
+New Zealand	Thailand	5962
+New Zealand	Trinidad and Tobago	12
+New Zealand	United Arab Emirates	108175
+New Zealand	United Kingdom	705
+New Zealand	United States of America	53612
+Nicaragua	Argentina	14
+Nicaragua	Aruba	357
+Nicaragua	Bahamas	3260
+Nicaragua	Belgium	2
+Nicaragua	Brazil	1
+Nicaragua	Canada	129
+Nicaragua	China	416
+Nicaragua	Costa Rica	405
+Nicaragua	Ecuador	13627
+Nicaragua	El Salvador	4818
+Nicaragua	Germany	52
+Nicaragua	Guatemala	9548
+Nicaragua	Honduras	1922
+Nicaragua	Hong Kong (SARC)	12
+Nicaragua	Israel	39
+Nicaragua	Italy	4
+Nicaragua	Japan	1
+Nicaragua	Mauritius	23
+Nicaragua	Mexico	42656
+Nicaragua	Netherland Antilles	29039
+Nicaragua	Netherlands	3
+Nicaragua	Panama	6468
+Nicaragua	Peru	606
+Nicaragua	Russian Federation	66
+Nicaragua	Spain	7
+Nicaragua	Switzerland	2562
+Nicaragua	Trinidad and Tobago	14083
+Nicaragua	United States of America	14948
+Nicaragua	Venezuela	159789
+Nicaragua	Wallis and Futuna Islands	720
+Niger	Algeria	23
+Niger	Bahrain	1438
+Niger	Belgium	17
+Niger	Benin	450
+Niger	China	4
+Niger	CutedIvoire	10190
+Niger	Egypt	60
+Niger	France	3563
+Niger	Ghana	12
+Niger	Israel	7765
+Niger	Italy	1036
+Niger	Libyan Arab Jamahiriya	1433
+Niger	Morocco	110
+Niger	Netherlands	1485
+Niger	Nigeria	16841
+Niger	Saudi Arabia	350
+Niger	Senegal	13
+Niger	South Africa	1490
+Niger	Spain	17
+Niger	Togo	200
+Niger	United Arab Emirates	2584
+Niger	United Kingdom	6
+Niger	United Republic of Tanzania	272
+Niger	United States of America	26
+Nigeria	Algeria	882
+Nigeria	Argentina	19
+Nigeria	Belgium	12451
+Nigeria	Bermuda	2648
+Nigeria	Brazil	1179
+Nigeria	Bulgaria	2
+Nigeria	Cameroon	13
+Nigeria	Canada	119
+Nigeria	China	1856
+Nigeria	Chinese Taipei	159
+Nigeria	Congo	56
+Nigeria	CutedIvoire	6184
+Nigeria	Democratic People's Republic of Korea	6
+Nigeria	Denmark	91
+Nigeria	Egypt	175
+Nigeria	France	9189
+Nigeria	Germany	29457
+Nigeria	Ghana	15
+Nigeria	Greece	43
+Nigeria	India	193
+Nigeria	Indonesia	27
+Nigeria	Iran (Islamic Republic of)	24
+Nigeria	Ireland	101
+Nigeria	Italy	2581
+Nigeria	Japan	1390
+Nigeria	Malaysia	4
+Nigeria	Netherlands	12288
+Nigeria	Panama	443
+Nigeria	Poland	52
+Nigeria	Portugal	2810
+Nigeria	Republic of Korea	5588
+Nigeria	Russian Federation	953
+Nigeria	Saudi Arabia	2553
+Nigeria	Singapore	1076
+Nigeria	Somalia	21
+Nigeria	South Africa	2829
+Nigeria	Spain	4557
+Nigeria	Suriname	25
+Nigeria	Sweden	1960
+Nigeria	Switzerland	12836
+Nigeria	Syrian Arab Republic	2414
+Nigeria	Thailand	652
+Nigeria	Turks and Caicos Islands	17
+Nigeria	United Arab Emirates	78
+Nigeria	United Kingdom	24151
+Nigeria	United States of America	42014
+Nigeria	Venezuela	624
+Nigeria	Viet Nam	171
+Nigeria	Western Sahara	17
+Niue	Hong Kong (SARC)	36
+Niue	New Zealand	19
+Norfolk Island	Australia	86
+Norfolk Island	Indonesia	2221
+Norfolk Island	New Zealand	12
+Northern Mariana Islands	Australia	16
+Northern Mariana Islands	Chinese Taipei	1270
+Northern Mariana Islands	Japan	4
+Northern Mariana Islands	Singapore	40277
+Norway	Argentina	4188
+Norway	Australia	1390
+Norway	Austria	18
+Norway	Belgium	30762
+Norway	Brazil	26
+Norway	Bulgaria	2
+Norway	Canada	4921
+Norway	China	13595
+Norway	Chinese Taipei	1
+Norway	Colombia	10754
+Norway	Cyprus	485
+Norway	Denmark	188818
+Norway	Estonia	2051
+Norway	Faroe Islands	6
+Norway	Finland	23651
+Norway	France	26609
+Norway	Germany	71846
+Norway	Greece	1
+Norway	Hong Kong (SARC)	557
+Norway	Ireland	1748
+Norway	Israel	3
+Norway	Italy	241
+Norway	Japan	1283
+Norway	Latvia	3918
+Norway	Lithuania	39
+Norway	Malaysia	21
+Norway	Mexico	80
+Norway	Netherlands	41151
+Norway	New Zealand	149
+Norway	Poland	54590
+Norway	Russian Federation	98836
+Norway	Slovakia	36
+Norway	Spain	3286
+Norway	Sri Lanka	6
+Norway	Sweden	440912
+Norway	Switzerland	1801
+Norway	United Kingdom	277763
+Norway	United States of America	45269
+Oman	Australia	67
+Oman	Bahrain	16502
+Oman	Belgium	358
+Oman	Canada	37
+Oman	China	4
+Oman	Chinese Taipei	50
+Oman	Denmark	42
+Oman	Egypt	39
+Oman	Finland	41
+Oman	France	112
+Oman	Germany	500
+Oman	India	476
+Oman	Indonesia	12
+Oman	Iran (Islamic Republic of)	733
+Oman	Ireland	32
+Oman	Italy	115
+Oman	Japan	93
+Oman	Kuwait	20572
+Oman	Malaysia	21
+Oman	Netherlands	5464
+Oman	New Zealand	11
+Oman	Poland	29
+Oman	Saudi Arabia	4043
+Oman	Singapore	1209
+Oman	South Africa	27
+Oman	Spain	1
+Oman	Thailand	10
+Oman	Tunisia	11
+Oman	United Arab Emirates	119096
+Oman	United Kingdom	362
+Oman	United States of America	1055
+Oman	Yemen	10
+Palau	Australia	55
+Palau	Chinese Taipei	53
+Palau	Philippines	802
+Palau	Singapore	1025
+Palau	United States of America	16
+Panama	Argentina	3
+Panama	Aruba	326
+Panama	Austria	1
+Panama	Barbados	791
+Panama	Belgium	48
+Panama	Brazil	2
+Panama	Canada	17
+Panama	Chile	1887
+Panama	China	653
+Panama	Chinese Taipei	105
+Panama	Colombia	95022
+Panama	Congo	711
+Panama	Costa Rica	1364
+Panama	Ecuador	230196
+Panama	El Salvador	2269
+Panama	France	375
+Panama	Germany	64
+Panama	Guatemala	25
+Panama	Honduras	6
+Panama	Hong Kong (SARC)	14
+Panama	Hungary	12
+Panama	Italy	42
+Panama	Jamaica	504
+Panama	Japan	88
+Panama	Mexico	668
+Panama	Netherland Antilles	21967
+Panama	Netherlands	12
+Panama	Nicaragua	86
+Panama	Peru	1
+Panama	Saudi Arabia	8839
+Panama	Spain	42
+Panama	Sweden	375
+Panama	Switzerland	6
+Panama	Trinidad and Tobago	495
+Panama	United Kingdom	17
+Panama	United States of America	82017
+Panama	Venezuela	125525
+Papua New Guinea	Andorra	9
+Papua New Guinea	Australia	242891
+Papua New Guinea	Belgium	1
+Papua New Guinea	Cambodia	1
+Papua New Guinea	China	121
+Papua New Guinea	Chinese Taipei	654
+Papua New Guinea	Croatia	3
+Papua New Guinea	Ecuador	13
+Papua New Guinea	Fiji	130
+Papua New Guinea	France	17
+Papua New Guinea	French Polynesia	1
+Papua New Guinea	Gambia	9
+Papua New Guinea	Germany	86
+Papua New Guinea	Hong Kong (SARC)	3
+Papua New Guinea	Indonesia	38
+Papua New Guinea	Japan	77
+Papua New Guinea	Malaysia	81
+Papua New Guinea	Morocco	1
+Papua New Guinea	Nauru	1
+Papua New Guinea	New Zealand	1622
+Papua New Guinea	Norway	2
+Papua New Guinea	Philippines	153
+Papua New Guinea	Republic of Korea	202
+Papua New Guinea	Russian Federation	6610
+Papua New Guinea	Samoa	4
+Papua New Guinea	Sierra Leone	1
+Papua New Guinea	Singapore	38790
+Papua New Guinea	Slovenia	2
+Papua New Guinea	Solomon Islands	6
+Papua New Guinea	Sweden	30
+Papua New Guinea	Switzerland	2
+Papua New Guinea	Thailand	10
+Papua New Guinea	Ukraine	12
+Papua New Guinea	United Kingdom	15
+Papua New Guinea	United States Minor Outlying Islands	19
+Papua New Guinea	United States of America	2204
+Papua New Guinea	Vanuatu	1
+Papua New Guinea	Viet Nam	8
+Paraguay	Argentina	244869
+Paraguay	Bahamas	51429
+Paraguay	Belgium	68
+Paraguay	Brazil	13780
+Paraguay	Canada	13
+Paraguay	Chile	944
+Paraguay	China	14
+Paraguay	Chinese Taipei	32
+Paraguay	Colombia	61
+Paraguay	France	49
+Paraguay	Germany	200
+Paraguay	India	8
+Paraguay	Italy	5592
+Paraguay	Japan	64
+Paraguay	Malaysia	1
+Paraguay	Mexico	301
+Paraguay	Netherlands	38
+Paraguay	Panama	64
+Paraguay	Singapore	26
+Paraguay	Spain	282
+Paraguay	Sweden	31
+Paraguay	Switzerland	30594
+Paraguay	Ukraine	37
+Paraguay	United States of America	1943
+Paraguay	Uruguay	813
+Peru	Algeria	1829
+Peru	Argentina	45515
+Peru	Australia	8107
+Peru	Austria	5
+Peru	Bahamas	74
+Peru	Belgium	242
+Peru	Bolivia	727
+Peru	Brazil	69
+Peru	Canada	271
+Peru	Chile	61138
+Peru	China	8921
+Peru	Chinese Taipei	12
+Peru	Colombia	107770
+Peru	Dominica	5
+Peru	Ecuador	265603
+Peru	France	40
+Peru	Germany	1170
+Peru	Hong Kong (SARC)	120
+Peru	India	18
+Peru	Iran (Islamic Republic of)	41
+Peru	Italy	38
+Peru	Japan	44
+Peru	Mexico	42
+Peru	Netherland Antilles	628
+Peru	Netherlands	94
+Peru	Nigeria	123323
+Peru	Norway	271
+Peru	Pakistan	12
+Peru	Republic of Korea	35443
+Peru	Romania	7630
+Peru	Russian Federation	12
+Peru	Saudi Arabia	10213
+Peru	South Africa	19
+Peru	Spain	447
+Peru	Sweden	93
+Peru	Switzerland	943
+Peru	Trinidad and Tobago	25
+Peru	Turkey	341
+Peru	United Kingdom	275
+Peru	United States of America	59092
+Peru	Venezuela	229334
+Philippines	Australia	59364
+Philippines	Belgium	250
+Philippines	Brazil	3
+Philippines	Canada	137
+Philippines	China	101430
+Philippines	Chinese Taipei	48055
+Philippines	Czech Republic	11
+Philippines	Denmark	7
+Philippines	Finland	11
+Philippines	France	2153
+Philippines	Germany	375
+Philippines	Hong Kong (SARC)	7531
+Philippines	India	3282
+Philippines	Indonesia	138253
+Philippines	Iran (Islamic Republic of)	789295
+Philippines	Italy	56
+Philippines	Japan	29316
+Philippines	Malaysia	209481
+Philippines	Mexico	1
+Philippines	Netherlands	1221
+Philippines	New Zealand	510
+Philippines	Oman	257027
+Philippines	Pakistan	5
+Philippines	Qatar	131842
+Philippines	Republic of Korea	106557
+Philippines	Saudi Arabia	879538
+Philippines	Singapore	130166
+Philippines	Slovakia	9
+Philippines	Slovenia	13
+Philippines	South Africa	74
+Philippines	Spain	31
+Philippines	Sri Lanka	800
+Philippines	Sweden	28
+Philippines	Switzerland	18
+Philippines	Thailand	35845
+Philippines	Ukraine	316
+Philippines	United Arab Emirates	606421
+Philippines	United Kingdom	5807
+Philippines	United States Minor Outlying Islands	3
+Philippines	United States of America	8005
+Philippines	Viet Nam	11715
+Philippines	Yemen	21770
+Pitcairn	Greece	57
+Pitcairn	New Zealand	12
+Pitcairn	United States of America	134
+Poland	Austria	5394
+Poland	Belarus	17295
+Poland	Belgium	47626
+Poland	China	1184
+Poland	Colombia	2076
+Poland	Croatia	350
+Poland	Cyprus	11146
+Poland	Czech Republic	110966
+Poland	Denmark	35304
+Poland	Estonia	430
+Poland	Finland	3569
+Poland	France	13346
+Poland	Germany	246665
+Poland	Hungary	7922
+Poland	Italy	2115
+Poland	Japan	3189
+Poland	Kazakhstan	77507
+Poland	Latvia	1024
+Poland	Libyan Arab Jamahiriya	1089
+Poland	Lithuania	182893
+Poland	Netherlands	7106
+Poland	Norway	49400
+Poland	Republic of Korea	112
+Poland	Romania	179
+Poland	Russian Federation	3870638
+Poland	Slovakia	118785
+Poland	South Africa	95
+Poland	Spain	51
+Poland	Sweden	113557
+Poland	Switzerland	662
+Poland	The former Yugoslav Republic of Macedonia	136
+Poland	Ukraine	63577
+Poland	United Kingdom	20731
+Poland	United States of America	2819
+Poland	Uzbekistan	52687
+Portugal	Algeria	124279
+Portugal	Angola	111697
+Portugal	Australia	15276
+Portugal	Austria	1378
+Portugal	Bahamas	16
+Portugal	Belarus	4188
+Portugal	Belgium	11650
+Portugal	Brazil	32708
+Portugal	Canada	2764
+Portugal	China	1151
+Portugal	Colombia	48835
+Portugal	Democratic Republic of the Congo	5386
+Portugal	Denmark	25823
+Portugal	Egypt	61421
+Portugal	Estonia	47
+Portugal	Finland	209
+Portugal	France	89108
+Portugal	Gabon	25589
+Portugal	Germany	26158
+Portugal	Greece	15960
+Portugal	India	2706
+Portugal	Indonesia	16848
+Portugal	Iran (Islamic Republic of)	82139
+Portugal	Iraq	52742
+Portugal	Ireland	289
+Portugal	Italy	48781
+Portugal	Japan	24
+Portugal	Kuwait	8097
+Portugal	Latvia	17326
+Portugal	Libyan Arab Jamahiriya	59598
+Portugal	Lithuania	47141
+Portugal	Malaysia	7
+Portugal	Malta	3631
+Portugal	Mexico	102715
+Portugal	Netherlands	55714
+Portugal	Nigeria	710369
+Portugal	Norway	140414
+Portugal	Panama	1
+Portugal	Russian Federation	263492
+Portugal	Saudi Arabia	355362
+Portugal	South Africa	58271
+Portugal	Spain	652454
+Portugal	Sweden	20505
+Portugal	Switzerland	24
+Portugal	Syrian Arab Republic	12766
+Portugal	Turkey	60
+Portugal	Ukraine	13858
+Portugal	United Arab Emirates	21661
+Portugal	United Kingdom	307747
+Portugal	United States of America	44162
+Portugal	Venezuela	141744
+Qatar	Bahrain	2038
+Qatar	Belgium	172
+Qatar	Canada	60
+Qatar	Chinese Taipei	117
+Qatar	Denmark	1
+Qatar	Egypt	1
+Qatar	France	331
+Qatar	Germany	161
+Qatar	Greece	1642
+Qatar	India	24
+Qatar	Indonesia	1
+Qatar	Italy	373
+Qatar	Japan	60
+Qatar	Kuwait	178
+Qatar	Netherlands	73
+Qatar	Norway	5
+Qatar	Oman	1218
+Qatar	Portugal	50
+Qatar	Republic of Korea	24
+Qatar	Saudi Arabia	1640
+Qatar	Singapore	420
+Qatar	Somalia	10
+Qatar	South Africa	2
+Qatar	Spain	46
+Qatar	Sweden	19
+Qatar	Switzerland	80
+Qatar	Syrian Arab Republic	1
+Qatar	United Arab Emirates	7753
+Qatar	United Kingdom	469
+Qatar	United States of America	496
+Republic of Korea	Algeria	114251
+Republic of Korea	Andorra	2731
+Republic of Korea	Angola	219698
+Republic of Korea	Argentina	118893
+Republic of Korea	Australia	1875867
+Republic of Korea	Austria	56
+Republic of Korea	Bahrain	83730
+Republic of Korea	Bangladesh	2040
+Republic of Korea	Belgium	793
+Republic of Korea	Belize	1
+Republic of Korea	Brazil	33
+Republic of Korea	Brunei Darussalam	411303
+Republic of Korea	Cambodia	6
+Republic of Korea	Canada	260428
+Republic of Korea	China	1294192
+Republic of Korea	Chinese Taipei	95002
+Republic of Korea	Congo	387326
+Republic of Korea	Cyprus	182
+Republic of Korea	Denmark	3170
+Republic of Korea	Djibouti	1
+Republic of Korea	Ecuador	291909
+Republic of Korea	Egypt	104426
+Republic of Korea	Finland	72
+Republic of Korea	France	2150
+Republic of Korea	Gabon	119945
+Republic of Korea	Georgia	6
+Republic of Korea	Germany	4405
+Republic of Korea	Greece	6579
+Republic of Korea	Guinea	31941
+Republic of Korea	Hong Kong (SARC)	6643
+Republic of Korea	India	268400
+Republic of Korea	Indonesia	2754531
+Republic of Korea	Iran (Islamic Republic of)	2066342
+Republic of Korea	Iraq	27984
+Republic of Korea	Ireland	6
+Republic of Korea	Israel	11
+Republic of Korea	Italy	6628
+Republic of Korea	Japan	538278
+Republic of Korea	Kenya	5
+Republic of Korea	Kuwait	2226152
+Republic of Korea	Libyan Arab Jamahiriya	2888
+Republic of Korea	Lithuania	110
+Republic of Korea	Malaysia	1244201
+Republic of Korea	Malta	131
+Republic of Korea	Mexico	41
+Republic of Korea	Myanmar	29807
+Republic of Korea	Netherlands	15991
+Republic of Korea	New Zealand	7957
+Republic of Korea	Niger	50547
+Republic of Korea	Nigeria	73415
+Republic of Korea	Norway	94415
+Republic of Korea	Oman	2308034
+Republic of Korea	Pakistan	33877
+Republic of Korea	Panama	9883
+Republic of Korea	Peru	20801
+Republic of Korea	Philippines	56050
+Republic of Korea	Qatar	2539744
+Republic of Korea	Russian Federation	604096
+Republic of Korea	Saudi Arabia	7681079
+Republic of Korea	Singapore	246760
+Republic of Korea	South Africa	18028
+Republic of Korea	Spain	140
+Republic of Korea	Sri Lanka	9
+Republic of Korea	Sudan	91956
+Republic of Korea	Swaziland	5
+Republic of Korea	Sweden	335
+Republic of Korea	Switzerland	2891
+Republic of Korea	Thailand	74776
+Republic of Korea	Turkey	70897
+Republic of Korea	United Arab Emirates	4510055
+Republic of Korea	United Kingdom	5477
+Republic of Korea	United States of America	351216
+Republic of Korea	Uruguay	6
+Republic of Korea	Venezuela	35142
+Republic of Korea	Viet Nam	16862
+Republic of Korea	Yemen	433261
+Republic of Moldova	Austria	317
+Republic of Moldova	Belarus	24377
+Republic of Moldova	Belgium	72
+Republic of Moldova	Bulgaria	214
+Republic of Moldova	Czech Republic	1
+Republic of Moldova	Finland	2
+Republic of Moldova	France	149
+Republic of Moldova	Germany	714
+Republic of Moldova	Greece	9
+Republic of Moldova	Hungary	9
+Republic of Moldova	Italy	8
+Republic of Moldova	Kazakhstan	1881
+Republic of Moldova	Latvia	798
+Republic of Moldova	Lithuania	4052
+Republic of Moldova	Netherlands	34
+Republic of Moldova	Poland	24
+Republic of Moldova	Romania	39193
+Republic of Moldova	Russian Federation	93228
+Republic of Moldova	Slovakia	57
+Republic of Moldova	Sweden	40
+Republic of Moldova	Switzerland	103
+Republic of Moldova	Turkey	1110
+Republic of Moldova	Turkmenistan	124
+Republic of Moldova	Ukraine	70917
+Republic of Moldova	United Kingdom	6
+Republic of Moldova	United States of America	70
+Romania	Australia	22494
+Romania	Austria	2883
+Romania	Belarus	6986
+Romania	Belgium	3085
+Romania	Brazil	1
+Romania	Bulgaria	44380
+Romania	Canada	6875
+Romania	China	4965
+Romania	Colombia	8484
+Romania	Croatia	826
+Romania	Czech Republic	4368
+Romania	Denmark	1
+Romania	Egypt	12164
+Romania	Finland	127
+Romania	France	2656
+Romania	Georgia	612
+Romania	Germany	13646
+Romania	Greece	19083
+Romania	Hungary	24224
+Romania	Indonesia	124
+Romania	Iran (Islamic Republic of)	109
+Romania	Iraq	52158
+Romania	Ireland	4
+Romania	Israel	15323
+Romania	Italy	103384
+Romania	Japan	9
+Romania	Kazakhstan	131218
+Romania	Latvia	122
+Romania	Malaysia	13
+Romania	Malta	15160
+Romania	Netherland Antilles	16867
+Romania	Netherlands	2020
+Romania	Norway	36
+Romania	Poland	4665
+Romania	Portugal	2184
+Romania	Republic of Korea	40
+Romania	Republic of Moldova	1
+Romania	Russian Federation	1031214
+Romania	Serbia and Montenegro	8555
+Romania	Slovakia	3884
+Romania	South Africa	24335
+Romania	Spain	849
+Romania	Sweden	295
+Romania	Switzerland	214
+Romania	Syrian Arab Republic	25881
+Romania	Turkey	637
+Romania	Turkmenistan	52225
+Romania	Ukraine	122995
+Romania	United Arab Emirates	69
+Romania	United Kingdom	2749
+Romania	United States of America	12960
+Romania	Venezuela	5129
+Russian Federation	Australia	17
+Russian Federation	Austria	141
+Russian Federation	Azerbaijan	3818
+Russian Federation	Belgium	5973
+Russian Federation	Bulgaria	1
+Russian Federation	Canada	600
+Russian Federation	China	63651
+Russian Federation	Chinese Taipei	9
+Russian Federation	Colombia	686
+Russian Federation	Cyprus	1989
+Russian Federation	Czech Republic	5624
+Russian Federation	Denmark	371
+Russian Federation	Egypt	78
+Russian Federation	Estonia	5867
+Russian Federation	Finland	33260
+Russian Federation	France	7081
+Russian Federation	Georgia	183
+Russian Federation	Germany	20558
+Russian Federation	Greece	36
+Russian Federation	Hong Kong (SARC)	1
+Russian Federation	Hungary	2386
+Russian Federation	Iceland	6
+Russian Federation	India	2
+Russian Federation	Iran (Islamic Republic of)	45
+Russian Federation	Ireland	14
+Russian Federation	Israel	52
+Russian Federation	Italy	958
+Russian Federation	Japan	7398
+Russian Federation	Kazakhstan	662977
+Russian Federation	Latvia	552
+Russian Federation	Lebanon	3
+Russian Federation	Lithuania	10103
+Russian Federation	Mexico	5
+Russian Federation	Mongolia	8
+Russian Federation	Netherlands	2762
+Russian Federation	Norway	378
+Russian Federation	Poland	1138
+Russian Federation	Republic of Korea	7549
+Russian Federation	Romania	5775
+Russian Federation	Singapore	1700
+Russian Federation	Slovenia	1
+Russian Federation	South Africa	11791
+Russian Federation	Spain	213
+Russian Federation	Sweden	2856
+Russian Federation	Switzerland	81
+Russian Federation	Tajikistan	1
+Russian Federation	Turkey	97
+Russian Federation	Turkmenistan	14235
+Russian Federation	Ukraine	36938
+Russian Federation	United Arab Emirates	41
+Russian Federation	United Kingdom	1756
+Russian Federation	United States of America	15869
+Russian Federation	Uzbekistan	389
+Rwanda	Bahrain	437
+Rwanda	Belgium	54
+Rwanda	China	110
+Rwanda	France	1
+Rwanda	Germany	1
+Rwanda	Iran (Islamic Republic of)	429
+Rwanda	Italy	7
+Rwanda	Kenya	36593
+Rwanda	Netherlands	3
+Rwanda	Saudi Arabia	258
+Rwanda	South Africa	219
+Rwanda	Uganda	111
+Rwanda	United Arab Emirates	89
+Rwanda	United Kingdom	17
+Rwanda	United Republic of Tanzania	1338
+Rwanda	United States of America	30
+Saint Helena	Greece	19
+Saint Helena	Italy	6649
+Saint Helena	South Africa	137
+Saint Helena	Spain	314
+Saint Helena	United Kingdom	1063
+Saint Kitts and Nevis	Antigua and Barbuda	1
+Saint Kitts and Nevis	Bahamas	57
+Saint Kitts and Nevis	Barbados	24
+Saint Kitts and Nevis	Canada	6
+Saint Kitts and Nevis	Dominican Republic	23
+Saint Kitts and Nevis	France	86
+Saint Kitts and Nevis	Germany	1
+Saint Kitts and Nevis	Japan	1
+Saint Kitts and Nevis	Netherland Antilles	109
+Saint Kitts and Nevis	Netherlands	6
+Saint Kitts and Nevis	Trinidad and Tobago	13347
+Saint Kitts and Nevis	United Kingdom	17
+Saint Kitts and Nevis	United States of America	1116
+Saint Kitts and Nevis	Venezuela	228
+Saint Lucia	Barbados	1
+Saint Lucia	Canada	35
+Saint Lucia	France	2
+Saint Lucia	Germany	37
+Saint Lucia	Jamaica	64
+Saint Lucia	Japan	3
+Saint Lucia	Netherlands	80
+Saint Lucia	Suriname	30
+Saint Lucia	Trinidad and Tobago	17107
+Saint Lucia	United Kingdom	4
+Saint Lucia	United States of America	12206
+Saint Lucia	Venezuela	96
+Saint Vincent and the Grenadines	Afghanistan	47
+Saint Vincent and the Grenadines	Bahamas	89
+Saint Vincent and the Grenadines	Belgium	1
+Saint Vincent and the Grenadines	Canada	56
+Saint Vincent and the Grenadines	Germany	3
+Saint Vincent and the Grenadines	Jamaica	1
+Saint Vincent and the Grenadines	Japan	7
+Saint Vincent and the Grenadines	Saint Lucia	4
+Saint Vincent and the Grenadines	Trinidad and Tobago	16146
+Saint Vincent and the Grenadines	United Kingdom	2
+Saint Vincent and the Grenadines	United States of America	461
+Saint Vincent and the Grenadines	Venezuela	33
+Samoa	Australia	13831
+Samoa	Denmark	5
+Samoa	Fiji	2629
+Samoa	New Zealand	96
+Samoa	Singapore	182
+Samoa	United States of America	265
+Sao Tome and Principe	Angola	3970
+Sao Tome and Principe	CutedIvoire	21
+Sao Tome and Principe	Gabon	5
+Sao Tome and Principe	Portugal	212
+Sao Tome and Principe	South Africa	49
+Saudi Arabia	Antigua and Barbuda	1
+Saudi Arabia	Australia	711
+Saudi Arabia	Austria	9
+Saudi Arabia	Bahrain	54
+Saudi Arabia	Belgium	1518
+Saudi Arabia	Canada	164
+Saudi Arabia	China	205
+Saudi Arabia	Chinese Taipei	47
+Saudi Arabia	Denmark	480
+Saudi Arabia	Egypt	566
+Saudi Arabia	Finland	141
+Saudi Arabia	France	1769
+Saudi Arabia	Germany	5997
+Saudi Arabia	Ghana	7
+Saudi Arabia	Greece	330
+Saudi Arabia	India	1353
+Saudi Arabia	Indonesia	37
+Saudi Arabia	Iran (Islamic Republic of)	19
+Saudi Arabia	Ireland	6
+Saudi Arabia	Italy	953
+Saudi Arabia	Japan	692
+Saudi Arabia	Jordan	252
+Saudi Arabia	Kuwait	6791
+Saudi Arabia	Luxembourg	2
+Saudi Arabia	Malaysia	77
+Saudi Arabia	Mexico	18
+Saudi Arabia	Myanmar	4
+Saudi Arabia	Netherlands	1262
+Saudi Arabia	Nigeria	1
+Saudi Arabia	Norway	6
+Saudi Arabia	Oman	8
+Saudi Arabia	Pakistan	11
+Saudi Arabia	Portugal	44
+Saudi Arabia	Qatar	3485
+Saudi Arabia	Republic of Korea	2787
+Saudi Arabia	Senegal	16
+Saudi Arabia	Singapore	1872
+Saudi Arabia	Somalia	262
+Saudi Arabia	South Africa	1530
+Saudi Arabia	Spain	330
+Saudi Arabia	Sweden	1503
+Saudi Arabia	Switzerland	39
+Saudi Arabia	Syrian Arab Republic	134
+Saudi Arabia	Thailand	150
+Saudi Arabia	Turkey	877
+Saudi Arabia	United Arab Emirates	9209
+Saudi Arabia	United Kingdom	2627
+Saudi Arabia	United Republic of Tanzania	28
+Saudi Arabia	United States of America	18323
+Saudi Arabia	Yemen	39
+Senegal	Bahrain	867
+Senegal	Belgium	4376
+Senegal	China	86
+Senegal	Congo	10046
+Senegal	CutedIvoire	2173
+Senegal	Egypt	142
+Senegal	France	28235
+Senegal	Gabon	3289
+Senegal	Germany	4065
+Senegal	Gibraltar	234
+Senegal	Greece	15
+Senegal	Hungary	97
+Senegal	India	20
+Senegal	Iran (Islamic Republic of)	45
+Senegal	Israel	3432
+Senegal	Italy	14686
+Senegal	Madagascar	10
+Senegal	Malta	575
+Senegal	Morocco	6
+Senegal	Netherlands	12912
+Senegal	Nigeria	168426
+Senegal	Norway	488
+Senegal	Poland	49
+Senegal	Portugal	3278
+Senegal	Russian Federation	1856
+Senegal	South Africa	716
+Senegal	Spain	12253
+Senegal	Switzerland	4
+Senegal	Togo	2779
+Senegal	Trinidad and Tobago	360
+Senegal	Turkey	2584
+Senegal	United Arab Emirates	6
+Senegal	United Kingdom	5329
+Senegal	United States of America	4324
+Senegal	Venezuela	2298
+Serbia and Montenegro	Albania	373
+Serbia and Montenegro	Austria	3909
+Serbia and Montenegro	Azerbaijan	1720
+Serbia and Montenegro	Bahamas	1
+Serbia and Montenegro	Barbados	7
+Serbia and Montenegro	Belarus	12
+Serbia and Montenegro	Belgium	541
+Serbia and Montenegro	Bosnia and Herzegovina	27686
+Serbia and Montenegro	Bulgaria	76734
+Serbia and Montenegro	Burkina Faso	12
+Serbia and Montenegro	Canada	77
+Serbia and Montenegro	China	43
+Serbia and Montenegro	Chinese Taipei	14
+Serbia and Montenegro	Croatia	58557
+Serbia and Montenegro	Cyprus	1963
+Serbia and Montenegro	Czech Republic	1662
+Serbia and Montenegro	Denmark	3
+Serbia and Montenegro	Egypt	20
+Serbia and Montenegro	Finland	3
+Serbia and Montenegro	France	1338
+Serbia and Montenegro	Gabon	1
+Serbia and Montenegro	Germany	8241
+Serbia and Montenegro	Gibraltar	941
+Serbia and Montenegro	Greece	117012
+Serbia and Montenegro	Haiti	10
+Serbia and Montenegro	Hungary	41845
+Serbia and Montenegro	Iceland	8
+Serbia and Montenegro	Iran (Islamic Republic of)	50
+Serbia and Montenegro	Iraq	13584
+Serbia and Montenegro	Israel	1055
+Serbia and Montenegro	Italy	18399
+Serbia and Montenegro	Kazakhstan	6453
+Serbia and Montenegro	Kuwait	26
+Serbia and Montenegro	Lithuania	45
+Serbia and Montenegro	Marshall Islands	17
+Serbia and Montenegro	Mexico	52
+Serbia and Montenegro	Netherlands	1173
+Serbia and Montenegro	Norway	2
+Serbia and Montenegro	Panama	21
+Serbia and Montenegro	Poland	576
+Serbia and Montenegro	Romania	43815
+Serbia and Montenegro	Russian Federation	536470
+Serbia and Montenegro	Seychelles	27
+Serbia and Montenegro	Sierra Leone	22
+Serbia and Montenegro	Slovakia	904
+Serbia and Montenegro	Slovenia	871
+Serbia and Montenegro	Spain	1474
+Serbia and Montenegro	Sweden	15
+Serbia and Montenegro	Switzerland	593
+Serbia and Montenegro	Syrian Arab Republic	8363
+Serbia and Montenegro	The former Yugoslav Republic of Macedonia	4662
+Serbia and Montenegro	Tonga	13
+Serbia and Montenegro	Turkey	168
+Serbia and Montenegro	Turkmenistan	739
+Serbia and Montenegro	Ukraine	9860
+Serbia and Montenegro	United Kingdom	791
+Serbia and Montenegro	United States Minor Outlying Islands	206
+Serbia and Montenegro	United States of America	8000
+Seychelles	Australia	1
+Seychelles	Bahrain	1
+Seychelles	China	1
+Seychelles	Germany	7
+Seychelles	Kenya	6
+Seychelles	Malaysia	3
+Seychelles	Mauritius	5
+Seychelles	Singapore	57
+Seychelles	South Africa	86
+Seychelles	United Arab Emirates	1
+Seychelles	United Kingdom	3
+Sierra Leone	Austria	1
+Sierra Leone	Belgium	608
+Sierra Leone	CutedIvoire	14108
+Sierra Leone	France	15
+Sierra Leone	Gabon	325
+Sierra Leone	Germany	355
+Sierra Leone	Greece	2
+Sierra Leone	Guinea	23
+Sierra Leone	Hungary	30
+Sierra Leone	Indonesia	1970
+Sierra Leone	Iran (Islamic Republic of)	13
+Sierra Leone	Italy	6155
+Sierra Leone	Lebanon	28
+Sierra Leone	Netherlands	254
+Sierra Leone	Norway	10
+Sierra Leone	Poland	589
+Sierra Leone	Russian Federation	3
+Sierra Leone	Senegal	319
+Sierra Leone	South Africa	123
+Sierra Leone	Spain	692
+Sierra Leone	United Arab Emirates	13
+Sierra Leone	United Kingdom	29804
+Sierra Leone	United States of America	390
+Singapore	Australia	1046005
+Singapore	Austria	12
+Singapore	Bahrain	174947
+Singapore	Bangladesh	7552
+Singapore	Belarus	2116
+Singapore	Belgium	8807
+Singapore	Brazil	24640
+Singapore	Brunei Darussalam	20157
+Singapore	Canada	775
+Singapore	China	462815
+Singapore	Chinese Taipei	177797
+Singapore	Congo	27209
+Singapore	Denmark	8310
+Singapore	Ecuador	16829
+Singapore	Egypt	35721
+Singapore	Estonia	106452
+Singapore	Finland	6891
+Singapore	France	13096
+Singapore	Gabon	16
+Singapore	Germany	3549
+Singapore	Greece	16866
+Singapore	Hong Kong (SARC)	3486
+Singapore	India	90023
+Singapore	Iran (Islamic Republic of)	548156
+Singapore	Iraq	51624
+Singapore	Israel	2891
+Singapore	Italy	66399
+Singapore	Japan	27618
+Singapore	Kenya	8157
+Singapore	Kuwait	1356012
+Singapore	Libyan Arab Jamahiriya	2130
+Singapore	Malaysia	936288
+Singapore	Malta	4444
+Singapore	Marshall Islands	2739
+Singapore	Morocco	28958
+Singapore	Netherland Antilles	119686
+Singapore	Netherlands	158190
+Singapore	New Zealand	496
+Singapore	Norway	30911
+Singapore	Oman	549729
+Singapore	Pakistan	9876
+Singapore	Papua New Guinea	54
+Singapore	Philippines	25817
+Singapore	Qatar	694179
+Singapore	Republic of Korea	344176
+Singapore	Russian Federation	90914
+Singapore	Saudi Arabia	3870039
+Singapore	South Africa	5426
+Singapore	Spain	10533
+Singapore	Sri Lanka	38
+Singapore	Sudan	10044
+Singapore	Sweden	7707
+Singapore	Switzerland	86
+Singapore	Syrian Arab Republic	72141
+Singapore	Thailand	575315
+Singapore	Timor-Leste	3
+Singapore	Trinidad and Tobago	5055
+Singapore	Turkey	13306
+Singapore	Ukraine	15647
+Singapore	United Arab Emirates	1200319
+Singapore	United Kingdom	21374
+Singapore	United States of America	380167
+Singapore	Venezuela	96572
+Singapore	Viet Nam	631389
+Singapore	Yemen	364801
+Slovakia	Austria	52634
+Slovakia	Belarus	4933
+Slovakia	Belgium	1879
+Slovakia	Bulgaria	19
+Slovakia	Canada	3
+Slovakia	China	383
+Slovakia	Cook Islands	2
+Slovakia	Costa Rica	20
+Slovakia	Croatia	5449
+Slovakia	Cuba	29
+Slovakia	Czech Republic	163951
+Slovakia	Denmark	11
+Slovakia	Finland	185
+Slovakia	France	1461
+Slovakia	Germany	15951
+Slovakia	Hungary	29646
+Slovakia	Italy	517
+Slovakia	Japan	477
+Slovakia	Kazakhstan	7683
+Slovakia	Latvia	89
+Slovakia	Lithuania	202
+Slovakia	Luxembourg	14
+Slovakia	Netherlands	743
+Slovakia	Norway	20
+Slovakia	Poland	67144
+Slovakia	Portugal	1
+Slovakia	Russian Federation	1865317
+Slovakia	Serbia and Montenegro	300
+Slovakia	Slovenia	1
+Slovakia	South Africa	351
+Slovakia	Spain	37
+Slovakia	Sweden	368
+Slovakia	Switzerland	466
+Slovakia	Ukraine	27057
+Slovakia	United Kingdom	119
+Slovakia	United States of America	108
+Slovenia	Algeria	71879
+Slovenia	Austria	26306
+Slovenia	Azerbaijan	1276
+Slovenia	Belarus	60
+Slovenia	Belgium	4218
+Slovenia	Bosnia and Herzegovina	851
+Slovenia	Bulgaria	20834
+Slovenia	Canada	9
+Slovenia	China	1403
+Slovenia	Colombia	159
+Slovenia	Croatia	90025
+Slovenia	Czech Republic	3239
+Slovenia	Denmark	26
+Slovenia	France	88524
+Slovenia	Germany	15835
+Slovenia	Greece	8063
+Slovenia	Hungary	59238
+Slovenia	Indonesia	15343
+Slovenia	Ireland	1
+Slovenia	Israel	14069
+Slovenia	Italy	153901
+Slovenia	Japan	5
+Slovenia	Kazakhstan	3227
+Slovenia	Latvia	12
+Slovenia	Libyan Arab Jamahiriya	1112
+Slovenia	Lithuania	170
+Slovenia	Malta	3973
+Slovenia	Netherlands	2811
+Slovenia	Niue	3
+Slovenia	Norway	24
+Slovenia	Poland	5369
+Slovenia	Portugal	1
+Slovenia	Qatar	9
+Slovenia	Republic of Korea	1
+Slovenia	Romania	58310
+Slovenia	Russian Federation	120988
+Slovenia	Serbia and Montenegro	1046
+Slovenia	Slovakia	5715
+Slovenia	South Africa	2
+Slovenia	Spain	5076
+Slovenia	Sri Lanka	6
+Slovenia	Sweden	287
+Slovenia	Switzerland	2646
+Slovenia	Thailand	4
+Slovenia	The former Yugoslav Republic of Macedonia	14
+Slovenia	Turkey	1691
+Slovenia	Ukraine	440
+Slovenia	United Kingdom	29652
+Slovenia	United States of America	1902
+Somalia	Italy	15
+Somalia	Kenya	19
+Somalia	Saudi Arabia	14
+Somalia	Singapore	17
+Somalia	United Arab Emirates	1294
+South Africa	Argentina	7097
+South Africa	Australia	181383
+South Africa	Austria	32
+South Africa	Bahrain	41687
+South Africa	Belgium	13570
+South Africa	Brazil	204
+South Africa	Canada	605
+South Africa	China	35249
+South Africa	Chinese Taipei	42
+South Africa	Czech Republic	3962
+South Africa	Democratic Republic of the Congo	3
+South Africa	Egypt	1728
+South Africa	Estonia	4
+South Africa	France	6949
+South Africa	Gabon	61457
+South Africa	Germany	9311
+South Africa	Hong Kong (SARC)	1284
+South Africa	Hungary	12
+South Africa	India	8635
+South Africa	Iran (Islamic Republic of)	1030369
+South Africa	Iraq	63808
+South Africa	Ireland	122
+South Africa	Israel	1
+South Africa	Italy	55215
+South Africa	Japan	908
+South Africa	Kenya	38
+South Africa	Kuwait	94328
+South Africa	Kyrgyzstan	26
+South Africa	Malawi	99
+South Africa	Malaysia	5
+South Africa	Mauritania	1
+South Africa	Mauritius	2
+South Africa	Mozambique	10277
+South Africa	Netherlands	2720
+South Africa	New Zealand	5367
+South Africa	Nigeria	231994
+South Africa	Oman	20338
+South Africa	Portugal	3
+South Africa	Republic of Korea	6867
+South Africa	Russian Federation	1111
+South Africa	Saudi Arabia	1661182
+South Africa	Singapore	9224
+South Africa	Spain	1847
+South Africa	Sweden	47
+South Africa	Switzerland	11473
+South Africa	Thailand	8690
+South Africa	Trinidad and Tobago	8
+South Africa	United Arab Emirates	75267
+South Africa	United Kingdom	17552
+South Africa	United States of America	74480
+South Africa	Viet Nam	2968
+South Africa	Zimbabwe	9325
+Spain	Afghanistan	906
+Spain	Algeria	2952051
+Spain	Andorra	112
+Spain	Angola	114128
+Spain	Argentina	10737
+Spain	Aruba	9140
+Spain	Australia	169313
+Spain	Austria	100
+Spain	Azerbaijan	5594
+Spain	Bahrain	13727
+Spain	Belarus	3991
+Spain	Belgium	70092
+Spain	Brazil	4161
+Spain	Bulgaria	10574
+Spain	Cameroon	215272
+Spain	Canada	22433
+Spain	China	32468
+Spain	Colombia	15238
+Spain	Costa Rica	3
+Spain	Czech Republic	3000
+Spain	CutedIvoire	20
+Spain	Democratic People's Republic of Korea	7
+Spain	Denmark	3311
+Spain	Egypt	78283
+Spain	Equatorial Guinea	575981
+Spain	Estonia	69501
+Spain	Finland	5092
+Spain	France	384828
+Spain	Gabon	32600
+Spain	Georgia	104854
+Spain	Germany	102299
+Spain	Gibraltar	8
+Spain	Greece	39650
+Spain	Hong Kong (SARC)	40
+Spain	Hungary	1396
+Spain	Indonesia	85297
+Spain	Iran (Islamic Republic of)	690076
+Spain	Iraq	437860
+Spain	Ireland	609
+Spain	Israel	31259
+Spain	Italy	916696
+Spain	Japan	3419
+Spain	Kazakhstan	10944
+Spain	Kuwait	5558
+Spain	Latvia	10185
+Spain	Libyan Arab Jamahiriya	1779656
+Spain	Lithuania	87405
+Spain	Luxembourg	28
+Spain	Malaysia	2
+Spain	Malta	9465
+Spain	Mexico	1062951
+Spain	Morocco	224
+Spain	Namibia	5
+Spain	Netherland Antilles	504
+Spain	Netherlands	65694
+Spain	Nigeria	1854785
+Spain	Norway	412736
+Spain	Oman	100109
+Spain	Poland	21585
+Spain	Portugal	82632
+Spain	Qatar	83162
+Spain	Republic of Korea	18
+Spain	Romania	6642
+Spain	Russian Federation	1286929
+Spain	Saudi Arabia	1022183
+Spain	Slovakia	997
+Spain	Slovenia	3
+Spain	South Africa	276344
+Spain	Sri Lanka	55
+Spain	Sweden	27741
+Spain	Switzerland	11757
+Spain	Syrian Arab Republic	232736
+Spain	Trinidad and Tobago	40831
+Spain	Tunisia	146373
+Spain	Turkey	14745
+Spain	Turkmenistan	13856
+Spain	Ukraine	106075
+Spain	United Arab Emirates	18950
+Spain	United Kingdom	626110
+Spain	United States of America	237328
+Spain	Uzbekistan	3
+Spain	Venezuela	475007
+Sri Lanka	Australia	227
+Sri Lanka	Austria	1
+Sri Lanka	Bahrain	18386
+Sri Lanka	Belgium	98
+Sri Lanka	Bermuda	5606
+Sri Lanka	China	918
+Sri Lanka	Chinese Taipei	363
+Sri Lanka	Denmark	1
+Sri Lanka	France	204
+Sri Lanka	Germany	164
+Sri Lanka	Hong Kong (SARC)	662
+Sri Lanka	India	11434
+Sri Lanka	Iran (Islamic Republic of)	231016
+Sri Lanka	Ireland	193
+Sri Lanka	Italy	8
+Sri Lanka	Japan	618
+Sri Lanka	Malaysia	93396
+Sri Lanka	Netherlands	131
+Sri Lanka	New Zealand	25
+Sri Lanka	Oman	50
+Sri Lanka	Pakistan	10
+Sri Lanka	Philippines	4
+Sri Lanka	Republic of Korea	75
+Sri Lanka	Saudi Arabia	21766
+Sri Lanka	Singapore	62406
+Sri Lanka	South Africa	570
+Sri Lanka	Spain	40
+Sri Lanka	Sweden	16
+Sri Lanka	Switzerland	59
+Sri Lanka	Thailand	1361
+Sri Lanka	United Arab Emirates	55292
+Sri Lanka	United Kingdom	499
+Sri Lanka	United States of America	392
+St. Pierre and Miquelon	Canada	1062
+St. Pierre and Miquelon	France	3
+Sudan	Bahrain	1439
+Sudan	Belgium	297
+Sudan	China	24
+Sudan	Denmark	5
+Sudan	Egypt	4286
+Sudan	France	108
+Sudan	Gambia	34
+Sudan	Germany	733
+Sudan	Greece	138
+Sudan	India	52
+Sudan	Iran (Islamic Republic of)	88
+Sudan	Italy	232
+Sudan	Jordan	59
+Sudan	Kenya	253
+Sudan	Netherlands	1297
+Sudan	Republic of Korea	31
+Sudan	Saudi Arabia	14763
+Sudan	Singapore	878
+Sudan	Syrian Arab Republic	169
+Sudan	Turkey	229
+Sudan	United Arab Emirates	12924
+Sudan	United Kingdom	6577
+Sudan	Zimbabwe	67
+Suriname	Barbados	5
+Suriname	Belgium	24
+Suriname	Brazil	3
+Suriname	Canada	16
+Suriname	Colombia	8
+Suriname	France	25
+Suriname	Greece	45
+Suriname	Jamaica	64
+Suriname	Japan	2
+Suriname	Netherlands	192
+Suriname	Trinidad and Tobago	49455
+Suriname	United Kingdom	57
+Suriname	United States of America	1027
+Swaziland	Germany	34
+Swaziland	Lesotho	11
+Swaziland	Namibia	6
+Swaziland	South Africa	95401
+Sweden	Algeria	6125
+Sweden	Argentina	2194
+Sweden	Australia	76504
+Sweden	Austria	293
+Sweden	Belgium	36934
+Sweden	Canada	902
+Sweden	China	22582
+Sweden	Colombia	9003
+Sweden	Czech Republic	1314
+Sweden	Denmark	991797
+Sweden	Egypt	42422
+Sweden	Estonia	126107
+Sweden	Finland	447465
+Sweden	France	39871
+Sweden	Germany	100809
+Sweden	Greece	3
+Sweden	Hong Kong (SARC)	29
+Sweden	Hungary	22
+Sweden	Iceland	2
+Sweden	Iran (Islamic Republic of)	556991
+Sweden	Ireland	16
+Sweden	Italy	657
+Sweden	Japan	536
+Sweden	Kuwait	3907
+Sweden	Latvia	124855
+Sweden	Libyan Arab Jamahiriya	412
+Sweden	Lithuania	77577
+Sweden	Mexico	283
+Sweden	Morocco	6608
+Sweden	Netherland Antilles	1
+Sweden	Netherlands	49423
+Sweden	Nigeria	52317
+Sweden	Norway	1830224
+Sweden	Poland	105726
+Sweden	Republic of Korea	2
+Sweden	Russian Federation	58217
+Sweden	Saudi Arabia	134225
+Sweden	Slovakia	446
+Sweden	South Africa	36
+Sweden	Spain	9661
+Sweden	Sri Lanka	1
+Sweden	Switzerland	2417
+Sweden	Turkey	28
+Sweden	Ukraine	2
+Sweden	United Kingdom	422917
+Sweden	United States of America	49648
+Sweden	Venezuela	144840
+Switzerland	Algeria	95006
+Switzerland	Austria	2496
+Switzerland	Belarus	38
+Switzerland	Belgium	330604
+Switzerland	Brazil	18
+Switzerland	Canada	163
+Switzerland	China	224
+Switzerland	Croatia	19
+Switzerland	Czech Republic	344
+Switzerland	Denmark	220
+Switzerland	Eritrea	5
+Switzerland	Finland	204
+Switzerland	France	555281
+Switzerland	Germany	776746
+Switzerland	Hungary	1450
+Switzerland	Indonesia	5
+Switzerland	Iran (Islamic Republic of)	74718
+Switzerland	Ireland	46
+Switzerland	Israel	31
+Switzerland	Italy	240558
+Switzerland	Japan	148
+Switzerland	Latvia	80
+Switzerland	Libyan Arab Jamahiriya	461366
+Switzerland	Lithuania	347
+Switzerland	Luxembourg	11
+Switzerland	Malaysia	1
+Switzerland	Netherlands	938940
+Switzerland	Nigeria	296919
+Switzerland	Norway	54
+Switzerland	Philippines	13
+Switzerland	Poland	48
+Switzerland	Portugal	2
+Switzerland	Republic of Korea	10
+Switzerland	Romania	22
+Switzerland	Russian Federation	69210
+Switzerland	Saudi Arabia	3
+Switzerland	Serbia and Montenegro	1
+Switzerland	Singapore	2
+Switzerland	Slovakia	28
+Switzerland	South Africa	6707
+Switzerland	Spain	41
+Switzerland	Sri Lanka	1
+Switzerland	Sweden	1247
+Switzerland	Trinidad and Tobago	8
+Switzerland	Turkey	3
+Switzerland	United Kingdom	1019
+Switzerland	United States of America	1181
+Switzerland	Venezuela	2
+Switzerland	Viet Nam	31
+Syrian Arab Republic	Algeria	5909
+Syrian Arab Republic	Belgium	604
+Syrian Arab Republic	China	368
+Syrian Arab Republic	France	40332
+Syrian Arab Republic	Germany	69
+Syrian Arab Republic	Greece	32879
+Syrian Arab Republic	Hungary	1099
+Syrian Arab Republic	Italy	32242
+Syrian Arab Republic	Japan	37
+Syrian Arab Republic	Libyan Arab Jamahiriya	4970
+Syrian Arab Republic	Netherlands	759
+Syrian Arab Republic	Russian Federation	51139
+Syrian Arab Republic	Saudi Arabia	3914
+Syrian Arab Republic	Spain	2703
+Syrian Arab Republic	Sudan	8698
+Syrian Arab Republic	Turkey	6165
+Syrian Arab Republic	Ukraine	400
+Syrian Arab Republic	United Kingdom	15954
+Tajikistan	Azerbaijan	1209
+Tajikistan	Bulgaria	5
+Tajikistan	China	702
+Tajikistan	Czech Republic	16
+Tajikistan	Finland	1
+Tajikistan	Iran (Islamic Republic of)	199
+Tajikistan	Kazakhstan	10704
+Tajikistan	Kyrgyzstan	2723
+Tajikistan	Netherlands	1
+Tajikistan	Russian Federation	9822
+Tajikistan	Turkey	439
+Tajikistan	Ukraine	2276
+Tajikistan	United Arab Emirates	50
+Tajikistan	United Kingdom	70
+Thailand	Angola	39575
+Thailand	Australia	77489
+Thailand	Austria	12
+Thailand	Bahrain	14548
+Thailand	Belgium	1531
+Thailand	Brunei Darussalam	386486
+Thailand	Bulgaria	4
+Thailand	Canada	1528
+Thailand	China	55593
+Thailand	Chinese Taipei	1188
+Thailand	Czech Republic	9
+Thailand	Democratic People's Republic of Korea	12
+Thailand	Denmark	211
+Thailand	Ecuador	24763
+Thailand	Egypt	42
+Thailand	France	4476
+Thailand	Germany	5377
+Thailand	Guinea-Bissau	42446
+Thailand	Hong Kong (SARC)	448
+Thailand	Iceland	796
+Thailand	India	26941
+Thailand	Indonesia	186644
+Thailand	Iran (Islamic Republic of)	17
+Thailand	Iraq	78230
+Thailand	Ireland	1
+Thailand	Israel	1
+Thailand	Italy	1193
+Thailand	Japan	27957
+Thailand	Kuwait	294424
+Thailand	Lao People's Democratic Republic	1713
+Thailand	Lithuania	18
+Thailand	Luxembourg	6
+Thailand	Malaysia	392159
+Thailand	Mexico	7
+Thailand	Myanmar	674312
+Thailand	Netherlands	2466
+Thailand	Nigeria	21186
+Thailand	Norway	1
+Thailand	Oman	1267948
+Thailand	Pakistan	11128
+Thailand	Papua New Guinea	34873
+Thailand	Philippines	18
+Thailand	Qatar	227994
+Thailand	Republic of Korea	4050
+Thailand	Saudi Arabia	1127460
+Thailand	Singapore	138632
+Thailand	Slovakia	1
+Thailand	South Africa	878
+Thailand	Spain	467
+Thailand	Sri Lanka	2
+Thailand	Swaziland	1
+Thailand	Sweden	6051
+Thailand	Switzerland	269
+Thailand	Turkey	45
+Thailand	Ukraine	4922
+Thailand	United Arab Emirates	1451091
+Thailand	United Kingdom	1367
+Thailand	United States of America	99713
+Thailand	Viet Nam	68165
+Thailand	Yemen	664874
+The former Yugoslav Republic of Macedonia	Albania	817
+The former Yugoslav Republic of Macedonia	Austria	157
+The former Yugoslav Republic of Macedonia	Belgium	493
+The former Yugoslav Republic of Macedonia	Bosnia and Herzegovina	63
+The former Yugoslav Republic of Macedonia	Bulgaria	17229
+The former Yugoslav Republic of Macedonia	Canada	100
+The former Yugoslav Republic of Macedonia	Colombia	2583
+The former Yugoslav Republic of Macedonia	Croatia	1089
+The former Yugoslav Republic of Macedonia	Czech Republic	9
+The former Yugoslav Republic of Macedonia	France	313
+The former Yugoslav Republic of Macedonia	Germany	480
+The former Yugoslav Republic of Macedonia	Greece	64375
+The former Yugoslav Republic of Macedonia	Hungary	132
+The former Yugoslav Republic of Macedonia	Iran (Islamic Republic of)	120
+The former Yugoslav Republic of Macedonia	Italy	769
+The former Yugoslav Republic of Macedonia	Japan	1
+The former Yugoslav Republic of Macedonia	Netherlands	409
+The former Yugoslav Republic of Macedonia	Poland	4864
+The former Yugoslav Republic of Macedonia	Romania	40
+The former Yugoslav Republic of Macedonia	Russian Federation	128254
+The former Yugoslav Republic of Macedonia	Serbia and Montenegro	5502
+The former Yugoslav Republic of Macedonia	Slovakia	320
+The former Yugoslav Republic of Macedonia	Slovenia	834
+The former Yugoslav Republic of Macedonia	South Africa	6
+The former Yugoslav Republic of Macedonia	Sweden	35
+The former Yugoslav Republic of Macedonia	Switzerland	3
+The former Yugoslav Republic of Macedonia	Turkey	197
+The former Yugoslav Republic of Macedonia	Turks and Caicos Islands	4
+The former Yugoslav Republic of Macedonia	Ukraine	4279
+The former Yugoslav Republic of Macedonia	United Kingdom	462
+The former Yugoslav Republic of Macedonia	United States of America	7
+Togo	Bahamas	301
+Togo	Bahrain	750
+Togo	Belgium	403
+Togo	Benin	520
+Togo	Brazil	992
+Togo	Burkina Faso	1
+Togo	Cyprus	169
+Togo	CutedIvoire	8121
+Togo	Egypt	16
+Togo	France	8202
+Togo	Gabon	563
+Togo	Germany	21
+Togo	Ghana	111
+Togo	Greenland	1
+Togo	Hong Kong (SARC)	4
+Togo	Indonesia	175
+Togo	Israel	1754
+Togo	Italy	14320
+Togo	Kuwait	16
+Togo	Liberia	3
+Togo	Malta	276
+Togo	Nauru	6
+Togo	Netherlands	2839
+Togo	Niger	18
+Togo	Nigeria	427
+Togo	Norway	22
+Togo	Russian Federation	662
+Togo	Saudi Arabia	75
+Togo	Senegal	1899
+Togo	South Africa	3237
+Togo	Spain	32
+Togo	Sweden	3
+Togo	Switzerland	9
+Togo	Tunisia	1717
+Togo	United Arab Emirates	5008
+Togo	United Kingdom	3460
+Togo	United States of America	9
+Tokelau	Samoa	70
+Tokelau	United Kingdom	47
+Tonga	Australia	156
+Tonga	Bulgaria	55
+Tonga	China	7
+Tonga	Croatia	27
+Tonga	Greece	53
+Tonga	Iran (Islamic Republic of)	136
+Tonga	New Zealand	343
+Tonga	Romania	22
+Tonga	Thailand	4793
+Tonga	Turkey	52
+Trinidad and Tobago	Antigua and Barbuda	7
+Trinidad and Tobago	Argentina	104
+Trinidad and Tobago	Australia	2
+Trinidad and Tobago	Bahamas	12087
+Trinidad and Tobago	Barbados	10101
+Trinidad and Tobago	Belgium	95
+Trinidad and Tobago	Brazil	136663
+Trinidad and Tobago	British Virgin Islands	4
+Trinidad and Tobago	Canada	280
+Trinidad and Tobago	China	103
+Trinidad and Tobago	Chinese Taipei	93
+Trinidad and Tobago	Colombia	130126
+Trinidad and Tobago	Czech Republic	1
+Trinidad and Tobago	Democratic Republic of the Congo	658
+Trinidad and Tobago	Denmark	8
+Trinidad and Tobago	Dominica	15
+Trinidad and Tobago	Dominican Republic	75
+Trinidad and Tobago	Estonia	14
+Trinidad and Tobago	France	67
+Trinidad and Tobago	Gabon	70269
+Trinidad and Tobago	Germany	343
+Trinidad and Tobago	Grenada	3
+Trinidad and Tobago	Italy	21006
+Trinidad and Tobago	Jamaica	22
+Trinidad and Tobago	Japan	4
+Trinidad and Tobago	Mexico	5
+Trinidad and Tobago	Netherland Antilles	7029
+Trinidad and Tobago	Netherlands	774
+Trinidad and Tobago	Saint Vincent and the Grenadines	1
+Trinidad and Tobago	Spain	52075
+Trinidad and Tobago	Suriname	12784
+Trinidad and Tobago	Switzerland	31
+Trinidad and Tobago	United Kingdom	35141
+Trinidad and Tobago	United States of America	31297
+Trinidad and Tobago	Venezuela	399408
+Tunisia	Algeria	51890
+Tunisia	Austria	623
+Tunisia	Belgium	7305
+Tunisia	Canada	6
+Tunisia	Denmark	1
+Tunisia	Egypt	13897
+Tunisia	Finland	45
+Tunisia	France	98864
+Tunisia	Germany	1330
+Tunisia	Greece	12615
+Tunisia	Hungary	7
+Tunisia	Iran (Islamic Republic of)	23
+Tunisia	Iraq	12955
+Tunisia	Ireland	1
+Tunisia	Italy	296015
+Tunisia	Japan	13
+Tunisia	Kazakhstan	1554
+Tunisia	Latvia	12
+Tunisia	Lebanon	1
+Tunisia	Libyan Arab Jamahiriya	261689
+Tunisia	Malta	569
+Tunisia	Morocco	20569
+Tunisia	Netherlands	10001
+Tunisia	Panama	686
+Tunisia	Poland	13
+Tunisia	Portugal	875
+Tunisia	Russian Federation	72755
+Tunisia	Saudi Arabia	1034
+Tunisia	Singapore	23
+Tunisia	Spain	27999
+Tunisia	Sweden	92
+Tunisia	Switzerland	54
+Tunisia	Syrian Arab Republic	7348
+Tunisia	Turkey	57
+Tunisia	Ukraine	342
+Tunisia	United Kingdom	1572
+Tunisia	United States of America	95
+Tunisia	Viet Nam	732
+Turkey	Algeria	1060320
+Turkey	Argentina	32
+Turkey	Aruba	579
+Turkey	Australia	33326
+Turkey	Austria	633
+Turkey	Azerbaijan	42984
+Turkey	Belarus	796
+Turkey	Belgium	6417
+Turkey	Brazil	4
+Turkey	British Virgin Islands	1285
+Turkey	Bulgaria	163259
+Turkey	Canada	5071
+Turkey	China	32620
+Turkey	Croatia	3
+Turkey	Cyprus	82
+Turkey	Czech Republic	91
+Turkey	Denmark	35
+Turkey	Egypt	17775
+Turkey	Estonia	129
+Turkey	Finland	120
+Turkey	France	11968
+Turkey	Georgia	46319
+Turkey	Germany	8607
+Turkey	Greece	52405
+Turkey	Hong Kong (SARC)	4
+Turkey	India	2718
+Turkey	Iran (Islamic Republic of)	782819
+Turkey	Ireland	378
+Turkey	Israel	48858
+Turkey	Italy	71995
+Turkey	Japan	301
+Turkey	Kuwait	114271
+Turkey	Lebanon	968
+Turkey	Libyan Arab Jamahiriya	837498
+Turkey	Lithuania	68
+Turkey	Malaysia	19
+Turkey	Netherlands	4351
+Turkey	Nigeria	223334
+Turkey	Norway	158911
+Turkey	Poland	33
+Turkey	Portugal	1540
+Turkey	Republic of Korea	208
+Turkey	Romania	65057
+Turkey	Russian Federation	2528609
+Turkey	Saudi Arabia	632907
+Turkey	Singapore	3
+Turkey	South Africa	51061
+Turkey	Spain	16237
+Turkey	Sweden	4077
+Turkey	Switzerland	4675
+Turkey	Syrian Arab Republic	415234
+Turkey	Tunisia	11869
+Turkey	Turkmenistan	6798
+Turkey	Ukraine	117217
+Turkey	United Arab Emirates	15960
+Turkey	United Kingdom	28445
+Turkey	United States of America	74382
+Turkey	Uruguay	7782
+Turkey	Uzbekistan	67
+Turkey	Venezuela	2015
+Turkmenistan	Azerbaijan	10
+Turkmenistan	Belgium	6
+Turkmenistan	China	10
+Turkmenistan	Czech Republic	2
+Turkmenistan	Finland	24
+Turkmenistan	France	434
+Turkmenistan	Germany	112
+Turkmenistan	Iran (Islamic Republic of)	613
+Turkmenistan	Italy	4
+Turkmenistan	Japan	3
+Turkmenistan	Kazakhstan	17
+Turkmenistan	Kyrgyzstan	15
+Turkmenistan	Lithuania	56
+Turkmenistan	Netherlands	30
+Turkmenistan	Russian Federation	6981
+Turkmenistan	Switzerland	12
+Turkmenistan	Turkey	604
+Turkmenistan	Ukraine	1381
+Turkmenistan	United Arab Emirates	264
+Turkmenistan	United Kingdom	11
+Turkmenistan	United States of America	30
+Turks and Caicos Islands	Bahamas	2063
+Turks and Caicos Islands	Bahrain	188
+Turks and Caicos Islands	Belize	41
+Turks and Caicos Islands	United States of America	13958
+Tuvalu	Australia	14
+Tuvalu	Belgium	135
+Tuvalu	Mexico	153
+Tuvalu	New Zealand	2
+Uganda	Belgium	428
+Uganda	Botswana	1
+Uganda	China	44
+Uganda	Dominica	13
+Uganda	Egypt	42
+Uganda	France	35
+Uganda	Germany	311
+Uganda	Hungary	48
+Uganda	India	537
+Uganda	Iran (Islamic Republic of)	599
+Uganda	Iraq	12
+Uganda	Japan	23
+Uganda	Kenya	158378
+Uganda	Netherlands	16
+Uganda	Republic of Korea	7
+Uganda	Saudi Arabia	701
+Uganda	Singapore	21
+Uganda	South Africa	1733
+Uganda	Switzerland	145
+Uganda	Ukraine	6
+Uganda	United Arab Emirates	726
+Uganda	United Kingdom	177
+Uganda	United Republic of Tanzania	125
+Uganda	United States of America	7
+Ukraine	Austria	2490
+Ukraine	Azerbaijan	3148
+Ukraine	Belarus	164546
+Ukraine	Belgium	1956
+Ukraine	British Virgin Islands	78056
+Ukraine	Bulgaria	660
+Ukraine	Canada	1802
+Ukraine	China	688
+Ukraine	Croatia	15
+Ukraine	Cyprus	224
+Ukraine	Czech Republic	813
+Ukraine	Denmark	22
+Ukraine	Estonia	4708
+Ukraine	Finland	2032
+Ukraine	France	2152
+Ukraine	Germany	24466
+Ukraine	Gibraltar	19
+Ukraine	Greece	411
+Ukraine	Hungary	1053
+Ukraine	Iran (Islamic Republic of)	29
+Ukraine	Israel	398
+Ukraine	Italy	179
+Ukraine	Japan	3840
+Ukraine	Kazakhstan	605234
+Ukraine	Latvia	1260
+Ukraine	Lithuania	60469
+Ukraine	Netherlands	1680
+Ukraine	Norway	352
+Ukraine	Poland	42892
+Ukraine	Republic of Korea	52
+Ukraine	Romania	80
+Ukraine	Russian Federation	3399490
+Ukraine	Slovakia	2233
+Ukraine	Spain	21
+Ukraine	Sri Lanka	14
+Ukraine	Sweden	761
+Ukraine	Switzerland	3216
+Ukraine	Turkey	31
+Ukraine	Turkmenistan	1652927
+Ukraine	United Arab Emirates	13
+Ukraine	United Kingdom	9652
+Ukraine	United States of America	12111
+Ukraine	Uzbekistan	167276
+United Arab Emirates	Algeria	1336
+United Arab Emirates	Angola	18
+United Arab Emirates	Australia	3186
+United Arab Emirates	Azerbaijan	1
+United Arab Emirates	Bahrain	22453
+United Arab Emirates	Belgium	2588
+United Arab Emirates	Brazil	43
+United Arab Emirates	Bulgaria	100
+United Arab Emirates	Canada	299
+United Arab Emirates	China	2959
+United Arab Emirates	Chinese Taipei	55
+United Arab Emirates	Czech Republic	1
+United Arab Emirates	Denmark	51
+United Arab Emirates	Ecuador	2
+United Arab Emirates	Egypt	448
+United Arab Emirates	Finland	7
+United Arab Emirates	France	3079
+United Arab Emirates	Germany	1680
+United Arab Emirates	Greece	3835
+United Arab Emirates	Hong Kong (SARC)	66
+United Arab Emirates	India	8520
+United Arab Emirates	Indonesia	20
+United Arab Emirates	Iran (Islamic Republic of)	59411
+United Arab Emirates	Iraq	1
+United Arab Emirates	Ireland	7
+United Arab Emirates	Italy	6644
+United Arab Emirates	Japan	3672
+United Arab Emirates	Jordan	136
+United Arab Emirates	Kuwait	8784
+United Arab Emirates	Lithuania	16
+United Arab Emirates	Luxembourg	2
+United Arab Emirates	Malaysia	92
+United Arab Emirates	Malta	4
+United Arab Emirates	Netherlands	955
+United Arab Emirates	Norway	75
+United Arab Emirates	Oman	4598
+United Arab Emirates	Pakistan	69
+United Arab Emirates	Poland	17
+United Arab Emirates	Qatar	153
+United Arab Emirates	Republic of Korea	9841
+United Arab Emirates	Russian Federation	2975
+United Arab Emirates	Saudi Arabia	14397
+United Arab Emirates	Singapore	4340
+United Arab Emirates	Slovakia	12
+United Arab Emirates	Somalia	37
+United Arab Emirates	South Africa	2451
+United Arab Emirates	Spain	241
+United Arab Emirates	Sri Lanka	30
+United Arab Emirates	Sweden	532
+United Arab Emirates	Switzerland	19
+United Arab Emirates	Syrian Arab Republic	191
+United Arab Emirates	Thailand	4924
+United Arab Emirates	Tunisia	4
+United Arab Emirates	Turkey	7
+United Arab Emirates	United Kingdom	4285
+United Arab Emirates	United States of America	30998
+United Arab Emirates	Yemen	7
+United Kingdom	Algeria	325079
+United Kingdom	Angola	93990
+United Kingdom	Argentina	4146
+United Kingdom	Aruba	18494
+United Kingdom	Australia	341458
+United Kingdom	Austria	320
+United Kingdom	Bahrain	78635
+United Kingdom	Belarus	1734
+United Kingdom	Belgium	308741
+United Kingdom	Bermuda	4
+United Kingdom	Brazil	12965
+United Kingdom	British Virgin Islands	482
+United Kingdom	Canada	129722
+United Kingdom	Chile	5582
+United Kingdom	China	38247
+United Kingdom	Chinese Taipei	64
+United Kingdom	Colombia	286159
+United Kingdom	Cyprus	2
+United Kingdom	Czech Republic	3108
+United Kingdom	Denmark	327900
+United Kingdom	Egypt	153713
+United Kingdom	Equatorial Guinea	1
+United Kingdom	Estonia	14241
+United Kingdom	Finland	211304
+United Kingdom	France	581274
+United Kingdom	Germany	503311
+United Kingdom	Greece	4
+United Kingdom	Hong Kong (SARC)	4
+United Kingdom	Hungary	142
+United Kingdom	Iceland	2
+United Kingdom	India	36313
+United Kingdom	Indonesia	2809
+United Kingdom	Ireland	175248
+United Kingdom	Israel	7820
+United Kingdom	Italy	39491
+United Kingdom	Japan	1472
+United Kingdom	Kazakhstan	380
+United Kingdom	Kenya	230
+United Kingdom	Kuwait	378025
+United Kingdom	Latvia	34951
+United Kingdom	Libyan Arab Jamahiriya	263284
+United Kingdom	Lithuania	19461
+United Kingdom	Luxembourg	1
+United Kingdom	Malaysia	22
+United Kingdom	Mexico	138249
+United Kingdom	Morocco	4971
+United Kingdom	Mozambique	5576
+United Kingdom	Netherland Antilles	9472
+United Kingdom	Netherlands	688372
+United Kingdom	New Caledonia	7
+United Kingdom	New Zealand	7
+United Kingdom	Nigeria	29657
+United Kingdom	Norway	5756916
+United Kingdom	Panama	6396
+United Kingdom	Philippines	79
+United Kingdom	Poland	170739
+United Kingdom	Portugal	3751
+United Kingdom	Republic of Korea	1840
+United Kingdom	Romania	4
+United Kingdom	Russian Federation	1242252
+United Kingdom	Saudi Arabia	680624
+United Kingdom	Singapore	3001
+United Kingdom	South Africa	503457
+United Kingdom	Spain	50554
+United Kingdom	Sri Lanka	45
+United Kingdom	Sweden	301575
+United Kingdom	Switzerland	4023
+United Kingdom	Syrian Arab Republic	81498
+United Kingdom	Trinidad and Tobago	186
+United Kingdom	Tunisia	655
+United Kingdom	Turkey	4
+United Kingdom	Uganda	45
+United Kingdom	Ukraine	4381
+United Kingdom	United Arab Emirates	257751
+United Kingdom	United States of America	246293
+United Kingdom	Venezuela	117909
+United Kingdom	Viet Nam	5992
+United Kingdom	Yemen	3348
+United Republic of Tanzania	Argentina	38
+United Republic of Tanzania	Australia	160
+United Republic of Tanzania	Bahrain	56553
+United Republic of Tanzania	Belgium	275
+United Republic of Tanzania	Brunei Darussalam	133
+United Republic of Tanzania	Burundi	142
+United Republic of Tanzania	Canada	4
+United Republic of Tanzania	China	30
+United Republic of Tanzania	Chinese Taipei	54
+United Republic of Tanzania	Denmark	25
+United Republic of Tanzania	Egypt	105
+United Republic of Tanzania	Finland	1
+United Republic of Tanzania	France	346
+United Republic of Tanzania	Germany	181
+United Republic of Tanzania	India	2008
+United Republic of Tanzania	Indonesia	4
+United Republic of Tanzania	Iran (Islamic Republic of)	2352
+United Republic of Tanzania	Italy	355
+United Republic of Tanzania	Japan	11
+United Republic of Tanzania	Kenya	26261
+United Republic of Tanzania	Kuwait	1031
+United Republic of Tanzania	Madagascar	1344
+United Republic of Tanzania	Malawi	820
+United Republic of Tanzania	Mexico	3
+United Republic of Tanzania	Netherlands	69
+United Republic of Tanzania	Niger	23
+United Republic of Tanzania	Norway	1
+United Republic of Tanzania	Oman	1
+United Republic of Tanzania	Pakistan	3
+United Republic of Tanzania	Republic of Korea	1196
+United Republic of Tanzania	Saudi Arabia	39441
+United Republic of Tanzania	Singapore	340
+United Republic of Tanzania	South Africa	23902
+United Republic of Tanzania	Spain	526
+United Republic of Tanzania	Switzerland	2
+United Republic of Tanzania	Thailand	37
+United Republic of Tanzania	Turkey	11
+United Republic of Tanzania	Uganda	6824
+United Republic of Tanzania	United Arab Emirates	56315
+United Republic of Tanzania	United Kingdom	1937
+United Republic of Tanzania	United States of America	259
+United Republic of Tanzania	Yemen	897
+United Republic of Tanzania	Zambia	388
+United Republic of Tanzania	Zimbabwe	40
+United States Minor Outlying Islands	Australia	18051
+United States Minor Outlying Islands	Chinese Taipei	855
+United States Minor Outlying Islands	France	19
+United States Minor Outlying Islands	Hong Kong (SARC)	1290
+United States Minor Outlying Islands	Japan	10
+United States Minor Outlying Islands	Malaysia	241
+United States Minor Outlying Islands	New Zealand	58
+United States Minor Outlying Islands	Philippines	2823
+United States Minor Outlying Islands	Portugal	45
+United States Minor Outlying Islands	Republic of Korea	158211
+United States Minor Outlying Islands	Russian Federation	352
+United States Minor Outlying Islands	Singapore	171680
+United States Minor Outlying Islands	Viet Nam	3
+United States of America	Algeria	2862039
+United States of America	Angola	3270271
+United States of America	Argentina	1217526
+United States of America	Armenia	2
+United States of America	Aruba	1082410
+United States of America	Australia	519538
+United States of America	Austria	114
+United States of America	Azerbaijan	14355
+United States of America	Bahamas	127593
+United States of America	Bahrain	21625
+United States of America	Bangladesh	7473
+United States of America	Belarus	6974
+United States of America	Belgium	893297
+United States of America	Belize	10988
+United States of America	Bermuda	4476
+United States of America	Bolivia	7742
+United States of America	Brazil	1185077
+United States of America	Brunei Darussalam	199089
+United States of America	Bulgaria	61679
+United States of America	Cameroon	90640
+United States of America	Canada	34722356
+United States of America	Chile	118643
+United States of America	China	431340
+United States of America	Chinese Taipei	105006
+United States of America	Colombia	3429142
+United States of America	Congo	508601
+United States of America	Croatia	20774
+United States of America	Czech Republic	62
+United States of America	CutedIvoire	90064
+United States of America	Democratic Republic of the Congo	126720
+United States of America	Denmark	47234
+United States of America	Dominican Republic	2573
+United States of America	Ecuador	1068955
+United States of America	Egypt	176923
+United States of America	Equatorial Guinea	443519
+United States of America	Estonia	178754
+United States of America	Finland	172075
+United States of America	France	566547
+United States of America	Gabon	1696959
+United States of America	Georgia	23960
+United States of America	Germany	465324
+United States of America	Ghana	65753
+United States of America	Greece	38719
+United States of America	Guatemala	101245
+United States of America	Guyana	5
+United States of America	Honduras	11
+United States of America	Hong Kong (SARC)	603
+United States of America	Hungary	1053
+United States of America	India	218235
+United States of America	Indonesia	638452
+United States of America	Iraq	6297654
+United States of America	Ireland	31323
+United States of America	Israel	16853
+United States of America	Italy	602919
+United States of America	Jamaica	1091
+United States of America	Japan	356639
+United States of America	Kazakhstan	6830
+United States of America	Kenya	101
+United States of America	Kuwait	2085207
+United States of America	Latvia	69186
+United States of America	Lithuania	19109
+United States of America	Madagascar	2
+United States of America	Malaysia	438858
+United States of America	Malta	6987
+United States of America	Mexico	10472873
+United States of America	Morocco	69689
+United States of America	Netherland Antilles	381690
+United States of America	Netherlands	647263
+United States of America	New Zealand	19411
+United States of America	Nigeria	9147148
+United States of America	Norway	3620868
+United States of America	Oman	232607
+United States of America	Panama	36799
+United States of America	Paraguay	11
+United States of America	Peru	209269
+United States of America	Poland	20685
+United States of America	Portugal	147164
+United States of America	Qatar	156749
+United States of America	Republic of Korea	741968
+United States of America	Romania	34966
+United States of America	Russian Federation	960130
+United States of America	Saint Lucia	10676
+United States of America	Saudi Arabia	13604442
+United States of America	Singapore	222540
+United States of America	Slovakia	430
+United States of America	Somalia	23
+United States of America	South Africa	47832
+United States of America	Spain	465465
+United States of America	Sweden	303893
+United States of America	Switzerland	38692
+United States of America	Syrian Arab Republic	73554
+United States of America	Thailand	93968
+United States of America	Togo	4442
+United States of America	Trinidad and Tobago	1498667
+United States of America	Tunisia	56998
+United States of America	Turkey	82721
+United States of America	Turkmenistan	9857
+United States of America	Ukraine	81541
+United States of America	United Arab Emirates	368602
+United States of America	United Kingdom	3561196
+United States of America	Venezuela	14318345
+United States of America	Viet Nam	201077
+United States of America	Yemen	224285
+Uruguay	Argentina	73212
+Uruguay	Belgium	3
+Uruguay	Brazil	2808
+Uruguay	Canada	221
+Uruguay	Chile	94
+Uruguay	China	195
+Uruguay	Colombia	18
+Uruguay	Egypt	25753
+Uruguay	Equatorial Guinea	10964
+Uruguay	Finland	19
+Uruguay	France	334
+Uruguay	Georgia	4804
+Uruguay	Germany	308
+Uruguay	Guinea-Bissau	23090
+Uruguay	India	4738
+Uruguay	Italy	5
+Uruguay	Japan	1
+Uruguay	Kuwait	2634
+Uruguay	Mexico	14
+Uruguay	Netherland Antilles	8
+Uruguay	Netherlands	142
+Uruguay	Nigeria	36842
+Uruguay	Romania	6314
+Uruguay	Russian Federation	2391
+Uruguay	Spain	141
+Uruguay	Turkey	13
+Uruguay	United Arab Emirates	3952
+Uruguay	United Kingdom	45
+Uruguay	United States of America	2731
+Uruguay	Venezuela	173772
+Uzbekistan	Austria	6
+Uzbekistan	Azerbaijan	420
+Uzbekistan	Belgium	212
+Uzbekistan	China	644
+Uzbekistan	Denmark	2
+Uzbekistan	Finland	1118
+Uzbekistan	France	1794
+Uzbekistan	Germany	842
+Uzbekistan	Greece	93
+Uzbekistan	Iran (Islamic Republic of)	1039
+Uzbekistan	Italy	80
+Uzbekistan	Japan	21
+Uzbekistan	Kazakhstan	379
+Uzbekistan	Kyrgyzstan	34987
+Uzbekistan	Lithuania	25
+Uzbekistan	Luxembourg	2
+Uzbekistan	Netherlands	1
+Uzbekistan	Poland	61
+Uzbekistan	Republic of Korea	998
+Uzbekistan	Russian Federation	2919
+Uzbekistan	Switzerland	66
+Uzbekistan	Turkey	83
+Uzbekistan	Ukraine	121
+Uzbekistan	United Arab Emirates	617
+Uzbekistan	United Kingdom	178
+Uzbekistan	United States of America	391
+Venezuela	Argentina	853
+Venezuela	Aruba	58088
+Venezuela	Austria	17
+Venezuela	Belgium	288
+Venezuela	Brazil	727
+Venezuela	Bulgaria	1
+Venezuela	Canada	442
+Venezuela	Chile	59
+Venezuela	China	5274
+Venezuela	Chinese Taipei	68
+Venezuela	Colombia	9364
+Venezuela	Denmark	15
+Venezuela	Dominican Republic	188
+Venezuela	Ecuador	1
+Venezuela	France	626
+Venezuela	Germany	873
+Venezuela	Hong Kong (SARC)	17
+Venezuela	India	9141
+Venezuela	Indonesia	4
+Venezuela	Italy	13505
+Venezuela	Japan	450
+Venezuela	Liberia	19
+Venezuela	Mexico	96
+Venezuela	Netherland Antilles	274860
+Venezuela	Netherlands	3714
+Venezuela	Nigeria	153853
+Venezuela	Panama	43
+Venezuela	Peru	55
+Venezuela	Poland	27
+Venezuela	Republic of Korea	4
+Venezuela	Saudi Arabia	4468
+Venezuela	Singapore	2
+Venezuela	Spain	15535
+Venezuela	Sweden	7
+Venezuela	Switzerland	13
+Venezuela	Trinidad and Tobago	44
+Venezuela	United Kingdom	5854
+Venezuela	United States of America	132885
+Viet Nam	Argentina	4752
+Viet Nam	Australia	2462
+Viet Nam	Bahamas	2421
+Viet Nam	Bahrain	5362
+Viet Nam	Belgium	652
+Viet Nam	Belize	15446
+Viet Nam	China	238237
+Viet Nam	Chinese Taipei	92438
+Viet Nam	Denmark	2
+Viet Nam	France	282
+Viet Nam	Germany	229
+Viet Nam	Hong Kong (SARC)	30661
+Viet Nam	India	5313
+Viet Nam	Indonesia	17081
+Viet Nam	Iran (Islamic Republic of)	7938
+Viet Nam	Italy	927
+Viet Nam	Japan	11041
+Viet Nam	Kuwait	29663
+Viet Nam	Malaysia	62608
+Viet Nam	Netherlands	41
+Viet Nam	Philippines	1412
+Viet Nam	Poland	1
+Viet Nam	Qatar	6
+Viet Nam	Republic of Korea	101040
+Viet Nam	Russian Federation	19226
+Viet Nam	Saudi Arabia	20
+Viet Nam	Singapore	1245174
+Viet Nam	Sweden	6
+Viet Nam	Switzerland	3
+Viet Nam	Thailand	94952
+Viet Nam	United Arab Emirates	3682
+Viet Nam	United Kingdom	24
+Viet Nam	United States of America	163
+Wallis and Futuna Islands	France	39
+Wallis and Futuna Islands	New Caledonia	32
+Wallis and Futuna Islands	New Zealand	77
+Western Sahara	Russian Federation	1
+Zambia	Bahrain	76
+Zambia	Belgium	42
+Zambia	Botswana	77
+Zambia	Canada	72
+Zambia	China	42
+Zambia	Chinese Taipei	21
+Zambia	Djibouti	48
+Zambia	Egypt	34
+Zambia	France	110
+Zambia	Hong Kong (SARC)	17
+Zambia	India	1
+Zambia	Iran (Islamic Republic of)	140
+Zambia	Italy	40
+Zambia	Kenya	9
+Zambia	Kuwait	64
+Zambia	Malawi	75
+Zambia	Mauritius	143
+Zambia	Mozambique	4346
+Zambia	Namibia	9
+Zambia	Netherlands	750
+Zambia	Saudi Arabia	2188
+Zambia	Singapore	49
+Zambia	South Africa	57977
+Zambia	Sweden	1
+Zambia	Tokelau	12
+Zambia	United Arab Emirates	124
+Zambia	United Kingdom	142
+Zambia	United Republic of Tanzania	4134
+Zambia	United States of America	169
+Zambia	Zimbabwe	4515
+Zimbabwe	Belgium	71
+Zimbabwe	Botswana	836
+Zimbabwe	Brazil	33
+Zimbabwe	China	240
+Zimbabwe	Democratic Republic of the Congo	95986
+Zimbabwe	Egypt	106
+Zimbabwe	France	31
+Zimbabwe	Germany	73
+Zimbabwe	Italy	48
+Zimbabwe	Japan	33
+Zimbabwe	Kenya	2
+Zimbabwe	Kuwait	6651
+Zimbabwe	Malawi	157
+Zimbabwe	Mauritius	9
+Zimbabwe	Mozambique	86777
+Zimbabwe	Namibia	64
+Zimbabwe	Netherlands	103
+Zimbabwe	Republic of Korea	19
+Zimbabwe	Saudi Arabia	69
+Zimbabwe	Singapore	4
+Zimbabwe	South Africa	329136
+Zimbabwe	Sri Lanka	10
+Zimbabwe	Trinidad and Tobago	13
+Zimbabwe	United Kingdom	60
+Zimbabwe	United States of America	70
+Zimbabwe	Zambia	1772
