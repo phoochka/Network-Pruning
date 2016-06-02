@@ -1,18 +1,21 @@
 package pruning;
 
-import no.uib.cipr.matrix.*;
+
+import no.uib.cipr.matrix.DenseVectorSub;
+import no.uib.cipr.matrix.MatrixEntry;
 import no.uib.cipr.matrix.sparse.ArpackSym;
 import no.uib.cipr.matrix.sparse.LinkedSparseMatrix;
-import org.la4j.decomposition.EigenDecompositor;
-import org.la4j.iterator.MatrixIterator;
-import org.la4j.matrix.SparseMatrix;
-import org.la4j.matrix.sparse.CRSMatrix;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 import java.util.concurrent.ConcurrentSkipListMap;
 import java.util.stream.Collectors;
+
+//import org.la4j.decomposition.EigenDecompositor;
+//import org.la4j.iterator.MatrixIterator;
+//import org.la4j.matrix.SparseMatrix;
+//import org.la4j.matrix.sparse.CRSMatrix;
 
 public class Prune {
 
@@ -38,16 +41,16 @@ public class Prune {
     private SortedMap<Double, Result> results;
 
 
-    public void resetBestConductance() {
-        bestNormConductance = bestRawConductance = 1.0d;
-    }
-
     public Prune(String filename, String basepath, boolean isOld){
         if(isOld) readOldGraph(filename, basepath);
         else readGraph(filename, basepath);
         //printGraph();
         //System.out.println("All nodes at time 82: " + timeGraph.get(82).keySet());
         //System.out.println("All neighbours of 21 at time 82: " + getNeighbours(82, 21));
+    }
+
+    public void resetBestConductance() {
+        bestNormConductance = bestRawConductance = 1.0d;
     }
 
     private void readOldGraph(String filename, String basepath) {
