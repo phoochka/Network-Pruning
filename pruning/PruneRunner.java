@@ -7,6 +7,9 @@ import java.time.Duration;
 import java.time.Instant;
 
 import java.util.*;
+import java.util.function.DoubleFunction;
+import java.util.function.Function;
+import java.util.function.IntToDoubleFunction;
 
 public class PruneRunner {
 
@@ -16,14 +19,6 @@ public class PruneRunner {
 
     public TreeMap<Integer, List<Set<Edge>>> getConnectedData(Prune prune, double k) {
         return prune.getConnectedComponents(k);
-    }
-
-    public Result getResult(Prune prune, TreeMap<Integer, List<Set<Edge>>> connectedComps ) {
-        return prune.traverseGraph(connectedComps);
-    }
-
-    public Result getResult(Prune prune, double k) {
-        return prune.traverseGraph(prune.getConnectedComponents(k));
     }
 
     public void outputKFactor(Prune prune, double[] kList) {
@@ -41,18 +36,17 @@ public class PruneRunner {
         }
     }
 
-    public double thresholdBestResult(String filename, String basepath, boolean isOld) {
+    public double thresholdBestResult(String filename, String basepath, boolean isOld, IntToDoubleFunction f) {
         Prune prune = loadFile(filename, basepath, isOld);
         final double STARTING_K = 1.0d;
         final double ACCEPTABLE_CONDUCTANCE = 10;
         final double K_INCREMENT = 1;
 
-        double baseResult = getResult(prune, STARTING_K).normalizedConductance;
+        double baseResult = prune.traverseGraph(prune.getConnectedComponents(STARTING_K), f).normalizedConductance;
         double incResult = Double.MAX_VALUE;
         double k = STARTING_K;
         while (((baseResult * 0.10) + baseResult) <= incResult) {
-            incResult = getResult(prune, k + K_INCREMENT).normalizedConductance;
-
+            incResult = prune.traverseGraph(prune.getConnectedComponents(k + K_INCREMENT), f).normalizedConductance;
         }
 
         return baseResult;
@@ -101,7 +95,7 @@ public class PruneRunner {
         try {
             PrintWriter writer = new PrintWriter(filename);
             for (int i = 0; i < matrix.length; i++) {
-                for (int j = 0; j < matrix.length; j++) {
+                for (int j = 0; j < matrix[i].length; j++) {
                     writer.write(matrix[i][j] + " ");
                 }
                 writer.write("\n");
@@ -137,20 +131,20 @@ public class PruneRunner {
         return filenames;
     }
 
-    public Result doThresholds(Prune prune, double k) {
+    public Result doThresholds(Prune prune, double k, IntToDoubleFunction function) {
         System.out.println("For k: " + k);
         TreeMap<Integer, List<Set<Edge>>> connectedComps = getConnectedData(prune, k);
-        Result result = getResult(prune, connectedComps);
-         prune.printTop5();
+        Result result = prune.traverseGraph(connectedComps, function);
+         prune.printTop(25);
         return result;
     }
 
-    public List<Result> doThresholds(Prune prune, double[] kList) {
+    public List<Result> doThresholds(Prune prune, double[] kList, IntToDoubleFunction function) {
         List<Result> results = new ArrayList<>();
         for (double k : kList) {
             System.out.println("For k: " + k);
             TreeMap<Integer, List<Set<Edge>>> connectedComps = getConnectedData(prune, k);
-            results.add(getResult(prune, connectedComps));
+            results.add(prune.traverseGraph(connectedComps,function));
 //            prune.printTop5();
         }
         return results;
@@ -174,7 +168,7 @@ public class PruneRunner {
 //                System.out.println("EXACT "+n + " " + end + " " + bounds);
                 total++;
 
-//                System.out.printf(",%f",bounds);
+                System.out.printf("\n%f",bounds);
             }
         }
         return result;
@@ -296,8 +290,11 @@ public class PruneRunner {
 //        filenames.add("D4D_January_hourly.txt");
 
 //        filenames.add("trade_data.txt");
-        filenames.add("mailing_list_data.txt");
+//        filenames.add("mailing_list_data.txt");
 //        filenames.add("multiburst_five_varied.txt");
+        filenames.add("GDELT_GCC_2010_weekly.txt");
+        filenames.add("GDELT_GCC_2011_weekly.txt");
+        filenames.add("network_traffic_GCC.txt");
 
 
         String basepath = "output";
@@ -306,43 +303,29 @@ public class PruneRunner {
             Prune prune = runner.loadFile(filename, basepath, false);
 
 //            double burstCond = runner.getMetaInfo(basepath, filename, prune).rawConductance;
-            double thresholdedCond = runner.doThresholds(prune, 6).rawConductance;
 
-//            double[][] allBounds = runner.getAllBounds(prune);
+            IntToDoubleFunction log = i -> Math.log(i);
+            IntToDoubleFunction sqr = i -> Math.sqrt(i);
+            IntToDoubleFunction cub = i -> Math.cbrt(i);
 
-            System.out.println("whole bound: "+prune.getBounds(prune.startTime, prune.endTime));
+            double thresholdedCondLog = runner.doThresholds(prune, 6, log).normalizedConductance;
+            double thresholdedCondCube = runner.doThresholds(prune, 6, cub).normalizedConductance;
 
-            Instant tStart = Instant.now();
-            double[][] compositeBounds = runner.getCompositeBounds(prune);
-            Instant tEnd = Instant.now();
-            System.out.println("Duration: " + Duration.between(tStart, tEnd).getSeconds());
+            double[][] allBounds = runner.getAllBounds(prune);
 
+//            System.out.println("\nwhole bound for "+filename+": "+prune.getBounds(prune.startTime, prune.endTime));
+//
+//            Instant tStart = Instant.now();
+//            double[][] compositeBounds = runner.getCompositeBounds(prune);
+//            Instant tEnd = Instant.now();
+//            System.out.println("Duration: " + Duration.between(tStart, tEnd).getSeconds());
+//
+//            runner.printMatrix("bounds/all_bounds_"+filename,allBounds);
+//            runner.printMatrix("bounds/com_bounds_"+filename,compositeBounds);
+//
 //            System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, thresholdedCond));
 //            System.out.println("Percentage pruned with composite bounds: "+runner.getPercentagePruned(compositeBounds, thresholdedCond));
 
         }
     }
-
-    /************************************************************************************************************
-     public void compareLibs(Prune prune) {
-
-     Instant tStart = Instant.now();
-     System.out.println("JBLAS result "+prune.getBounds(15,25));
-     System.out.println("JBLAS result "+prune.getBounds(15,35));
-     System.out.println("JBLAS result "+prune.getBounds(15,45));
-     System.out.println("JBLAS result "+prune.getBounds(15,55));
-     System.out.println("JBLAS result "+prune.getBounds(15,65));
-     Instant tEnd = Instant.now();
-     System.out.println("JBLAS time take "+Duration.between(tStart, tEnd).getSeconds());
-
-     tStart = Instant.now();
-     System.out.println("MTJ result "+prune.testMTJ(15,25));
-     System.out.println("MTJ result "+prune.testMTJ(15,35));
-     System.out.println("MTJ result "+prune.testMTJ(15,45));
-     System.out.println("MTJ result "+prune.testMTJ(15,55));
-     System.out.println("MTJ result "+prune.testMTJ(15,65));
-     tEnd = Instant.now();
-     System.out.println("MTJ time take "+Duration.between(tStart, tEnd).getSeconds());
-     }
-     *************************************************************************************************************/
 }

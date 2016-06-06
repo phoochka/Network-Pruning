@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 import java.util.concurrent.ConcurrentSkipListMap;
+import java.util.function.IntToDoubleFunction;
 import java.util.stream.Collectors;
 
 //import org.la4j.decomposition.EigenDecompositor;
@@ -29,7 +30,9 @@ public class Prune {
     public int endTime;
 
     private static final double epsilon = 0.1d;
-    private static final int MIN_INTERSECTIONS = 2;
+    private static final int MIN_INTERSECTIONS = 1;
+
+    private IntToDoubleFunction normalizingFunciton;
 
     private double bestNormConductance;
     private double bestRawConductance;
@@ -277,7 +280,9 @@ public class Prune {
             .collect(Collectors.toSet());
     }
 
-    public Result traverseGraph(TreeMap<Integer, List<Set<Edge>>> connectedComponents) {
+    public Result traverseGraph(TreeMap<Integer, List<Set<Edge>>> connectedComponents, IntToDoubleFunction f) {
+
+        this.normalizingFunciton = f;
 
         resetBestConductance();
 
@@ -352,11 +357,11 @@ public class Prune {
             System.err.println("Raw cond is 0");
         } else {
             // Normalize
-            double normalizedConductance = normalizeByTime2(rawConductance, startTime, endTime);
+            double normalizedConductance = normalize(rawConductance, startTime, endTime);
 
             // Store Top K
             Result r = new Result(normalizedConductance, rawConductance, nodes, startTime, endTime);
-            updateResults(normalizedConductance, r);
+            updateResults(rawConductance, r);
 
             if (normalizedConductance < bestNormConductance) {
 //                if (rawConductance < bestRawConductance) {
@@ -371,6 +376,8 @@ public class Prune {
         }
     }
 
+
+
     private void updateResults(Double conductance, Result r) {
 
         // Checking if this time period already exists
@@ -382,9 +389,9 @@ public class Prune {
             }
         }
 
-        results.put(conductance, r);
+        results.put(r.normalizedConductance, r);
 
-        if (results.size() > 5) {
+        if (results.size() > 100) {
             Double lastKey = results.lastKey();
             results.remove(lastKey);
         }
@@ -411,6 +418,11 @@ public class Prune {
 
         double conductance = totalCutWeight / Math.min(totalInternalWeight, totalExternalWeight);
         return conductance;
+    }
+
+    private double normalize(double rawConductance, int startTime, int endTime) {
+        double normalizeBy = normalizingFunciton.applyAsDouble(startTime - endTime);
+        return rawConductance/normalizeBy;
     }
 
     public double normalizeByTime1(double conductance, int startTime, int endTime) {
@@ -552,15 +564,15 @@ public class Prune {
     }
 
 
-    public void printTop5() {
-        System.out.println("PRINTING TOP 5");
+    public void printTop(int k) {
+        System.out.println("PRINTING TOP "+k);
         if (results == null) System.out.println("NO RESULTS");
-        results.keySet().stream().limit(5)
-            .forEach(k -> System.out.println(
-                "Raw Cond: " + results.get(k).rawConductance
-                    + "Norm Cond: " + results.get(k).normalizedConductance
-                    + " Size: " + results.get(k).nodes.size()
-                    + " Time: " + results.get(k).startTime + " " + results.get(k).endTime
+        results.keySet().stream().limit(k)
+            .forEach(c -> System.out.println(
+                      "Raw Cond: "   + results.get(c).rawConductance
+                    + " Norm Cond: " + results.get(c).normalizedConductance
+                    + " Size: "      + results.get(c).nodes.size()
+                    + " Time: "      + results.get(c).startTime + " " + results.get(c).endTime
             ));
     }
 
