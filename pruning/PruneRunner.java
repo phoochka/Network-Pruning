@@ -299,9 +299,9 @@ public class PruneRunner {
 
 //        filenames.add("trade_data.txt");
 //        filenames.add("mailing_list_data.txt");
-        filenames.add("GDELT_GCC_2010_weekly.txt");
-        filenames.add("GDELT_GCC_2011_weekly.txt");
-//        filenames.add("network_traffic_GCC.txt");
+        filenames.add("network_traffic_GCC.txt");
+//        filenames.add("GDELT_GCC_2010_weekly.txt");
+//        filenames.add("GDELT_GCC_2011_weekly.txt");
 
 
         for (String filename : filenames) {
@@ -314,10 +314,12 @@ public class PruneRunner {
 
             IntToDoubleFunction e1 = (i) -> Math.exp(-0.001 * i);
             IntToDoubleFunction e2 = (i) -> Math.exp(-0.005 * i);
+            IntToDoubleFunction e3 = (i) -> Math.exp(-0.01 * i);
 
             double t1 = runner.doThresholds(prune, 10, e1).normalizedConductance;
             double t2 = runner.doThresholds(prune, 10, e2).normalizedConductance;
-            double t3 = runner.doThresholds(prune, 10, cub).normalizedConductance;
+            double t3 = runner.doThresholds(prune, 10, e3).normalizedConductance;
+            double t4 = runner.doThresholds(prune, 10, cub).normalizedConductance;
 
             double[][] allBounds = runner.getAllBounds(prune);
 
@@ -333,7 +335,8 @@ public class PruneRunner {
 //
             System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, t1, e1));
             System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, t2, e1));
-            System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, t3, log));
+            System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, t3, e3));
+            System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, t4, cub));
 //            System.out.println("Percentage pruned with composite bounds: "+runner.getPercentagePruned(compositeBounds, t1));
 
         }
