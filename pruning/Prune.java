@@ -8,6 +8,7 @@ import no.uib.cipr.matrix.sparse.LinkedSparseMatrix;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.nio.file.Path;
 import java.util.*;
 import java.util.concurrent.ConcurrentSkipListMap;
 import java.util.function.IntToDoubleFunction;
@@ -44,7 +45,7 @@ public class Prune {
     private SortedMap<Double, Result> results;
 
 
-    public Prune(String filename, String basepath, boolean isOld){
+    public Prune(String filename, Path basepath, boolean isOld){
         if(isOld) readOldGraph(filename, basepath);
         else readGraph(filename, basepath);
         //printGraph();
@@ -56,7 +57,7 @@ public class Prune {
         bestNormConductance = bestRawConductance = 1.0d;
     }
 
-    private void readOldGraph(String filename, String basepath) {
+    private void readOldGraph(String filename, Path basepath) {
         maxNode = Integer.MIN_VALUE;
         timeGraph = new TreeMap<Integer, HashMap<Edge, Double>>();
         Set<Integer> allNodes = new HashSet<>();
@@ -120,12 +121,15 @@ public class Prune {
         // getStats();
     }
 
-    private void readGraph(String filename, String basepath) {
+    private void readGraph(String filename, Path basepath) {
         maxNode = Integer.MIN_VALUE;
         timeGraph = new TreeMap<Integer, HashMap<Edge, Double>>();
         String line;
+
         try {
-            Scanner timeGraphScanner = new Scanner(new File(basepath + "/new_graph/" + filename));
+            Path filepath = basepath.resolve("new_graph");
+            filepath = filepath.resolve(filename);
+            Scanner timeGraphScanner = new Scanner(filepath.toFile());
             timeGraphScanner.nextLine(); // Skip heading line
 
             while (timeGraphScanner.hasNextLine()) {
@@ -421,8 +425,8 @@ public class Prune {
     }
 
     private double normalize(double rawConductance, int startTime, int endTime) {
-        double normalizeBy = normalizingFunciton.applyAsDouble(startTime - endTime);
-        return rawConductance/normalizeBy;
+        double normalizeBy = normalizingFunciton.applyAsDouble(endTime - startTime);
+        return rawConductance*normalizeBy;
     }
 
     public double normalizeByTime1(double conductance, int startTime, int endTime) {

@@ -3,6 +3,8 @@ package pruning;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
 import java.time.Duration;
 import java.time.Instant;
 
@@ -13,7 +15,7 @@ import java.util.function.IntToDoubleFunction;
 
 public class PruneRunner {
 
-    public Prune loadFile(String filename, String basepath, boolean isOld) {
+    public Prune loadFile(String filename, Path basepath, boolean isOld) {
         return new Prune(filename, basepath, isOld);
     }
 
@@ -36,7 +38,7 @@ public class PruneRunner {
         }
     }
 
-    public double thresholdBestResult(String filename, String basepath, boolean isOld, IntToDoubleFunction f) {
+    public double thresholdBestResult(String filename, Path basepath, boolean isOld, IntToDoubleFunction f) {
         Prune prune = loadFile(filename, basepath, isOld);
         final double STARTING_K = 1.0d;
         final double ACCEPTABLE_CONDUCTANCE = 10;
@@ -282,6 +284,8 @@ public class PruneRunner {
 
         PruneRunner runner = new PruneRunner();
 
+        Path basepath = FileSystems.getDefault().getPath("output");
+
         ArrayList<String> filenames = new ArrayList<>();
 
 //        filenames = runner.addMiscFiles(filenames);
@@ -289,30 +293,34 @@ public class PruneRunner {
 //        filenames.add("iGap_series_010_run03.txt");
 //        filenames.add("D4D_January_hourly.txt");
 
+        filenames.add("1k_50_easy.txt");
+
 //        filenames.add("trade_data.txt");
 //        filenames.add("mailing_list_data.txt");
-//        filenames.add("multiburst_five_varied.txt");
-        filenames.add("GDELT_GCC_2010_weekly.txt");
-        filenames.add("GDELT_GCC_2011_weekly.txt");
-        filenames.add("network_traffic_GCC.txt");
+//        filenames.add("GDELT_GCC_2010_weekly.txt");
+//        filenames.add("GDELT_GCC_2011_weekly.txt");
+//        filenames.add("network_traffic_GCC.txt");
 
-
-        String basepath = "output";
 
         for (String filename : filenames) {
             Prune prune = runner.loadFile(filename, basepath, false);
 
 //            double burstCond = runner.getMetaInfo(basepath, filename, prune).rawConductance;
 
-            IntToDoubleFunction log = i -> Math.log(i);
-            IntToDoubleFunction sqr = i -> Math.sqrt(i);
-            IntToDoubleFunction cub = i -> Math.cbrt(i);
+            IntToDoubleFunction log = i -> 1.0/Math.log(i);
+            IntToDoubleFunction sqr = i -> 1.0/Math.sqrt(i);
+            IntToDoubleFunction cub = i -> 1.0/Math.cbrt(i);
 
-            double thresholdedCondLog = runner.doThresholds(prune, 6, log).normalizedConductance;
-            double thresholdedCondCube = runner.doThresholds(prune, 6, cub).normalizedConductance;
 
-            double[][] allBounds = runner.getAllBounds(prune);
+            IntToDoubleFunction e1 = (i) -> Math.exp(-0.001 * i);
+            IntToDoubleFunction e2 = (i) -> Math.exp(-0.005 * i);
 
+            double t1 = runner.doThresholds(prune, 10, e1).normalizedConductance;
+            double t2 = runner.doThresholds(prune, 10, e2).normalizedConductance;
+            double t3 = runner.doThresholds(prune, 10, cub).normalizedConductance;
+
+//            double[][] allBounds = runner.getAllBounds(prune);
+//
 //            System.out.println("\nwhole bound for "+filename+": "+prune.getBounds(prune.startTime, prune.endTime));
 //
 //            Instant tStart = Instant.now();
@@ -323,8 +331,9 @@ public class PruneRunner {
 //            runner.printMatrix("bounds/all_bounds_"+filename,allBounds);
 //            runner.printMatrix("bounds/com_bounds_"+filename,compositeBounds);
 //
-//            System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, thresholdedCond));
-//            System.out.println("Percentage pruned with composite bounds: "+runner.getPercentagePruned(compositeBounds, thresholdedCond));
+//            System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, t1));
+//            System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, t2));
+//            System.out.println("Percentage pruned with composite bounds: "+runner.getPercentagePruned(compositeBounds, t1));
 
         }
     }
