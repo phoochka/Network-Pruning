@@ -170,7 +170,7 @@ public class PruneRunner {
 //                System.out.println("EXACT "+n + " " + end + " " + bounds);
                 total++;
 
-                System.out.printf("\n%f",bounds);
+//                System.out.printf("\n%f",bounds);
             }
         }
         return result;
@@ -268,14 +268,16 @@ public class PruneRunner {
         }
     }
 
-    public double getPercentagePruned(double[][] bounds, double cond) {
+    public double getPercentagePruned(double[][] bounds, double cond, IntToDoubleFunction normFunciton) {
 
 //        System.out.println("Matrix length: " + bounds.length);
 //        System.out.println("Matrix[0] length: " + bounds[0].length);
 
         double prunedBounds = 0;
         for (int i = 0; i < bounds.length; i++) {
-            if (bounds[i][2] > cond) prunedBounds++;
+            int timePeriod = (int) (bounds[i][1] - bounds[i][0]);
+            double normalizedBounds = bounds[i][2] * normFunciton.applyAsDouble(timePeriod);
+            if (normalizedBounds > cond) prunedBounds++;
         }
         return (prunedBounds / bounds.length) * 100;
     }
@@ -293,12 +295,12 @@ public class PruneRunner {
 //        filenames.add("iGap_series_010_run03.txt");
 //        filenames.add("D4D_January_hourly.txt");
 
-        filenames.add("1k_50_easy.txt");
+//        filenames.add("1k_50_easy.txt");
 
 //        filenames.add("trade_data.txt");
 //        filenames.add("mailing_list_data.txt");
-//        filenames.add("GDELT_GCC_2010_weekly.txt");
-//        filenames.add("GDELT_GCC_2011_weekly.txt");
+        filenames.add("GDELT_GCC_2010_weekly.txt");
+        filenames.add("GDELT_GCC_2011_weekly.txt");
 //        filenames.add("network_traffic_GCC.txt");
 
 
@@ -308,9 +310,7 @@ public class PruneRunner {
 //            double burstCond = runner.getMetaInfo(basepath, filename, prune).rawConductance;
 
             IntToDoubleFunction log = i -> 1.0/Math.log(i);
-            IntToDoubleFunction sqr = i -> 1.0/Math.sqrt(i);
             IntToDoubleFunction cub = i -> 1.0/Math.cbrt(i);
-
 
             IntToDoubleFunction e1 = (i) -> Math.exp(-0.001 * i);
             IntToDoubleFunction e2 = (i) -> Math.exp(-0.005 * i);
@@ -319,8 +319,8 @@ public class PruneRunner {
             double t2 = runner.doThresholds(prune, 10, e2).normalizedConductance;
             double t3 = runner.doThresholds(prune, 10, cub).normalizedConductance;
 
-//            double[][] allBounds = runner.getAllBounds(prune);
-//
+            double[][] allBounds = runner.getAllBounds(prune);
+
 //            System.out.println("\nwhole bound for "+filename+": "+prune.getBounds(prune.startTime, prune.endTime));
 //
 //            Instant tStart = Instant.now();
@@ -331,8 +331,9 @@ public class PruneRunner {
 //            runner.printMatrix("bounds/all_bounds_"+filename,allBounds);
 //            runner.printMatrix("bounds/com_bounds_"+filename,compositeBounds);
 //
-//            System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, t1));
-//            System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, t2));
+            System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, t1, e1));
+            System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, t2, e1));
+            System.out.println("Percentage pruned with all bounds: "+runner.getPercentagePruned(allBounds, t3, log));
 //            System.out.println("Percentage pruned with composite bounds: "+runner.getPercentagePruned(compositeBounds, t1));
 
         }
