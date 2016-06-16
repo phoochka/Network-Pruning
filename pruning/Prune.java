@@ -30,7 +30,6 @@ public class Prune {
     public int startTime;
     public int endTime;
 
-    private static final double epsilon = 0.1d;
     private static final int MIN_INTERSECTIONS = 1;
 
     private IntToDoubleFunction normalizingFunciton;
@@ -112,6 +111,7 @@ public class Prune {
             endTime = timeGraph.lastKey();
             totalTime = endTime - startTime;
 
+            System.out.println("For file: "+filename);
             System.out.println("Max Nodes: " + maxNode);
             System.out.println("Total Time Length: " + totalTime);
         } catch (FileNotFoundException e) {
@@ -123,6 +123,7 @@ public class Prune {
 
     private void readGraph(String filename, Path basepath) {
         maxNode = Integer.MIN_VALUE;
+        Set<Integer> allNodes = new HashSet<>();
         timeGraph = new TreeMap<Integer, HashMap<Edge, Double>>();
         String line;
 
@@ -146,6 +147,9 @@ public class Prune {
                 Integer time = Integer.parseInt(s[2]);
                 Double weight = Double.parseDouble(s[3]);
 
+                allNodes.add(node1);
+                allNodes.add(node2);
+
                 maxNode = node1 > maxNode ? node1 : maxNode;
                 maxNode = node2 > maxNode ? node2 : maxNode;
 
@@ -165,7 +169,8 @@ public class Prune {
             totalTime = endTime - startTime;
 
 //            System.out.println("Max Nodes: " + maxNode);
-            System.out.println("Total Time Length: " + totalTime);
+            System.out.println("Total Nodes: "+allNodes.size());
+            System.out.println(startTime+" "+endTime+" Total Time Length: " + totalTime);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -305,9 +310,10 @@ public class Prune {
 //        System.out.println("DAG COUNT: " + dagCount);
         Result result = new Result(bestNormConductance, bestRawConductance, bestNodes, bestStartTime, bestEndTime);
 
-        System.out.println("Normalized Conductance: " + bestNormConductance);
+//        System.out.println("Normalized Conductance: " + bestNormConductance);
+        System.out.printf("Normalized Conductance: %f\n", bestNormConductance);
         System.out.println("Raw ConductanceL " + bestRawConductance);
-        System.out.println("N2 Factor: " + bestN2factor);
+//        System.out.println("N2 Factor: " + bestN2factor);
 //        System.out.println("Nodes: "+bestNodes);
         System.out.println("No. of nodes: " + bestNodes.size());
         System.out.println("Start: " + bestStartTime + " End: " + bestEndTime);
@@ -386,12 +392,12 @@ public class Prune {
 
         // Checking if this time period already exists
 //        final SortedMap<Double, Result> checkMap = new TreeMap<Double, Result>();
-        if (results.size() != 0 ) {
-            for (Result storedResult : results.values()) {
-                if (conductance > r.normalizedConductance && r.startTime > storedResult.startTime && r.endTime < storedResult.endTime)
-                    return;
-            }
-        }
+//        if (results.size() != 0 ) {
+//            for (Result storedResult : results.values()) {
+//                if (conductance > r.normalizedConductance && r.startTime > storedResult.startTime && r.endTime < storedResult.endTime)
+//                    return;
+//            }
+//        }
 
         results.put(r.normalizedConductance, r);
 
@@ -425,7 +431,7 @@ public class Prune {
     }
 
     private double normalize(double rawConductance, int startTime, int endTime) {
-        double normalizeBy = normalizingFunciton.applyAsDouble(endTime - startTime);
+        double normalizeBy = normalizingFunciton.applyAsDouble((endTime - startTime) + 1);
         return rawConductance*normalizeBy;
     }
 
@@ -466,7 +472,7 @@ public class Prune {
 
                 intersection.retainAll(parent);
 
-                if (intersection.size() >= MIN_INTERSECTIONS) { // Require intersection of size > 1
+                if (intersection.size() > MIN_INTERSECTIONS) { // Require intersection of size > 1
                     result.add(intersection);
                 }
             }
