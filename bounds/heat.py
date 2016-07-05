@@ -4,13 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 
-import seaborn as sns
-
-
 def main():
     
-    # filename = "all_bounds_iGap_series_002_run03.txt"
-    filename = "all_bounds_GDELT_GCC_2010_weekly.txt"
+    filename = "results/all_bounds_iGap_series_002_run03.txt"
+    # filename = "all_bounds_GDELT_GCC_2010_weekly.txt"
     # filename = "all_bounds_GDELT_GCC_2011_weekly.txt"
 
     # sol = np.loadtxt(filename.replace('all_bounds', 'solution'))
@@ -114,11 +111,18 @@ def plot_root_pruned(all_bounds, alpha, solution, f):
             l.append(0)
 
 
-    fig = sns.plt.figure()
-    sns.heatmap(m)
+    fig, ax = plt.subplots()
+    # sns.heatmap(m)
+    heatmap = ax.pcolor(m, cmap=plt.cm.Reds)
     # sns.plt.show()
-    filename = f.replace(".txt", ".pdf")
-    filename = "root_GDELT_2010/heat_cube_"+str(alpha)+"_"+filename
+    # filename = f.replace(".txt", ".pdf")
+    dir_name = f.replace(".txt","") + "/"
+
+    if not os.path.exists(dir_name):
+        os.makedirs(dir_name)
+
+    filename = dir_name+"all_"+str(alpha)+".pdf"
+    print("saving at "+filename)
     fig.savefig(filename, format='pdf', dpi=1200)
     
 def plot_alpha_pruned(all_bounds, alpha, solution):

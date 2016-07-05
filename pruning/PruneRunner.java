@@ -318,7 +318,7 @@ public class PruneRunner {
         double solution = doThresholds(prune, k, function).normalizedConductance;
         Instant tEnd = Instant.now();
         System.out.println("Duration: " + Duration.between(tStart, tEnd).getSeconds());
-        double[][] allBounds = readBoundsFile("all_bounds_"+filename);
+        double[][] allBounds = readBoundsFile("results/all_bounds_"+filename);
 
         System.out.println("Percentage pruned for: "+filename+" with alpha "+alpha+" and k "+k+" = "+getPercentagePruned(allBounds, solution, function));
 
@@ -339,8 +339,12 @@ public class PruneRunner {
 
     public static void main(String[] qwerty) {
 
+
         PruneRunner runner = new PruneRunner();
 
+        runner.findIntervals(11, 31, 64);
+
+        System.exit(0);
         Path basepath = FileSystems.getDefault().getPath("output");
 
         ArrayList<String> filenames = new ArrayList<>();
@@ -349,21 +353,21 @@ public class PruneRunner {
 //        filenames = runner.addIGapFiles(filenames, RANGE);
 //        filenames.add("iGap_series_020_run03.txt");
 //        filenames.add("iGap_series_010_run05.txt");
-//        filenames.add("iGap_series_002_run03.txt");
+        filenames.add("iGap_series_002_run03.txt");
 
 //        filenames.add("trade_data.txt");
 //        filenames.add("mailing_list_data.txt");
 //        filenames.add("trade_data_log.txt");
 
 //        filenames.add("network_traffic_GCC.txt");
-        filenames.add("GDELT_GCC_2010_weekly.txt");
-        filenames.add("GDELT_GCC_2011_weekly.txt");
+//        filenames.add("GDELT_GCC_2010_weekly.txt");
+//        filenames.add("GDELT_GCC_2011_weekly.txt");
 
 
 //        filenames.add("intWeightDifficult2_0500_run004.txt");
 
         for (String filename : filenames) {
-            Prune prune = runner.loadFile(filename, basepath, false);
+            Prune prune = runner.loadFile(filename, basepath, true);
 
 //            double burstCond = runner.getMetaInfo(basepath, filename, prune).rawConductance;
 
@@ -380,8 +384,6 @@ public class PruneRunner {
 //            runner.checkSolution(prune, 0.12, 10, filename);
 //            runner.checkSolution(prune, 0.15, 10, filename);
 //
-            double cubeSolution = runner.doThresholds(prune, 10, cub).normalizedConductance;
-            System.out.println("Percentage pruned with all bounds with cube solution: "+runner.getPercentagePruned(runner.readBoundsFile("all_bounds_"+filename), cubeSolution, cub));
 
 //            Instant tStart = Instant.now();
 //            double[][] allBounds = runner.getAllBounds(prune);
@@ -396,7 +398,9 @@ public class PruneRunner {
 //
 //            runner.printMatrix("bounds/all_bounds_"+filename,allBounds);
 //            runner.printMatrix("bounds/com_bounds_"+filename,compositeBounds);
-
+//
+//            double cubeSolution = runner.doThresholds(prune, 10, cub).normalizedConductance;
+//            System.out.println("Percentage pruned with all bounds with cube solution: "+runner.getPercentagePruned(runner.readBoundsFile("all_bounds_"+filename), cubeSolution, cub));
 
 //            IntToDoubleFunction function = (i) -> Math.exp(-0.006 * i);
 //            double hashingSolution1 = 0.0004561284;
@@ -413,8 +417,8 @@ public class PruneRunner {
     private void printResults(Prune prune, String filename) {
        try {
         PrintWriter writer = new PrintWriter("bounds/root_solution_"+filename);
-            for (double i = 1.0; i < 2.0; i+= 0.05){
-                writer.write(i+"\t"+checkRootSolution(prune, i, 4, filename)+"\n");
+            for (double i = 1.4; i < 5.0; i+= 1.0){
+                writer.write(i+"\t"+checkRootSolution(prune, i, 10, filename)+"\n");
             }
            writer.close();
        } catch (FileNotFoundException e) {
