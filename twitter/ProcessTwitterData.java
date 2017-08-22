@@ -190,6 +190,6 @@ public class ProcessTwitterData {
     }
 
     public static void main(String[] args) {
-        new ProcessTwitterData("/users/gaurav/tweets/", ProcessTwitterData.DAY);
+        new ProcessTwitterData("/users/gaurav/userTweets/", ProcessTwitterData.DAY);
     }
 }
